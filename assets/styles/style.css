@@ -660,9 +660,78 @@ textarea {
   font-family: "Montserrat", sans-serif;
   color: #18004A;
   min-width: 240px;
-  max-width: 1280px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0;
+}
+
+.subtitle {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+}
+
+.subtitle-main {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
+
+.u-get {
+  background: #FEFBFB;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.u-get__title {
+  text-align: center;
+}
+.u-get__long-line {
+  width: 590px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.u-get__advantages {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.u-get__row {
+  display: flex;
+}
+.u-get__section {
+  width: 570px;
+  height: 290px;
+  display: flex;
+  align-items: center;
+}
+.u-get__number {
+  color: rgba(155, 137, 255, 0.17);
+  width: 170px;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 305px;
+  letter-spacing: 0.035em;
+}
+.u-get__part {
+  width: 364px;
+}
+.u-get__subtitle {
+  margin-bottom: 20px;
+}
+.u-get__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: 0.06em;
+}
+
+.long-line {
+  height: 4px;
+  background: #E9EBF6;
+  border: none;
 }
 
 .button {
