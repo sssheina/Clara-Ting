@@ -665,55 +665,6 @@ textarea {
   padding: 0;
 }
 
-.button {
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 0.16em;
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 900;
-}
-.button:hover {
-  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 50px rgba(255, 255, 255, 0.8), 0 0 75px rgba(255, 255, 255, 0.6), 0 0 76px rgba(255, 255, 255, 0.4), 0 0 77px rgba(255, 255, 255, 0.5), 0 0 78px rgba(255, 255, 255, 0.4), 0 0 79px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 85px rgba(255, 255, 255, 0.1);
-}
-
-.btn-main {
-  background: #6100FF;
-  color: #ffffff;
-}
-.btn-main:hover {
-  background: #5e05ee;
-}
-
-.btn-consult, .btn-want {
-  padding: 1.9em 2.6em;
-}
-
-.btn-buy {
-  padding: 1.2em 2.6em;
-}
-
-.btn-purple {
-  background: #9B89FF;
-  color: #ffffff;
-  padding: 1.7em 2.4em;
-}
-.btn-purple:hover {
-  background: #8e7eec;
-}
-
-.title {
-  font-weight: 900;
-  font-size: 40px;
-  letter-spacing: 0.06em;
-}
-
-.title-main {
-  font-weight: 900;
-  font-size: 54px;
-  letter-spacing: 0.125em;
-}
-
 .subtitle {
   font-weight: 900;
   font-size: 24px;
@@ -781,6 +732,55 @@ textarea {
   height: 4px;
   background: #E9EBF6;
   border: none;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.16em;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 900;
+}
+.button:hover {
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 50px rgba(255, 255, 255, 0.8), 0 0 75px rgba(255, 255, 255, 0.6), 0 0 76px rgba(255, 255, 255, 0.4), 0 0 77px rgba(255, 255, 255, 0.5), 0 0 78px rgba(255, 255, 255, 0.4), 0 0 79px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 85px rgba(255, 255, 255, 0.1);
+}
+
+.btn-main {
+  background: #6100FF;
+  color: #ffffff;
+}
+.btn-main:hover {
+  background: #5e05ee;
+}
+
+.btn-consult, .btn-want {
+  padding: 1.9em 2.6em;
+}
+
+.btn-buy {
+  padding: 1.2em 2.6em;
+}
+
+.btn-purple {
+  background: #9B89FF;
+  color: #ffffff;
+  padding: 1.7em 2.4em;
+}
+.btn-purple:hover {
+  background: #8e7eec;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.06em;
+}
+
+.title-main {
+  font-weight: 900;
+  font-size: 54px;
+  letter-spacing: 0.125em;
 }
 
 /*# sourceMappingURL=style.css.map */
