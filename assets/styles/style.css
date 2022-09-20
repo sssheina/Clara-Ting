@@ -666,7 +666,7 @@ textarea {
   font-family: "Montserrat", sans-serif;
   color: #18004A;
   min-width: 240px;
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
 }
@@ -787,6 +787,17 @@ textarea {
   font-weight: 900;
   font-size: 54px;
   letter-spacing: 0.125em;
+}
+
+.look {
+  background-image: url(/assets/images/Background_7-block.png);
+  height: 1025px;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.look__title {
+  margin-top: 90px;
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
