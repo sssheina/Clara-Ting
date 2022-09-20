@@ -697,6 +697,8 @@ textarea {
   width: 590px;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .u-get__advantages {
   display: flex;
@@ -706,11 +708,13 @@ textarea {
 }
 .u-get__row {
   display: flex;
+  justify-content: space-between;
 }
 .u-get__section {
   width: 570px;
   height: 290px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .u-get__number {
@@ -732,6 +736,11 @@ textarea {
   font-size: 20px;
   line-height: 33px;
   letter-spacing: 0.06em;
+}
+
+.number1 {
+  display: flex;
+  justify-content: center;
 }
 
 .long-line {
@@ -790,14 +799,15 @@ textarea {
 }
 
 .look {
-  background-image: url(/assets/images/Background_7-block.png);
+  background-image: url(/assets/images/Background_7-block_.png);
+  background-size: cover;
   height: 1025px;
   margin-top: 100px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .look__title {
   margin-top: 90px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
