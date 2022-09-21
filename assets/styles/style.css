@@ -692,19 +692,18 @@ textarea {
 }
 .u-get__title {
   text-align: center;
+  margin-bottom: 40px;
 }
 .u-get__long-line {
   width: 590px;
-  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 .u-get__advantages {
-  display: flex;
-  justify-content: center;
+  width: 1199px;
+  margin: 0 auto;
   gap: 10px;
-  flex-wrap: wrap;
 }
 .u-get__row {
   display: flex;
@@ -712,23 +711,24 @@ textarea {
 }
 .u-get__section {
   width: 570px;
-  height: 290px;
+  height: 270px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .u-get__number {
+  display: flex;
+  justify-content: center;
   color: rgba(155, 137, 255, 0.17);
-  width: 170px;
+  width: 180px;
   font-weight: 900;
   font-size: 250px;
-  line-height: 305px;
   letter-spacing: 0.035em;
 }
 .u-get__part {
-  width: 364px;
+  width: 380px;
 }
 .u-get__subtitle {
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 .u-get__text {
@@ -736,11 +736,6 @@ textarea {
   font-size: 20px;
   line-height: 33px;
   letter-spacing: 0.06em;
-}
-
-.number1 {
-  display: flex;
-  justify-content: center;
 }
 
 .long-line {
