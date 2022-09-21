@@ -822,7 +822,11 @@ textarea {
 }
 
 .btn-consult {
-  padding: 2.5em 1em;
+  padding: 2.5em 0.03em;
+}
+
+.btn-buy {
+  padding: 1.2em 2.6em;
 }
 
 .btn-purple {
@@ -862,10 +866,11 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 1440px;
-  height: 948px;
-  background-image: url("/assets/images/Background_1-block_.png");
+  height: 1080px;
+  background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: -132px;
 }
 
 .main-section__title-main {
@@ -880,7 +885,7 @@ textarea {
   width: 768px;
   height: 320px;
   margin-left: 90px;
-  margin-top: 116px;
+  margin-top: 250px;
 }
 
 .main-section__subtitle-main {
@@ -899,7 +904,7 @@ textarea {
 .main-section__button {
   width: 544px;
   margin-left: 90px;
-  margin-top: 152px;
+  margin-top: 100px;
 }
 
 .reviews-section {
