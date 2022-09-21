@@ -653,8 +653,10 @@ textarea {
 .header {
   background: url("/assets/images/Background_header.png");
   margin: 0;
+  position: fixed;
   width: 1440px;
   height: 132px;
+  opacity: 0.9;
 }
 
 .header__row {
@@ -820,7 +822,7 @@ textarea {
 }
 
 .btn-consult {
-  padding: 2.5em 1em;
+  padding: 2.5em 0.03em;
 }
 
 .btn-buy {
@@ -868,6 +870,7 @@ textarea {
   background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: -132px;
 }
 
 .main-section__title-main {
@@ -901,7 +904,7 @@ textarea {
 .main-section__button {
   width: 544px;
   margin-left: 90px;
-  margin-top: 152px;
+  margin-top: 100px;
 }
 
 .reviews-section {
