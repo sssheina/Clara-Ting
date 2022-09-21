@@ -823,6 +823,10 @@ textarea {
   padding: 2.5em 1em;
 }
 
+.btn-buy {
+  padding: 1.2em 2.6em;
+}
+
 .btn-purple {
   background: #9B89FF;
   color: #ffffff;
@@ -860,8 +864,8 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 1440px;
-  height: 948px;
-  background-image: url("/assets/images/Background_1-block_.png");
+  height: 1080px;
+  background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -878,7 +882,7 @@ textarea {
   width: 768px;
   height: 320px;
   margin-left: 90px;
-  margin-top: 116px;
+  margin-top: 250px;
 }
 
 .main-section__subtitle-main {
