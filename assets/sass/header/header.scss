@@ -1,9 +1,10 @@
 .header {
     background: url('/assets/images/Background_header.png');
     margin: 0;
-    //position: fixed;
+    position: fixed;
     width: 1440px;
     height: 132px;
+    opacity: 0.9;
 }
 
 .header__row {
