@@ -1,10 +1,10 @@
 .make-order{
 background: linear-gradient(180deg, rgba(255, 236, 236, 0.62) 0%, rgba(255, 236, 236, 0) 16.26%);
-max-width: 1170px;
-height: 1000px;
+max-width: 1470px;
+height: 1282px;
 }
 .make-order__title{
-margin-left: 328px;
+margin-left: 460px;
 margin-top: 136px;
 padding-top: 100px;
 }
@@ -17,6 +17,8 @@ padding-top: 100px;
     margin-top: 42px; 
 }
 .make-order__container{
+    display: flex;
+    flex-direction: row;
     width: 856.63px;
     height: 153px;
 margin-left: 240px;
