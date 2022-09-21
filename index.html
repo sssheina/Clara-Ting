@@ -1,38 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/logo_blue.png" type="image/png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo_blue.png"
+      type="image/png"
+    />
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Книга стиля</title>
     <meta name="description" content="Книга стиля" />
-</head>
+  </head>
 
-<body class="body">
-
-
+  <body class="body">
     <!-- ХЭДЭР -->
-    <header class="header">Хэдэр</header>
-    <main>Мэйн
+    <header class="header">
+        <div class="header__row">
+            <a class="header__logo" href="#"><img src="./assets/images/logo_blue.png" alt="logo"></a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">О МЕТОДЕ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">КНИГА СТИЛЯ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">ТАРИФЫ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">ОБО МНЕ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
 
-
-
-    <!-- ГЛАВНАЯ СТРАНИЦА -->
-    <section class="main-section">
-        <h1 class="main-section__title-main">ПОЛУЧИ ЛИЧНУЮ<br>
-            КНИГУ СТИЛЯ<br>
-            ПО АРХЕТИПАМ<br>
-            ГРЕЧЕСКИХ БОГИНЬ
+      <!-- ГЛАВНАЯ СТРАНИЦА -->
+      <section class="main-section">
+        <h1 class="main-section__title-main">
+          ПОЛУЧИ ЛИЧНУЮ<br />
+          КНИГУ СТИЛЯ<br />
+          ПО АРХЕТИПАМ<br />
+          ГРЕЧЕСКИХ БОГИНЬ
         </h1>
-        <h2 class="main-section__subtitle-main">ОПРЕДЕЛЮ И РАСШИФРУЮ ТВОЙ СТИЛЬ,
-            СООТВЕТСТВУЮЩИЙ ОДНОМУ ИЗ АРХЕТИПОВ</h2>
+        <h2 class="main-section__subtitle-main">
+          ОПРЕДЕЛЮ И РАСШИФРУЮ ТВОЙ СТИЛЬ, СООТВЕТСТВУЮЩИЙ ОДНОМУ ИЗ АРХЕТИПОВ
+        </h2>
 
-        <a href="#" class="main-section__button button btn-main btn-consult">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+        <a href="#" class="main-section__button button btn-main btn-consult"
+          >ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a
+        >
+      </section>
+
+      <!-- О МЕТОДЕ -->
+      <h2 class="title">О МЕТОДЕ</h2>
+      <a href="#" class="button btn-purple">УЗНАТЬ СВОЙ АРХЕТИП</a>
+
+      <!-- КОМУ ПОДХОДИТ МЕТОД -->
+      <h2 class="title">КОМУ ПОДХОДИТ МЕТОД</h2>
+      <a href="#" class="button btn-purple"
+        >ЗАКАЗАТЬ ПЕРСОНАЛЬНУЮ КНИГУ СТИЛЯ</a
+      >
+
+      <!-- ПРЕИМУЩЕСТВА МЕТОДА АРХЕТИПОВ ПЕРЕД ПРИВЫЧНЫМИ МЕТОДАМИ -->
+      <h2 class="title">
+        ПРЕИМУЩЕСТВА МЕТОДА АРХЕТИПОВ ПЕРЕД ПРИВЫЧНЫМИ МЕТОДАМИ
+      </h2>
+
+      <!-- ОТЗЫВЫ КЛИЕНТОВ -->
+      <section class="reviews-section">
+        <div class="reviews-section__title-block">
+          <h2 class="reviews-section__title title">ОТЗЫВЫ КЛИЕНТОВ</h2>
+          <hr class="reviews-section__line long-line" />
+        </div>
+        <div class="reviews-section__wrappers-block wrappers-block">
+          <div class="reviews-section__wrapper_left">
+            <video
+              class="reviews-section__video_first video-first"
+              muted
+              controls="controls"
+              poster="./assets/images/review_1.png"
+              src="./assets/video/video_1.mp4"
+              width="253"
+              height="350"
+            ></video>
+            <article class="reviews-section__review-text review-first">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+              lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
+              ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
+              commodo nulla facilisi nullam vehicula ipsum.”
+            </article>
+          </div>
+          <div class="reviews-section__wrapper_right">
+            <video
+              class="reviews-section__video_second video-second"
+              muted
+              controls="controls"
+              poster="./assets/images/review_1.png"
+              src="./assets/video/video_1.mp4"
+              width="253"
+              height="350"
+            ></video>
+            <article class="reviews-section__review-text review-second">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+              lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
+              ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
+              commodo nulla facilisi nullam vehicula ipsum.”
+            </article>
+          </div>
+        </div>
+        <div class="reviews-section__captions-block">
+          <div class="reviews-section__caption_left">
+            Елена, администратор, Санкт-Петербург
+          </div>
+          <div class="reviews-section__caption_right">
+            Елена, администратор, Санкт-Петербург
+          </div>
+        </div>
+      </section>
+
+      <!-- ОБО МНЕ -->
+      <h2 class="title">ОБО МНЕ</h2>
+
+      <!-- КАК ВЫГЛЯДИТ КНИГА СТИЛЯ -->
+      <section class="look">
+        <h2 class="look__title title">КАК ВЫГЛЯДИТ КНИГА СТИЛЯ</h2>
+      </section>
+
+      <!-- ЧТО ТЫ ПОЛУЧИШЬ -->
+      <section class="u-get">
+        <h2 class="u-get__title title">ЧТО ТЫ ПОЛУЧИШЬ</h2>
+        <hr class="u-get__long-line long-line" />
+
+        <div class="u-get__advantages">
+          <div class="u-get__row">
+            <div class="u-get__section">
+              <div class="u-get__number number1">1</div>
+              <div class="u-get__part">
+                <h4 class="u-get__subtitle subtitle">ОНЛАЙН-КОНСУЛЬТАЦИЯ</h4>
+                <p class="u-get__text">
+                  Это удобно! Ты можешь находиться в любой точке мира!
+                  Консультация проходит онлайн в Zoom или Skype.
+                </p>
+              </div>
+            </div>
+
+            <div class="u-get__section">
+              <div class="u-get__number">2</div>
+              <div class="u-get__part">
+                <h4 class="u-get__subtitle subtitle">МОБИЛЬНОСТЬ</h4>
+                <p class="u-get__text">
+                  “Книгу стиля” можно будет просматривать на любом цифровом
+                  носителе во время шоппинга. Твой гид по стилю всегда будет с
+                  тобой!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="u-get__row">
+            <div class="u-get__section">
+              <div class="u-get__number">3</div>
+              <div class="u-get__part">
+                <h4 class="u-get__subtitle subtitle">ЭКОНОМИЯ</h4>
+                <p class="u-get__text">
+                  Больше не будет “неудачной” одежды в твоём шкафу. Ты сможешь
+                  уверенно выбирать только то, что тебе действительно подходит!
+                </p>
+              </div>
+            </div>
+
+            <div class="u-get__section">
+              <div class="u-get__number">4</div>
+              <div class="u-get__part">
+                <h4 class="u-get__subtitle subtitle">НЕОТРАЗИМОСТЬ</h4>
+                <p class="u-get__text">
+                  Используя стиль по архетипу, ты будешь получать комплименты и
+                  производить лучшее впечатление на окружающих!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- КНИГА СТИЛЯ АРХЕТИПА -->
+      <section class="lookbook-section">
+        <div class="lookbook-section__wrappers">
+        <div class="lookbook-section__wrapper_left">
+
+        </div>
+        <div class="lookbook-section__wrapper_right">
+        
+        <h2 class="lookbook-section__title title">КНИГА СТИЛЯ АРХЕТИПА</h2>
+
+        <article class="lookbook-section__lookbook-text">
+          <p>Это книга-презентация о стиле одного из 8 архетипов.</p> 
+          <p>Содержит описание главного управляющего вектора жизни, психотипа и стиля одежды.</p> 
+          <p>Щедро иллюстрированная книга, в которой ты найдёшь описание своего архетипа.</p>
+        </article>
+        <div class="lookbook-section__present-block present-block">
+
+          <div class="lookbook-section__row-1">
+            <h4 class="lookbook-section__subtitle subtitle">ПОДАРОК
+          </h4>
+        </div>
+
+        <div class="lookbook-section__row-2">
+          <img class="lookbook-section__point_violet" src="./assets/images/point_violet.png" alt="violet point">
+        <div class="lookbook-section__box-text">тест на определение женского архетипа</div>
+        </div>
+
+        <div class="lookbook-section__row-3">
+          <img class="lookbook-section__point_violet" src="./assets/images/point_violet.png" alt="violet point">
+        <div class="lookbook-section__box-text">тест на определение мужского архетипа 
+          (для мужчин)</div>
+        </div>
+        </div>
+        <a href="#" class="lookbook-section__button button btn-purple"
+        >ПОЛУЧИТЬ ТЕСТ И КНИГУ СТИЛЯ АРХЕТИПА
+      </a>
+    </div>
+      </div>
     </section>
 
+      <!-- ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ -->
+      <h2 class="title">ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ</h2>
+      <a href="#" class="button btn-main btn-want">ХОЧУ КНИГУ СТИЛЯ</a>
 
         <!-- О МЕТОДЕ -->
         <h2 class="title">О МЕТОДЕ</h2>
@@ -243,12 +436,17 @@
     </section>
         <!-- КОНТАКТЫ -->
         <h2 class="title">КОНТАКТЫ</h2>
+      <!-- КАК СДЕЛАТЬ ЗАКАЗ -->
+      <h2 class="title">КАК СДЕЛАТЬ ЗАКАЗ</h2>
 
+      <!-- СТОИМОСТЬ УСЛУГ -->
+      <h2 class="title">СТОИМОСТЬ УСЛУГ</h2>
+      <a href="#" class="button btn-main btn-buy">КУПИТЬ</a>
 
+      <!-- КОНТАКТЫ -->
+      <h2 class="title">КОНТАКТЫ</h2>
     </main>
 
-
     <footer>Футер</footer>
-</body>
-
+  </body>
 </html>
