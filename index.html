@@ -16,9 +16,21 @@
 
   <body class="body">
     <!-- ХЭДЭР -->
-    <header class="header">Хэдэр</header>
+    <header class="header">
+        <div class="header__row">
+            <a class="header__logo" href="#"><img src="./assets/images/logo_blue.png" alt="logo"></a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">О МЕТОДЕ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">КНИГА СТИЛЯ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">ТАРИФЫ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">ОБО МНЕ</a></li>
+                    <li class="header__item"><a href="#" class="header__link">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
-      Мэйн
 
       <!-- ГЛАВНАЯ СТРАНИЦА -->
       <section class="main-section">
@@ -60,40 +72,40 @@
         </div>
         <div class="reviews-section__wrappers-block wrappers-block">
           <div class="reviews-section__wrapper_left">
-          <video
-            class="reviews-section__video_first video-first"
-            muted
-            controls="controls"
-            poster="./assets/images/review_1.png"
-            src="./assets/video/video_1.mp4"
-            width="253"
-            height="350"
-          ></video>
-          <article class="reviews-section__review-text review-first">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-            lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
-            ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
-            commodo nulla facilisi nullam vehicula ipsum.”
-          </article>
+            <video
+              class="reviews-section__video_first video-first"
+              muted
+              controls="controls"
+              poster="./assets/images/review_1.png"
+              src="./assets/video/video_1.mp4"
+              width="253"
+              height="350"
+            ></video>
+            <article class="reviews-section__review-text review-first">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+              lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
+              ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
+              commodo nulla facilisi nullam vehicula ipsum.”
+            </article>
           </div>
           <div class="reviews-section__wrapper_right">
-          <video
-            class="reviews-section__video_second video-second"
-            muted
-            controls="controls"
-            poster="./assets/images/review_1.png"
-            src="./assets/video/video_1.mp4"
-            width="253"
-            height="350"
-          ></video>
-          <article class="reviews-section__review-text review-second">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-            lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
-            ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
-            commodo nulla facilisi nullam vehicula ipsum.”
-          </article>
+            <video
+              class="reviews-section__video_second video-second"
+              muted
+              controls="controls"
+              poster="./assets/images/review_1.png"
+              src="./assets/video/video_1.mp4"
+              width="253"
+              height="350"
+            ></video>
+            <article class="reviews-section__review-text review-second">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+              lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
+              ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
+              commodo nulla facilisi nullam vehicula ipsum.”
+            </article>
           </div>
         </div>
         <div class="reviews-section__captions-block">
@@ -172,10 +184,44 @@
       </section>
 
       <!-- КНИГА СТИЛЯ АРХЕТИПА -->
-      <h2 class="title">КНИГА СТИЛЯ АРХЕТИПА</h2>
-      <a href="#" class="button btn-purple"
-        >ПОЛУЧИТЬ ТЕСТ И КНИГУ СТИЛЯ АРХЕТИПА</a
-      >
+      <section class="lookbook-section">
+        <div class="lookbook-section__wrappers">
+        <div class="lookbook-section__wrapper_left">
+
+        </div>
+        <div class="lookbook-section__wrapper_right">
+        
+        <h2 class="lookbook-section__title title">КНИГА СТИЛЯ АРХЕТИПА</h2>
+
+        <article class="lookbook-section__lookbook-text">
+          <p>Это книга-презентация о стиле одного из 8 архетипов.</p> 
+          <p>Содержит описание главного управляющего вектора жизни, психотипа и стиля одежды.</p> 
+          <p>Щедро иллюстрированная книга, в которой ты найдёшь описание своего архетипа.</p>
+        </article>
+        <div class="lookbook-section__present-block present-block">
+
+          <div class="lookbook-section__row-1">
+            <h4 class="lookbook-section__subtitle subtitle">ПОДАРОК
+          </h4>
+        </div>
+
+        <div class="lookbook-section__row-2">
+          <img class="lookbook-section__point_violet" src="./assets/images/point_violet.png" alt="violet point">
+        <div class="lookbook-section__box-text">тест на определение женского архетипа</div>
+        </div>
+
+        <div class="lookbook-section__row-3">
+          <img class="lookbook-section__point_violet" src="./assets/images/point_violet.png" alt="violet point">
+        <div class="lookbook-section__box-text">тест на определение мужского архетипа 
+          (для мужчин)</div>
+        </div>
+        </div>
+        <a href="#" class="lookbook-section__button button btn-purple"
+        >ПОЛУЧИТЬ ТЕСТ И КНИГУ СТИЛЯ АРХЕТИПА
+      </a>
+    </div>
+      </div>
+    </section>
 
       <!-- ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ -->
       <h2 class="title">ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ</h2>
