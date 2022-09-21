@@ -825,6 +825,10 @@ textarea {
   padding: 2.5em 1em;
 }
 
+.btn-buy {
+  padding: 1.2em 2.6em;
+}
+
 .btn-purple {
   background: #9B89FF;
   color: #ffffff;
@@ -862,8 +866,8 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 1440px;
-  height: 948px;
-  background-image: url("/assets/images/Background_1-block_.png");
+  height: 1080px;
+  background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -880,7 +884,7 @@ textarea {
   width: 768px;
   height: 320px;
   margin-left: 90px;
-  margin-top: 116px;
+  margin-top: 250px;
 }
 
 .main-section__subtitle-main {
@@ -1092,6 +1096,107 @@ textarea {
 
 .lookbook-section__button {
   margin-top: 26px;
+}
+
+.present-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-section {
+  background-image: url("/assets/images/Background_10-block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 1038px;
+}
+
+.book-section__wrappers {
+  display: flex;
+  flex-direction: row;
+  width: 1254px;
+  height: 708px;
+  margin: 0 auto;
+}
+
+.book-section__wrapper_left {
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  height: 800px;
+}
+
+.book-section__wrapper_right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 585px;
+  height: 800px;
+}
+
+.book-section__title {
+  position: relative;
+  width: 900px;
+  height: 35px;
+  padding-top: 90px;
+  margin: 0 auto;
+}
+
+.book-section__book-text {
+  position: relative;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+  width: 689px;
+  height: 387px;
+  margin-top: 120px;
+}
+
+.book-section__paragraph {
+  text-indent: 1em;
+  margin-bottom: 1em;
+}
+
+.book-section__present-block {
+  position: relative;
+  border: 4px solid #FAACA8;
+  width: 675px;
+  height: 231px;
+  margin-top: 50px;
+}
+
+.book-section__row-1, .book-section__row-2, .book-section__row-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-section__row-2 {
+  margin-bottom: 26px;
+}
+
+.book-section__subtitle {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 29px;
+}
+
+.book-section__point_violet {
+  width: 28px;
+  height: 28px;
+  margin-left: 22px;
+  margin-right: 15px;
+}
+
+.book-section__box-text {
+  position: relative;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+}
+
+.book-section__button {
+  position: relative;
+  align-self: end;
 }
 
 .present-block {
