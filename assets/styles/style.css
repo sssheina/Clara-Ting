@@ -808,19 +808,19 @@ textarea {
 }
 
 .btn-main {
-  background: #6100FF;
+  background: #5200FF;
   color: #ffffff;
 }
 .btn-main:hover {
   background: #5e05ee;
 }
 
-.btn-consult, .btn-want {
+.btn-want {
   padding: 1.9em 2.6em;
 }
 
-.btn-buy {
-  padding: 1.2em 2.6em;
+.btn-consult {
+  padding: 2.5em 1em;
 }
 
 .btn-purple {
@@ -1047,7 +1047,7 @@ textarea {
   height: 255px;
 }
 
-p {
+.lookbook-section__paragraph {
   text-indent: 1em;
   margin-bottom: 1em;
 }
