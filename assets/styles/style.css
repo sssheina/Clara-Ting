@@ -1009,7 +1009,7 @@ textarea {
   font-family: "Montserrat", sans-serif;
   color: #18004A;
   min-width: 240px;
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
 }
@@ -1040,6 +1040,8 @@ textarea {
   width: 590px;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .u-get__advantages {
   display: flex;
@@ -1049,11 +1051,13 @@ textarea {
 }
 .u-get__row {
   display: flex;
+  justify-content: space-between;
 }
 .u-get__section {
   width: 570px;
   height: 290px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .u-get__number {
@@ -1075,6 +1079,11 @@ textarea {
   font-size: 20px;
   line-height: 33px;
   letter-spacing: 0.06em;
+}
+
+.number1 {
+  display: flex;
+  justify-content: center;
 }
 
 .long-line {
@@ -1132,6 +1141,7 @@ textarea {
   letter-spacing: 0.125em;
 }
 
+<<<<<<< HEAD
 .make-order {
   background: linear-gradient(180deg, rgba(255, 236, 236, 0.62) 0%, rgba(255, 236, 236, 0) 16.26%);
   max-width: 1170px;
@@ -1167,6 +1177,62 @@ textarea {
   font-weight: 500;
   font-size: 24px;
   margin-left: 200px;
+=======
+.look {
+  background-image: url(/assets/images/Background_7-block_.png);
+  background-size: cover;
+  height: 1025px;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+.look__title {
+  margin-top: 90px;
+  margin-left: 60px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 948px;
+  background-image: url("/assets/images/Background_1-block_.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-section__title-main {
+  font-family: "Montserrat", sans-serif;
+  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 54px;
+  letter-spacing: 5px;
+  line-height: 80px;
+  align-self: left;
+  width: 768px;
+  height: 320px;
+  margin-left: 90px;
+  margin-top: 116px;
+}
+
+.main-section__subtitle-main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  width: 550px;
+  height: 72px;
+  margin-left: 90px;
+  margin-top: 57px;
+}
+
+.main-section__button {
+  width: 544px;
+  margin-left: 90px;
+  margin-top: 152px;
+>>>>>>> adffc1e52630562e779dd0579fe3dcba921c2cce
 }
 
 /*# sourceMappingURL=style.css.map */
