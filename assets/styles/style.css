@@ -874,10 +874,11 @@ textarea {
 
 .make-order__container {
   display: flex;
+  align-content: center;
   width: 856.63px;
-  height: 153px;
-  margin-left: 240px;
-  margin-top: 104px;
+  height: 170px;
+  margin: 0 auto;
+  margin-top: 80px;
   line-height: 33px;
 }
 
@@ -886,6 +887,10 @@ textarea {
   font-weight: 500;
   font-size: 24px;
   margin-left: 96px;
+}
+
+.sub {
+  margin-top: 24px;
 }
 
 .look {
@@ -1086,7 +1091,7 @@ textarea {
   font-size: 20px;
   line-height: 33px;
   letter-spacing: 0.06em;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 .price__text_money {
@@ -1119,19 +1124,19 @@ textarea {
 }
 
 .price__button {
-  margin-top: 165px;
+  margin-top: 185px;
   width: 206px;
   margin-left: 44px;
 }
 
 .price__button-second {
-  margin-top: 85px;
+  margin-top: 103px;
   width: 206px;
   margin-left: 44px;
 }
 
 .price__button-third {
-  margin-top: 0px;
+  margin-top: 17px;
   width: 206px;
   margin-left: 44px;
 }

@@ -18,10 +18,11 @@ padding-top: 100px;
 }
 .make-order__container{
 display: flex;
+align-content: center;
 width: 856.63px;
-height: 153px;
-margin-left: 240px;
-margin-top: 104px;
+height: 170px;
+margin: 0 auto;
+margin-top: 80px;
 line-height: 33px
 }
 .make-order__text{
@@ -29,6 +30,9 @@ line-height: 33px
 font-weight: 500;
 font-size: 24px;
 margin-left: 96px;
+}
+.sub{
+    margin-top: 24px;
 }
 // .make-order__icon{
 
