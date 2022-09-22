@@ -11,3 +11,21 @@
   line-height: 24px;
   letter-spacing: 0.06em;
 }
+
+// АДАПТИВ MOBILE
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .subtitle {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+
+  .subtitle-main {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+}
