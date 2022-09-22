@@ -651,28 +651,26 @@ textarea {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: url("/assets/images/Background_header.png");
   margin: 0;
   position: fixed;
-  width: 1440px;
-  height: 132px;
-  opacity: 0.9;
-}
-
-.header__row {
-  display: flex;
   align-items: center;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  width: 1440px;
+  height: 80px;
+  opacity: 0.9;
+  z-index: 1;
 }
 
 .header__logo {
   margin-left: 90px;
-  max-width: 70px;
+  max-width: 50px;
+  height: 50px;
 }
 
 .header__nav {
-  margin-left: 380px;
+  display: flex;
 }
 
 .header__list {
@@ -681,10 +679,11 @@ textarea {
 }
 
 .header__item {
-  margin-right: 45px;
+  font-weight: 500;
+  margin-right: 65px;
 }
 .header__item:last-child {
-  margin-right: 0;
+  margin-right: 100px;
 }
 
 .header__link {
