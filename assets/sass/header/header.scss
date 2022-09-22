@@ -1,26 +1,24 @@
 .header {
+    display: flex;
+    justify-content: space-between;
     background: url('/assets/images/Background_header.png');
     margin: 0;
     position: fixed;
-    width: 1440px;
-    height: 132px;
-    opacity: 0.9;
-}
-
-.header__row {
-    display: flex;
     align-items: center;
-    padding-top: 31px;
-    padding-bottom: 31px;
+    width: 1440px;
+    height: 80px;
+    opacity: 0.9;
+    z-index: 1;
 }
 
 .header__logo {
     margin-left: 90px;
-    max-width: 70px;
+    max-width: 50px;
+    height: 50px;
 }
 
 .header__nav {
-    margin-left: 380px;
+    display: flex;
 }
 
 .header__list {
@@ -29,9 +27,10 @@
 }
 
 .header__item {
-    margin-right: 45px;
+    font-weight: 500;
+    margin-right: 65px;
     &:last-child {
-        margin-right: 0;
+        margin-right: 100px;
     }
 }
 
@@ -41,6 +40,7 @@
     line-height: 24px;
     letter-spacing: 0.06em;
     transition: 0.3s ease;
+    color: #18004A;
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 }

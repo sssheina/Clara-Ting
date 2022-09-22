@@ -14,18 +14,16 @@
 <body class="body">
     <!-- ХЭДЭР -->
     <header class="header">
-        <div class="header__row">
-            <a class="header__logo" href="#"><img src="./assets/images/logo_blue.png" alt="logo"></a>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a href="#" class="header__link">О МЕТОДЕ</a></li>
-                    <li class="header__item"><a href="#" class="header__link">КНИГА СТИЛЯ</a></li>
-                    <li class="header__item"><a href="#" class="header__link">ТАРИФЫ</a></li>
-                    <li class="header__item"><a href="#" class="header__link">ОБО МНЕ</a></li>
-                    <li class="header__item"><a href="#" class="header__link">КОНТАКТЫ</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="#"><img class="header__logo" src="./assets/images/logo_blue.png" alt="logo"></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="#" class="header__link">О МЕТОДЕ</a></li>
+                <li class="header__item"><a href="#" class="header__link">КНИГА СТИЛЯ</a></li>
+                <li class="header__item"><a href="#" class="header__link">ТАРИФЫ</a></li>
+                <li class="header__item"><a href="#" class="header__link">ОБО МНЕ</a></li>
+                <li class="header__item"><a href="#contacts" class="header__link">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
     </header>
     <>
 
@@ -102,11 +100,8 @@
                         poster="./assets/images/review_1.png" src="./assets/video/video_1.mp4" width="253"
                         height="350"></video>
                     <article class="reviews-section__review-text review-first">
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-                        lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vehicula
-                        ipsum a arcu cursus vitae congue mauris rhoncus aenean. Sit amet
-                        commodo nulla facilisi nullam vehicula ipsum.”
+                        “Я не знаю, как Клара это делает с помощью архетипов. Но в итоге она попала ровно в точку. Мне
+                        всё очень понравилось! Было комфортно, классно! Всем рекомендую!”
                     </article>
                 </div>
                 <div class="reviews-section__wrapper_right">
@@ -241,9 +236,55 @@
         </section>
 
         <!-- ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ -->
-        <h2 class="title">ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ</h2>
-        <a href="#" class="button btn-main btn-want">ХОЧУ КНИГУ СТИЛЯ</a>
+        <section class="book-section">
+            <h2 class="book-section__title title">ИНДИВИДУАЛЬНАЯ КНИГА СТИЛЯ
+            </h2>
+            <div class="book-section__wrappers">
+                <div class="book-section__wrapper_left">
+                    <article class="book-section__book-text">
+                        <p class="book-section__paragraph">Это специально разработанная для тебя “Книга стиля”, которая
+                            включает рекомендации по стилю, цвету, фасонам одежды и обуви.
+                        </p>
+                        <p class="book-section__paragraph">В книге около 60 страниц с наглядным описанием фасонов
+                            одежды, цветовой палитры, аксессуаров - с учетом твоей индивидуальности (типа фигуры и
+                            колорита).
+                        </p>
+                        <p class="book-section__paragraph">А также личная онлайн-консультация по интерпретации твоих
+                            архетипов, учитывающая внешние данные и образ жизни.
+                        </p>
+                    </article>
 
+                    <div class="book-section__present-block present-block">
+
+                        <div class="book-section__row-1">
+                            <h4 class="book-section__subtitle subtitle">ПОДАРОК
+                            </h4>
+                        </div>
+
+                        <div class="book-section__row-2">
+                            <img class="book-section__point_violet" src="./assets/images/point_violet.png"
+                                alt="violet point">
+                            <div class="book-section__box-text">тест на определение женского архетипа
+
+                            </div>
+                        </div>
+
+                        <div class="book-section__row-3">
+                            <img class="book-section__point_violet" src="./assets/images/point_violet.png"
+                                alt="violet point">
+                            <div class="book-section__box-text">тест на определение мужского архетипа
+                                (для мужчин)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-section__wrapper_right">
+                    <a href="#" class="book-section__button button btn-main btn-want">ХОЧУ КНИГУ СТИЛЯ</a>
+                </div>
+
+            </div>
+        </section>
         <!-- КАК СДЕЛАТЬ ЗАКАЗ -->
         <section class="make-order">
             <h2 class="make-order__title title">КАК СДЕЛАТЬ ЗАКАЗ</h2>
@@ -344,11 +385,35 @@
                 </div>
             </div>
         </section>
+
         <!-- КОНТАКТЫ -->
-        <h2 class="title">КОНТАКТЫ</h2>
+        <section class="contacts" id="contacts">
+            <h2 class="contacts__title title">КОНТАКТЫ</h2>
+            <hr class="contacts__line long-line">
+            <address class="contacts__address">
+                <p class="contacts__text">Амстердам, Нидерланды</p>
+                <a class="contacts__phone" href="tel:+31 (62) 136-44-22">+31 (62) 136-44-22</a>
+                <a class="contacts__mail" href="mailto:claratinga@icloud.com">claratinga@icloud.com</a>
+            </address>
+            <ul class="icon-social">
+                <li class="icon-social__item">
+                    <a href="tg://resolve?domain=klarating" class="icon-social__link" target="_blank"><img src="./assets/images/icon_telegram.png" alt="icon_telegram" class="contacts__icon"></a>
+                </li>
+                <li class="icon-social__item">
+                    <a href="https://instagram.com/klara.ting?igshid=YmMyMTA2M2Y=" class="icon-social__link" target="_blank"><img src="./assets/images/icon_instagram.png" alt="icon_instagram" class="contacts__icon"></a>
+                </li>
+                <li class="icon-social__item">
+                    <a href="https://wa.me/31621364422" class="icon-social__link" target="_blank"><img src="./assets/images/icon_whatsapp.png" alt="icon_whatsapp" class="contacts__icon"></a>
+                </li>
+            </ul>
+        </section>
+
     </main>
 
-    <footer>Футер</footer>
+    <footer class="footer">
+        <a href="#header" class="footer__logo"><img src="./assets/images/logo_white.png" alt="footer-logo"></a>
+        <p class="footer__text">© Clara Ting, 2022</p>
+    </footer>
 </body>
 
 </html>
