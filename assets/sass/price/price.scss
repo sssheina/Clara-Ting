@@ -2,7 +2,6 @@
     background: linear-gradient(180deg, rgba(155, 137, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
     width: 1440px;
 height: 1067px;
-margin-top: 130px;
 }
 .price__row{
     display: grid;
@@ -11,7 +10,6 @@ margin-top: 130px;
 }
 .price__title{
     margin-left: 470px;
-margin-top: 136px;
 padding-top: 70px;
 }
 .price__line{
@@ -24,7 +22,7 @@ padding-top: 70px;
     flex-direction: column;
     border: 6px solid #E9EBF6;
     width: 402px;
-height: 662px;
+height: 680px;
 margin-left: 45px;
 margin-top: 90px;
 }
@@ -72,11 +70,16 @@ margin-left: 44px;
     margin-left: 44px;
 }
 .price__button-third{
-    margin-top: 17px;
+    margin-top: 23px;
     width: 206px;
     margin-left: 44px;
 }
-
 .price-book{
     margin-right: 60px;
+}
+.price-point{
+    margin-right: 7px;
+}
+.price-violet{
+    margin-right: 2px;
 }

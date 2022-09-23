@@ -1,0 +1,62 @@
+.fits-section {
+    background-image: url('/assets/images/Background_3-block.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 908px;
+    
+}
+
+.fits-section__content {
+    display: flex;
+    flex-direction: column;
+    width: 904px;
+height: 607px;
+margin: 0 auto;
+}
+.fits-section {
+}
+.fits-section__title {
+    position: relative;
+    align-self:center;
+    padding-top: 149px;
+    padding-bottom: 98px;
+
+}
+
+.fits-section__item {
+    display: flex;
+    flex-direction: row;
+    width: 904px;
+    height: 37px;
+    margin-bottom: 22px;
+    padding-left: 22px;
+}
+
+.fits-section__point {
+
+}
+
+.fits-section_violet {
+    width: 28px;
+height: 28px;
+
+}
+
+
+.fits-section__text {
+    // font-family: 'Montserrat', sans-serif;
+    // src: url './assets/fonts/Montserrat-Black.ttf';
+    // font-size: 56;
+    // font-weight: 500;
+    // letter-spacing: 0.06em;
+    // color: #18004A;
+    margin-left: 22px;
+}
+
+.fits-section__button {
+    // position: relative;
+    align-self:center;
+    margin-top: 74px;
+    
+}

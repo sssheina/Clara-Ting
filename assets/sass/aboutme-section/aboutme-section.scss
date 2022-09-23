@@ -1,0 +1,59 @@
+.aboutme-section {
+    display: flex;
+    flex-direction: row;
+    background-image:url("/assets/images/Background_6-block.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 842px;
+}
+
+.aboutme-section__wrapper_left {
+  position: relative;
+  width: 563px;
+  height: 842px;
+  margin-top: 72px;
+  margin-left: 155px;
+}
+
+.aboutme-section__wrapper_right {
+  position: relative;
+  width: 669px;
+  height: 842px;
+}
+
+.aboutme-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme-section__title {
+  margin-top: 100px;
+  align-self: center;
+  padding: 43.29px;
+}
+
+.aboutme-section__text {
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-indent: 1em;
+  width: 669px;
+}
+
+.aboutme-section__logo {
+  display: flex;
+  width: 53px;
+  height: 50px;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+.logo_blue {
+  width: 53px;
+  height: 50px;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
