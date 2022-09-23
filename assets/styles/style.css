@@ -1425,24 +1425,28 @@ textarea {
 .price {
   background: linear-gradient(180deg, rgba(155, 137, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
-  height: 1067px;
+  height: 1167px;
 }
 
 .price__row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 1200px;
+  width: 1256px;
+  gap: 25px;
+  margin: 0 auto;
 }
 
 .price__title {
-  margin-left: 470px;
+  position: relative;
+  text-align: center;
   padding-top: 70px;
 }
 
 .price__line {
-  max-width: 598px;
-  margin-top: 42px;
-  margin-left: 410px;
+  max-width: 593px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 108px;
 }
 
 .price__container {
@@ -1450,9 +1454,7 @@ textarea {
   flex-direction: column;
   border: 6px solid #E9EBF6;
   width: 402px;
-  height: 680px;
-  margin-left: 45px;
-  margin-top: 90px;
+  height: 780px;
 }
 
 .price__text {
@@ -1464,14 +1466,17 @@ textarea {
   margin-top: 15px;
 }
 
-.price__text_money {
+.price__text-money {
   color: #5200FF;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 0.06em;
-  margin-left: 125px;
-  margin-top: 20px;
+  text-align: center;
+  align-self: center;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  width: 266px;
 }
 
 .price__subtitle {
@@ -1479,7 +1484,7 @@ textarea {
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
-  margin-top: 51px;
+  margin-top: 53px;
 }
 
 .price__point-violet, .price__point-pink {
@@ -1494,19 +1499,19 @@ textarea {
 }
 
 .price__button {
-  margin-top: 185px;
+  margin-top: 235px;
   width: 206px;
   margin-left: 44px;
 }
 
 .price__button-second {
-  margin-top: 103px;
+  margin-top: 153px;
   width: 206px;
   margin-left: 44px;
 }
 
 .price__button-third {
-  margin-top: 23px;
+  margin-top: 73px;
   width: 206px;
   margin-left: 44px;
 }
