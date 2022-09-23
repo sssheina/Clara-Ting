@@ -1611,6 +1611,23 @@ textarea {
   width: 669px;
 }
 
+.aboutme-section__logo {
+  display: flex;
+  width: 53px;
+  height: 50px;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+.logo_blue {
+  width: 53px;
+  height: 50px;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
 .fits-section {
   background-image: url("/assets/images/Background_3-block.png");
   background-repeat: no-repeat;
