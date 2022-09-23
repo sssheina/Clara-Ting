@@ -1734,4 +1734,36 @@ textarea {
   margin: 0 auto;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 232px;
+  bottom: 20px;
+  height: 50px;
+  width: 50px;
+  border-color: transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  display: none;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  filter: brightness(1.5);
+  outline: none;
+}
+
+.back-to-top::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  z-index: 11;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #5200FF;
+  border-left: 2px solid #5200FF;
+  top: 18px;
+  transform: rotate(45deg);
+}
+
 /*# sourceMappingURL=style.css.map */
