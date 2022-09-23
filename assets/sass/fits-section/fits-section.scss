@@ -54,9 +54,16 @@ height: 28px;
     margin-left: 22px;
 }
 
-.fits-section__button {
+.fits-section__button-main {
     // position: relative;
     align-self:center;
     margin-top: 74px;
     
 }
+.fits-section__button {
+    background: #9B89FF;
+    color: #ffffff;
+    padding: 1.7em 2em;
+}
+.fits-section__button :hover{
+    background: #8e7eec}

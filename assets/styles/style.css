@@ -1206,7 +1206,7 @@ textarea {
 }
 
 .lookbook-section__button {
-  margin-top: 26px;
+  margin-top: 46px;
   width: 660px;
 }
 
@@ -1415,6 +1415,7 @@ textarea {
 .book-section__button {
   position: relative;
   align-self: end;
+  width: 380px;
 }
 
 .present-block {
@@ -1705,9 +1706,19 @@ textarea {
   margin-left: 22px;
 }
 
-.fits-section__button {
+.fits-section__button-main {
   align-self: center;
   margin-top: 74px;
+}
+
+.fits-section__button {
+  background: #9B89FF;
+  color: #ffffff;
+  padding: 1.7em 2em;
+}
+
+.fits-section__button :hover {
+  background: #8e7eec;
 }
 
 .inspiration-section {
