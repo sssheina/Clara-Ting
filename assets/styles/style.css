@@ -865,7 +865,6 @@ textarea {
 
 .make-order__title {
   margin-left: 460px;
-  margin-top: 136px;
   padding-top: 100px;
 }
 
@@ -876,7 +875,7 @@ textarea {
 
 .make-order__line {
   max-width: 598px;
-  margin-top: 42px;
+  margin-top: 40px;
 }
 
 .make-order__container {
@@ -885,7 +884,7 @@ textarea {
   width: 856.63px;
   height: 170px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 62px;
   line-height: 33px;
 }
 
@@ -898,6 +897,7 @@ textarea {
 
 .sub {
   margin-top: 24px;
+  font-size: 32px;
 }
 
 .look {
@@ -1366,7 +1366,6 @@ textarea {
   background: linear-gradient(180deg, rgba(155, 137, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
   height: 1067px;
-  margin-top: 130px;
 }
 
 .price__row {
@@ -1377,7 +1376,6 @@ textarea {
 
 .price__title {
   margin-left: 470px;
-  margin-top: 136px;
   padding-top: 70px;
 }
 
@@ -1392,7 +1390,7 @@ textarea {
   flex-direction: column;
   border: 6px solid #E9EBF6;
   width: 402px;
-  height: 662px;
+  height: 680px;
   margin-left: 45px;
   margin-top: 90px;
 }
@@ -1448,13 +1446,21 @@ textarea {
 }
 
 .price__button-third {
-  margin-top: 17px;
+  margin-top: 23px;
   width: 206px;
   margin-left: 44px;
 }
 
 .price-book {
   margin-right: 60px;
+}
+
+.price-point {
+  margin-right: 7px;
+}
+
+.price-violet {
+  margin-right: 2px;
 }
 
 .advantages {
