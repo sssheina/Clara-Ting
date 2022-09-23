@@ -1,12 +1,10 @@
 .fits-section {
-
-background-image: url('/assets/images/Background_3-block.png');
-background-repeat: no-repeat;
-background-size: cover;
-width: 1440px;
-height: 908px;
-margin-top: 300px;
-// margin: 0 auto;
+    background-image: url('/assets/images/Background_3-block.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 908px;
+    margin-top: 300px;
 }
 
 .fits-section__content {
@@ -32,7 +30,7 @@ margin: 0 auto;
     width: 904px;
     height: 37px;
     margin-bottom: 22px;
-    // margin-right: 22px;
+    padding-left: 22px;
 }
 
 .fits-section__point {
