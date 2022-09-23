@@ -796,7 +796,7 @@ textarea {
 }
 .u-get__title {
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 .u-get__long-line {
   width: 590px;
