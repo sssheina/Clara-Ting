@@ -927,13 +927,13 @@ textarea {
 }
 .make-order {
   background: linear-gradient(180deg, rgba(255, 236, 236, 0.62) 0%, rgba(255, 236, 236, 0) 16.26%);
-  max-width: 1470px;
+  max-width: 1440px;
   height: 1282px;
 }
 
 .make-order__title {
   margin-left: 460px;
-  padding-top: 100px;
+  padding-top: 136px;
 }
 
 .make-order__subtitle {
@@ -949,8 +949,8 @@ textarea {
 .make-order__container {
   display: flex;
   align-content: center;
-  width: 856.63px;
-  height: 170px;
+  width: 997px;
+  height: 163px;
   margin: 0 auto;
   margin-top: 62px;
   line-height: 33px;
@@ -963,9 +963,14 @@ textarea {
   margin-left: 96px;
 }
 
-.sub {
-  margin-top: 24px;
+.make-order__subtitle {
+  margin-top: 14px;
   font-size: 32px;
+}
+
+.make-order__icon {
+  width: 154px;
+  height: 154px;
 }
 
 .look {
