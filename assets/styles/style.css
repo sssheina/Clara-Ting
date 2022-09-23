@@ -1611,4 +1611,51 @@ textarea {
   width: 669px;
 }
 
+.fits-section {
+  background-image: url("/assets/images/Background_3-block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 908px;
+  margin-top: 300px;
+}
+
+.fits-section__content {
+  display: flex;
+  flex-direction: column;
+  width: 904px;
+  height: 607px;
+  margin: 0 auto;
+}
+
+.fits-section__title {
+  position: relative;
+  align-self: center;
+  padding-top: 149px;
+  padding-bottom: 98px;
+}
+
+.fits-section__item {
+  display: flex;
+  flex-direction: row;
+  width: 904px;
+  height: 37px;
+  margin-bottom: 22px;
+}
+
+.fits-section_violet {
+  width: 28px;
+  height: 28px;
+}
+
+.fits-section__text {
+  margin-left: 22px;
+}
+
+.fits-section__button {
+  position: relative;
+  align-self: center;
+  margin-top: 74px;
+}
+
 /*# sourceMappingURL=style.css.map */
