@@ -789,12 +789,12 @@ textarea {
 .u-get {
   background: #FEFBFB;
   width: 1440px;
-  height: 938px;
+  height: 900px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 .u-get__title {
   text-align: center;
-  padding-top: 100px;
 }
 .u-get__long-line {
   width: 590px;
@@ -837,6 +837,84 @@ textarea {
   letter-spacing: 0.06em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .u-get {
+    width: 768px;
+    height: 495px;
+    padding-top: 60px;
+  }
+  .u-get__long-line {
+    width: 400px;
+    margin-top: 30px;
+  }
+  .u-get__advantages {
+    display: grid;
+    grid-template-columns: repeat(2, 310px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    row-gap: 10px;
+    width: 628px;
+    margin: 50px auto 0px;
+  }
+  .u-get__section {
+    height: 150px;
+  }
+  .u-get__number {
+    font-size: 150px;
+    line-height: 120px;
+  }
+  .u-get__part {
+    width: 250px;
+  }
+  .u-get__text {
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 180%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .u-get {
+    width: 360px;
+    height: 1300px;
+    padding-top: 50px;
+  }
+  .u-get__long-line {
+    width: 252px;
+    margin-top: 20px;
+  }
+  .u-get__advantages {
+    display: grid;
+    grid-template-columns: 270px;
+    grid-template-rows: repeat(4, 300px);
+    justify-items: center;
+    row-gap: 0px;
+    width: 270px;
+    margin: 30px auto 0px;
+  }
+  .u-get__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+  }
+  .u-get__number {
+    font-size: 140px;
+    line-height: 110px;
+  }
+  .u-get__part {
+    width: 270px;
+    height: 250px;
+    text-align: center;
+  }
+  .u-get__subtitle {
+    margin-top: 30px;
+  }
+  .u-get__text {
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 180%;
+  }
+}
 .long-line {
   height: 4px;
   background: #E9EBF6;
@@ -844,6 +922,7 @@ textarea {
 }
 
 .button {
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   letter-spacing: 0.16em;
@@ -855,9 +934,20 @@ textarea {
   text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 50px rgba(255, 255, 255, 0.8), 0 0 75px rgba(255, 255, 255, 0.6), 0 0 76px rgba(255, 255, 255, 0.4), 0 0 77px rgba(255, 255, 255, 0.5), 0 0 78px rgba(255, 255, 255, 0.4), 0 0 79px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 85px rgba(255, 255, 255, 0.1);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .button {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .button {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
 .btn-main {
   background: #5200FF;
-  color: #ffffff;
 }
 .btn-main:hover {
   background: #5e05ee;
@@ -877,7 +967,6 @@ textarea {
 
 .btn-purple {
   background: #9B89FF;
-  color: #ffffff;
   padding: 1.7em 0.5em;
 }
 .btn-purple:hover {
@@ -974,14 +1063,33 @@ textarea {
 .look {
   background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
+  margin: 0 auto;
   height: 1025px;
-  padding-top: 20px;
-}
-.look__title {
-  margin-top: 90px;
-  margin-left: 60px;
+  padding-top: 90px;
+  padding-left: 60px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .look {
+    background-image: url(/assets/images/Background_7-block-tablet.png);
+    background-size: cover;
+    height: 547px;
+    padding-top: 75px;
+    padding-left: 82px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .look {
+    background-image: url(/assets/images/Background_7-block-mobile1.png);
+    background-size: cover;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+  .look__title {
+    text-align: center;
+  }
+}
 .main-section {
   display: flex;
   flex-direction: column;
@@ -1533,7 +1641,7 @@ textarea {
 }
 
 .contacts {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .contacts__title {
@@ -1557,16 +1665,16 @@ textarea {
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.06em;
-  color: #18004A;
+  color: #18004a;
 }
 
 .contacts__phone {
-  color: #18004A;
+  color: #18004a;
   text-decoration: none;
 }
 
 .contacts__mail {
-  color: #18004A;
+  color: #18004a;
   text-decoration: none;
 }
 
@@ -1715,7 +1823,7 @@ textarea {
 }
 
 .fits-section__button {
-  background: #9B89FF;
+  background: #9b89ff;
   color: #ffffff;
   padding: 1.7em 2em;
 }

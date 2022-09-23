@@ -1,12 +1,11 @@
 .u-get
-    // border: 2px solid blue
     background: #FEFBFB
     width: 1440px
-    height: 938px
+    height: 900px
     margin: 0 auto
+    padding-top: 100px
     &__title
         text-align: center
-        padding-top: 100px
     &__long-line
         width: 590px
         margin-top: 40px
@@ -17,12 +16,10 @@
         grid-template-columns: repeat(2, 570px)
         grid-template-rows: repeat(2, 1fr)
         justify-content: space-between
-        // border: 3px solid purple
         row-gap: 20px
         width: 1199px
         margin: 110px auto 0px
     &__section
-        // border: 1px solid orange
         height: 270px
         display: flex
         justify-content: space-between
@@ -36,7 +33,6 @@
         line-height: 230px
         letter-spacing: 0.035em
     &__part
-        // border: 1px solid pink
         width: 380px
         
     &__text
@@ -50,72 +46,72 @@
 
     // АДАПТИВ TABLET (ПЛАНШЕТ)
 
-// @media screen and (min-width: 768px) and (max-width: 1024px)
-// .u-get
-//     width: 768px
-//     height: 495px
-//     &__title
-//         margin-top: 30px
-//     &__long-line
-//         width: 400px
-//         margin-top: 25px
-//     &__advantages
-//         display: grid
-//         grid-template-columns: repeat(2, 310px)
-//         grid-template-rows: repeat(2, 1fr)
-//         justify-content: center
-//         row-gap: 10px
-//         width: 628px
-//         margin: 25px auto 0px
-//     &__section
-//         height: 150px
-//     &__number
-//         font-size: 150px
-//         line-height: 120px    
-//     &__part
-//         width: 250px
-//     &__text
-//         margin-top: 15px
-//         font-size: 10px
-//         line-height: 180%
+@media screen and (min-width: 768px) and (max-width: 1024px)
+    .u-get
+        width: 768px
+        height: 495px
+        padding-top: 60px
+        &__long-line
+            width: 400px
+            margin-top: 30px
+        &__advantages
+            display: grid
+            grid-template-columns: repeat(2, 310px)
+            grid-template-rows: repeat(2, 1fr)
+            justify-content: center
+            row-gap: 10px
+            width: 628px
+            margin: 50px auto 0px
+        &__section
+            height: 150px
+        &__number
+            font-size: 150px
+            line-height: 120px    
+        &__part
+            width: 250px
+        &__text
+            margin-top: 15px
+            font-size: 10px
+            line-height: 180%
 
 
 
-// // АДАПТИВ MOBILE
+// АДАПТИВ MOBILE
 
-//     @media screen and ( min-width: 360px ) and ( max-width: 767px )
-// .u-get
-//     width: 360px
-//     height: 1400px
-//     &__title
-//         margin-top: 50px
-//     &__long-line
-//         width: 252px
-//         margin-top: 20px
-//     &__advantages
-//         display: grid
-//         grid-template-columns: 270px
-//         grid-template-rows: repeat(4, 300px)
-//         justify-items: center
-//         row-gap: 0px
-//         width: 270px
-//         margin: 30px auto 0px
-//     &__section
-//         display: flex
-//         flex-direction: column
-//         align-items: center
-//         height: 300px
-//     &__number
-//         font-size: 140px
-//     &__part
-//         height: 250px
-//         text-align: center
-//     &__subtitle
-//         margin-top: 30px
-//     &__text
-//         margin-top: 20px
-//         font-size: 11px
-//         line-height: 180% 
+@media screen and ( min-width: 360px ) and ( max-width: 767px )
+    .u-get
+        width: 360px
+        height: 1300px
+        padding-top: 50px
+        &__long-line
+            width: 252px
+            margin-top: 20px
+        &__advantages
+            display: grid
+            grid-template-columns: 270px
+            grid-template-rows: repeat(4, 300px)
+            justify-items: center
+            row-gap: 0px
+            width: 270px
+            margin: 30px auto 0px
+        &__section
+            display: flex
+            flex-direction: column
+            align-items: center
+            height: 300px
+        &__number
+            font-size: 140px
+            line-height: 110px
+        &__part
+            width: 270px
+            height: 250px
+            text-align: center
+        &__subtitle
+            margin-top: 30px
+        &__text
+            margin-top: 20px
+            font-size: 11px
+            line-height: 180% 
 
 
 

@@ -1,4 +1,5 @@
 .button
+    color: #ffffff
     text-align: center
     text-decoration: none
     letter-spacing: 0.16em
@@ -8,9 +9,23 @@
     &:hover
         text-shadow: 0 0 10px rgba(255,255,255, 1), 0 0 50px rgba(255, 255, 255, .8), 0 0 75px rgba(255, 255, 255, .6), 0 0 76px rgba(255, 255, 255, .4), 0 0 77px rgba(255, 255, 255, .5), 0 0 78px rgba(255, 255, 255, .4), 0 0 79px rgba(255, 255, 255, .3), 0 0 80px rgba(255, 255, 255, .2), 0 0 85px rgba(255, 255, 255, .1)
 
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and ( min-width: 768px ) and ( max-width: 1024px )
+    .button
+        font-size: 14px
+        line-height: 17px
+
+// АДАПТИВ MOBILE
+
+@media screen and ( min-width: 360px ) and ( max-width: 767px )
+    .button
+        font-size: 11px
+        line-height: 13px
+
 .btn-main
     background: #5200FF
-    color: #ffffff
     &:hover
         background: #5e05ee
 .btn-want
@@ -21,7 +36,7 @@
     padding: 1.2em 2.6em
 .btn-purple
     background: #9B89FF
-    color: #ffffff
     padding: 1.7em 0.5em
     &:hover
         background: #8e7eec
+

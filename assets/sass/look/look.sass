@@ -3,34 +3,31 @@
     background-size: cover
     // background-repeat: no-repeat
     // width: 100vw
+    margin: 0 auto
     height: 1025px
-    padding-top: 20px
-
-    &__title
-        margin-top: 90px
-        margin-left: 60px
+    padding-top: 90px
+    padding-left: 60px
 
 
-// // АДАПТИВ TABLET (ПЛАНШЕТ)
+// АДАПТИВ TABLET (ПЛАНШЕТ)
 
-// @media screen and ( min-width: 768px ) and ( max-width: 1024px )
-// .look
-//     background-image: url(/assets/images/Background_7-block-tablet.png)
-//     background-size: cover
-//     height: 547px
-//     &__title
-//         margin-top: 75px
-//         margin-left: 82px
+@media screen and ( min-width: 768px ) and ( max-width: 1024px )
+    .look
+        background-image: url(/assets/images/Background_7-block-tablet.png)
+        background-size: cover
+        height: 547px
+        padding-top: 75px
+        padding-left: 82px
 
 
-// // АДАПТИВ MOBILE
+// АДАПТИВ MOBILE
 
-// @media screen and ( min-width: 360px ) and ( max-width: 767px )
-// .look
-//     background-image: url(/assets/images/Background_7-block-mobile1.png)
-//     background-size: cover
-//     height: 555px
-//     &__title
-//         margin-top: 50px
-//         text-align: center
-//         margin-left: 0px
+@media screen and ( min-width: 360px ) and ( max-width: 767px )
+    .look
+        background-image: url(/assets/images/Background_7-block-mobile1.png)
+        background-size: cover
+        height: 600px
+        padding-top: 50px
+        padding-left: 0px
+        &__title
+            text-align: center
