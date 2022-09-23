@@ -723,6 +723,16 @@ textarea {
   padding: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .body {
+    font-family: "Montserrat", sans-serif;
+    color: #18004A;
+    min-width: 768px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .body {
     font-family: "Montserrat", sans-serif;
@@ -747,6 +757,20 @@ textarea {
   letter-spacing: 0.06em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .subtitle {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+  .subtitle-main {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 180%;
+    letter-spacing: 0.06em;
+  }
+}
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .subtitle {
     font-weight: 900;
@@ -762,32 +786,32 @@ textarea {
   }
 }
 .u-get {
+  border: 2px solid blue;
   background: #FEFBFB;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 1440px;
+  height: 938px;
 }
 .u-get__title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 90px;
 }
 .u-get__long-line {
   width: 590px;
-  margin-bottom: 50px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
 }
 .u-get__advantages {
-  width: 1199px;
-  margin: 0 auto;
-  gap: 10px;
-}
-.u-get__row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 570px);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: space-between;
+  border: 3px solid purple;
+  width: 1199px;
+  margin: 80px auto 0px;
 }
 .u-get__section {
-  width: 570px;
-  height: 270px;
+  border: 1px solid orange;
   display: flex;
   justify-content: space-between;
 }
@@ -804,10 +828,11 @@ textarea {
   width: 380px;
 }
 .u-get__subtitle {
-  margin-top: 25px;
-  margin-bottom: 20px;
+  width: 192px;
 }
 .u-get__text {
+  width: 192px;
+  margin-top: 20px;
   font-weight: 500;
   font-size: 20px;
   line-height: 33px;
@@ -815,57 +840,36 @@ textarea {
 }
 
 .u-get {
-  height: 1380px;
-  margin: 0 auto;
+  width: 768px;
+  height: 495px;
 }
 .u-get__title {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-top: 30px;
 }
 .u-get__long-line {
-  width: 252px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 400px;
+  margin-top: 25px;
 }
 .u-get__advantages {
-  display: flex;
-  flex-direction: column;
-  width: 270px;
-  gap: 16px;
-}
-.u-get__row {
-  display: flex;
-  flex-direction: column;
-}
-.u-get__section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 310px);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
-  width: 270px;
-  text-align: center;
-  align-items: center;
-  margin-top: 40px;
+  row-gap: 10px;
+  width: 628px;
+  margin: 25px auto 0px;
 }
 .u-get__number {
-  font-size: 140px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 150px;
+  line-height: 120px;
 }
 .u-get__part {
-  width: 250px;
-}
-.u-get__subtitle {
-  margin-top: 20px;
-  margin-bottom: 0px;
+  width: 230px;
 }
 .u-get__text {
-  font-size: 11px;
+  margin-top: 15px;
+  font-size: 10px;
   line-height: 180%;
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
 .long-line {
@@ -927,6 +931,19 @@ textarea {
   letter-spacing: 0.125em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+  }
+  .title-main {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.125em;
+  }
+}
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .title {
     font-weight: 900;
@@ -987,12 +1004,20 @@ textarea {
   background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
   height: 1025px;
-  margin-top: 100px;
   padding-top: 20px;
 }
 .look__title {
   margin-top: 90px;
   margin-left: 60px;
+}
+
+.look {
+  background-image: url(/assets/images/Background_7-block-tablet.png);
+  background-size: cover;
+}
+.look__title {
+  margin-top: 75px;
+  margin-left: 82px;
 }
 
 .look {

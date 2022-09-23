@@ -4,12 +4,28 @@
     // background-repeat: no-repeat
     // width: 100vw
     height: 1025px
-    margin-top: 100px
+    // margin-top: 100px
     padding-top: 20px
 
     &__title
         margin-top: 90px
         margin-left: 60px
+
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and ( min-width: 768px ) and ( max-width: 1024px )
+.look
+    background-image: url(/assets/images/Background_7-block-tablet.png)
+    background-size: cover
+   
+    // height: 555px
+    &__title
+        margin-top: 75px
+        margin-left: 82px
+
+
+// АДАПТИВ MOBILE
 
 @media screen and ( min-width: 360px ) and ( max-width: 767px )
 .look

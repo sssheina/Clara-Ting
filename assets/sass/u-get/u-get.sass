@@ -1,25 +1,29 @@
 .u-get
+    border: 2px solid blue
     background: #FEFBFB
-    margin-top: 100px
-    margin-bottom: 100px
+    width: 1440px
+    height: 938px
+    // margin-bottom: 100px
+    // margin: 100px auto
     &__title
         text-align: center
-        margin-bottom: 40px
+        margin-top: 90px
     &__long-line
         width: 590px
-        margin-bottom: 50px
+        margin-top: 40px
         margin-left: auto
         margin-right: auto
     &__advantages
-        width: 1199px
-        margin: 0 auto
-        gap: 10px
-    &__row
-        display: flex
+        display: grid
+        grid-template-columns: repeat(2, 570px)
+        grid-template-rows: repeat(2, 1fr)
         justify-content: space-between
+        border: 3px solid purple
+        width: 1199px
+        margin: 80px auto 0px
     &__section
-        width: 570px
-        height: 270px
+        border: 1px solid orange
+        // height: 270px
         display: flex
         justify-content: space-between
     &__number
@@ -32,59 +36,103 @@
         letter-spacing: 0.035em
     &__part
         width: 380px
+        
     &__subtitle
-        margin-top: 25px
-        margin-bottom: 20px
+        width: 192px
+        // margin-top: 25px
+        // margin-bottom: 20px
     &__text
+        width: 192px
+        margin-top: 20px
         font-weight: 500
         font-size: 20px
         line-height: 33px
         letter-spacing: 0.06em
 
-@media screen and ( min-width: 360px ) and ( max-width: 767px )
+
+
+    // АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
 .u-get
-    height: 1380px
-    margin: 0 auto
+    width: 768px
+    height: 495px
+    // margin-bottom: 50px
     &__title
-        text-align: center
-        margin-top: 50px
-        margin-bottom: 0px
+        margin-top: 30px
     &__long-line
-        width: 252px
-        margin-top: 20px
-        margin-bottom: 0px
-        margin-left: auto
-        margin-right: auto
+        width: 400px
+        margin-top: 25px
     &__advantages
-        display: flex
-        flex-direction: column
-        width: 270px
-        gap: 16px
-    &__row
-        display: flex
-        flex-direction: column
-    &__section
-        display: flex
-        flex-direction: column
+        display: grid
+        grid-template-columns: repeat(2, 310px)
+        grid-template-rows: repeat(2, 1fr)
         justify-content: center
-        width: 270px
-        text-align: center
-        align-items: center
-        margin-top: 40px
+        row-gap: 10px
+        width: 628px
+        margin: 25px auto 0px
     &__number
-        font-size: 140px
-        margin-top: 0px
-        margin-bottom: 0px
+        font-size: 150px
+        line-height: 120px    
     &__part
-        width: 250px    
-    &__subtitle
-        margin-top: 20px
-        margin-bottom: 0px    
+        width: 230px
+    // &__subtitle
+    //     margin-top: 20px
     &__text
-        font-size: 11px
+        margin-top: 15px
+        font-size: 10px
         line-height: 180%
-        margin-top: 20px
-        margin-bottom: 0px    
+
+
+
+// АДАПТИВ MOBILE
+
+//     @media screen and ( min-width: 360px ) and ( max-width: 767px )
+// .u-get
+        // width: 360px
+//     height: 1424px
+//     margin: 0 auto
+//     &__title
+//         text-align: center
+//         margin-top: 50px
+//         margin-bottom: 0px
+//     &__long-line
+//         width: 252px
+//         margin-top: 20px
+//         margin-bottom: 0px
+//         margin-left: auto
+//         margin-right: auto
+//     &__advantages
+//         display: flex
+//         flex-direction: column
+//         margin: 0 auto
+//         width: 270px
+//         gap: 16px
+//     &__row
+//         display: flex
+//         flex-direction: column
+//     &__section
+//         display: flex
+//         flex-direction: column
+//         justify-content: center
+//         width: 270px
+//         text-align: center
+//         align-items: center
+//         margin-top: 40px
+//     &__number
+//         font-size: 140px
+//         margin-top: 0px
+//         margin-bottom: 0px
+//     &__part
+//         width: 250px    
+//     &__subtitle
+//         margin-top: 20px
+//         margin-bottom: 0px    
+//     &__text
+//         font-size: 11px
+//         line-height: 180%
+//         margin-top: 20px
+//         margin-bottom: 0px    
     
     
     
