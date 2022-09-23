@@ -1209,19 +1209,25 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
-  height: 819px;
+  height: 1115px;
 }
 
 .method-section__wrapper_left {
-  position: relative;
+  display: flex;
+  justify-content: center;
   width: 563px;
-  height: 819px;
+  height: 1115px;
+}
+
+.method-section__img {
+  width: 407px;
+  height: 1010px;
 }
 
 .method-section__wrapper_right {
   position: relative;
   width: 785px;
-  height: 819px;
+  height: 1115px;
 }
 
 .method-right {
@@ -1251,8 +1257,8 @@ textarea {
 
 .method-section__button {
   width: 395px;
-  height: 84px;
   align-self: center;
+  margin-top: 50px;
 }
 
 .book-section {
@@ -1640,7 +1646,6 @@ textarea {
   background-size: cover;
   width: 1440px;
   height: 908px;
-  margin-top: 300px;
 }
 
 .fits-section__content {
@@ -1677,7 +1682,6 @@ textarea {
 }
 
 .fits-section__button {
-  position: relative;
   align-self: center;
   margin-top: 74px;
 }
@@ -1687,6 +1691,7 @@ textarea {
   width: 1440px;
   height: 310px;
   background-color: #FEFBFB;
+  justify-content: center;
 }
 
 .inspiration-section__text {
@@ -1695,11 +1700,10 @@ textarea {
   font-size: 24px;
   line-height: 180%;
   text-align: center;
-  align-self: center;
   letter-spacing: 0.06em;
   width: 1028px;
   height: 172px;
-  margin-top: 69px;
+  padding-top: 90px;
   margin: 0 auto;
 }
 

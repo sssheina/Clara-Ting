@@ -5,19 +5,23 @@
     background-repeat:no-repeat;
     background-size: cover;
     width: 1440px;
-    height: 819px;
+    height: 1115px;
 }
 
 .method-section__wrapper_left {
-  position: relative;
+  display: flex;
+  justify-content: center;
   width: 563px;
-  height: 819px;
+  height: 1115px;
 }
-
+.method-section__img {
+  width: 407px;
+  height: 1010px;
+}
 .method-section__wrapper_right {
   position: relative;
   width: 785px;
-  height: 819px;
+  height: 1115px;
 }
 
 .method-right {
@@ -62,8 +66,8 @@
 
 .method-section__button {
   width: 395px;
-  height: 84px;
-  align-self: center;
+    align-self: center;
+    margin-top: 50px;
 }
 
 .title {

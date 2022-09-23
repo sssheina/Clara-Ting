@@ -3,6 +3,7 @@
 width: 1440px;
 height: 310px;
 background-color: #FEFBFB;
+justify-content: center;
 }
 .inspiration-section__text {
     
@@ -12,10 +13,11 @@ background-color: #FEFBFB;
     font-size: 24px;
     line-height: 180%;
     text-align: center;
-    align-self: center;
+    // align-self: center;
+    // justify-self: center;
     letter-spacing: 0.06em;
     width: 1028px;
     height: 172px;
-    margin-top: 69px;
+    padding-top: 90px;
     margin: 0 auto;
 }
