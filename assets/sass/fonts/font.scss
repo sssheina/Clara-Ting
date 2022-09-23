@@ -6,7 +6,14 @@
 }
 @font-face {
   font-family: 'Montserrat', sans-serif;
+  src: url './assets/fonts/Montserrat-ExtraBold.ttf';
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat', sans-serif;
   src: url './assets/fonts/Montserrat-Black.ttf';
   font-weight: 900;
   font-style: normal;
 }
+
