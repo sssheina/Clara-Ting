@@ -1759,13 +1759,13 @@ textarea {
 
 .back-to-top {
   position: fixed;
-  right: 232px;
+  right: 30px;
   bottom: 20px;
   height: 50px;
   width: 50px;
   border-color: transparent;
   border-radius: 50%;
-  background-color: transparent;
+  background-color: rgba(233, 235, 246, 0.3);
   display: none;
 }
 
@@ -1778,14 +1778,14 @@ textarea {
 .back-to-top::after {
   content: "";
   position: absolute;
-  left: 12px;
+  left: 14px;
   z-index: 11;
   display: block;
-  width: 25px;
-  height: 25px;
-  border-top: 2px solid #5200FF;
-  border-left: 2px solid #5200FF;
-  top: 18px;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #18004A;
+  border-left: 3px solid #18004A;
+  top: 19px;
   transform: rotate(45deg);
 }
 
