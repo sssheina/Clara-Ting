@@ -8,7 +8,42 @@
 .subtitle-main {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 180%;
   letter-spacing: 0.06em;
 }
 
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .subtitle {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+
+  .subtitle-main {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 180%;
+    letter-spacing: 0.06em;
+  }
+}
+
+// АДАПТИВ MOBILE
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .subtitle {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+
+  .subtitle-main {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+}

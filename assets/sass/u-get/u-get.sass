@@ -1,27 +1,28 @@
 .u-get
+    // border: 2px solid blue
     background: #FEFBFB
-    // margin-top: 100px
-    // margin-bottom: 100px
     width: 1440px
     height: 938px
+    margin: 0 auto
     &__title
         text-align: center
-        margin-bottom: 40px
-        padding-top: 91px
+        margin-top: 100px
     &__long-line
         width: 590px
-        margin-bottom: 79px
+        margin-top: 40px
         margin-left: auto
         margin-right: auto
     &__advantages
-        width: 1199px
-        margin: 0 auto
-        gap: 10px
-    &__row
-        display: flex
+        display: grid
+        grid-template-columns: repeat(2, 570px)
+        grid-template-rows: repeat(2, 1fr)
         justify-content: space-between
+        // border: 3px solid purple
+        row-gap: 20px
+        width: 1199px
+        margin: 110px auto 0px
     &__section
-        width: 570px
+        // border: 1px solid orange
         height: 270px
         display: flex
         justify-content: space-between
@@ -32,16 +33,89 @@
         width: 180px
         font-weight: 900
         font-size: 250px
+        line-height: 230px
         letter-spacing: 0.035em
     &__part
+        // border: 1px solid pink
         width: 380px
-    &__subtitle
-        margin-top: 25px
-        margin-bottom: 20px
+        
     &__text
+        margin-top: 20px
         font-weight: 500
         font-size: 20px
         line-height: 33px
         letter-spacing: 0.06em
+
+
+
+    // АДАПТИВ TABLET (ПЛАНШЕТ)
+
+// @media screen and (min-width: 768px) and (max-width: 1024px)
+// .u-get
+//     width: 768px
+//     height: 495px
+//     &__title
+//         margin-top: 30px
+//     &__long-line
+//         width: 400px
+//         margin-top: 25px
+//     &__advantages
+//         display: grid
+//         grid-template-columns: repeat(2, 310px)
+//         grid-template-rows: repeat(2, 1fr)
+//         justify-content: center
+//         row-gap: 10px
+//         width: 628px
+//         margin: 25px auto 0px
+//     &__section
+//         height: 150px
+//     &__number
+//         font-size: 150px
+//         line-height: 120px    
+//     &__part
+//         width: 250px
+//     &__text
+//         margin-top: 15px
+//         font-size: 10px
+//         line-height: 180%
+
+
+
+// // АДАПТИВ MOBILE
+
+//     @media screen and ( min-width: 360px ) and ( max-width: 767px )
+// .u-get
+//     width: 360px
+//     height: 1400px
+//     &__title
+//         margin-top: 50px
+//     &__long-line
+//         width: 252px
+//         margin-top: 20px
+//     &__advantages
+//         display: grid
+//         grid-template-columns: 270px
+//         grid-template-rows: repeat(4, 300px)
+//         justify-items: center
+//         row-gap: 0px
+//         width: 270px
+//         margin: 30px auto 0px
+//     &__section
+//         display: flex
+//         flex-direction: column
+//         align-items: center
+//         height: 300px
+//     &__number
+//         font-size: 140px
+//     &__part
+//         height: 250px
+//         text-align: center
+//     &__subtitle
+//         margin-top: 30px
+//     &__text
+//         margin-top: 20px
+//         font-size: 11px
+//         line-height: 180% 
+
 
 

@@ -7,5 +7,40 @@
 .title-main {
   font-weight: 900;
   font-size: 54px;
+  line-height: 80px;
   letter-spacing: 0.125em;
+}
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+  }
+
+  .title-main {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.125em;
+  }
+}
+
+// АДАПТИВ MOBILE
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .title {
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+  }
+
+  .title-main {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 46px;
+    letter-spacing: 0.125em;
+  }
 }

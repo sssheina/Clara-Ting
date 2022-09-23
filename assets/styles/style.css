@@ -724,12 +724,28 @@ textarea {
 .body {
   font-family: "Montserrat", sans-serif;
   color: #18004A;
-  min-width: 240px;
+  min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .body {
+    font-family: "Montserrat", sans-serif;
+    color: #18004A;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .body {
+    font-family: "Montserrat", sans-serif;
+    color: #18004A;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
 .subtitle {
   font-weight: 900;
   font-size: 24px;
@@ -740,37 +756,64 @@ textarea {
 .subtitle-main {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 180%;
   letter-spacing: 0.06em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .subtitle {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+  .subtitle-main {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 180%;
+    letter-spacing: 0.06em;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .subtitle {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+  .subtitle-main {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+  }
+}
 .u-get {
   background: #FEFBFB;
   width: 1440px;
   height: 938px;
+  margin: 0 auto;
 }
 .u-get__title {
   text-align: center;
-  margin-bottom: 40px;
-  padding-top: 91px;
+  margin-top: 100px;
 }
 .u-get__long-line {
   width: 590px;
-  margin-bottom: 79px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
 }
 .u-get__advantages {
-  width: 1199px;
-  margin: 0 auto;
-  gap: 10px;
-}
-.u-get__row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 570px);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: space-between;
+  row-gap: 20px;
+  width: 1199px;
+  margin: 110px auto 0px;
 }
 .u-get__section {
-  width: 570px;
   height: 270px;
   display: flex;
   justify-content: space-between;
@@ -782,16 +825,14 @@ textarea {
   width: 180px;
   font-weight: 900;
   font-size: 250px;
+  line-height: 230px;
   letter-spacing: 0.035em;
 }
 .u-get__part {
   width: 380px;
 }
-.u-get__subtitle {
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
 .u-get__text {
+  margin-top: 20px;
   font-weight: 500;
   font-size: 20px;
   line-height: 33px;
@@ -854,9 +895,36 @@ textarea {
 .title-main {
   font-weight: 900;
   font-size: 54px;
+  line-height: 80px;
   letter-spacing: 0.125em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+  }
+  .title-main {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.125em;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .title {
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+  }
+  .title-main {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 46px;
+    letter-spacing: 0.125em;
+  }
+}
 .make-order {
   background: linear-gradient(180deg, rgba(255, 236, 236, 0.62) 0%, rgba(255, 236, 236, 0) 16.26%);
   max-width: 1470px;
@@ -925,11 +993,7 @@ textarea {
 .main-section__title-main {
   font-family: "Montserrat", sans-serif;
   src: url "./assets/fonts/Montserrat-Black.ttf";
-  font-weight: 900;
   font-style: normal;
-  font-size: 54px;
-  letter-spacing: 5px;
-  line-height: 80px;
   align-self: left;
   width: 768px;
   height: 320px;
@@ -939,11 +1003,7 @@ textarea {
 
 .main-section__subtitle-main {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
   font-style: normal;
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 36px;
   width: 550px;
   height: 72px;
   margin-left: 90px;
@@ -1461,53 +1521,6 @@ textarea {
 
 .price-violet {
   margin-right: 2px;
-}
-
-.advantages {
-  background: #FEFBFB;
-}
-
-.advantages__title {
-  padding-top: 104px;
-  padding-bottom: 70px;
-  margin: 0 auto;
-  text-align: center;
-  width: 943px;
-  line-height: 135.4%;
-  text-transform: uppercase;
-}
-
-.advantages__wrap {
-  display: flex;
-  gap: 51px;
-  justify-content: center;
-  padding-bottom: 98px;
-}
-
-.advantages__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 36px;
-  max-width: 360px;
-  height: 451px;
-  border: 6px solid #E9EBF6;
-}
-
-.advantages__icon {
-  margin-top: 50px;
-  width: 154px;
-  height: 154px;
-}
-
-.advantages__text {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 165%;
-  text-align: center;
-  letter-spacing: 0.06em;
-  width: 261px;
-  padding: 0 49px;
 }
 
 .contacts {
