@@ -41,12 +41,12 @@
     letter-spacing: 0.06em;
     transition: 0.3s ease;
     color: #18004A;
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
+    // border-top: 3px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .header__link:hover {
-    border-top: 3px solid #18004A;
-    border-bottom: 3px solid #18004A;
+    // border-top: 3px solid #9B89FF;
+    border-bottom: 2px solid #18004A;
     padding: 6px 0;
 }
