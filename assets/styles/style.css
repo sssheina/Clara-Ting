@@ -963,6 +963,7 @@ textarea {
 
 .btn-buy {
   padding: 1.2em 2.6em;
+  margin: 0 auto;
 }
 
 .btn-purple {
@@ -1329,7 +1330,7 @@ textarea {
 .advantages {
   display: flex;
   flex-direction: column;
-  background: #FEFBFB;
+  background: #fefbfb;
   margin: 0 auto;
 }
 
@@ -1345,6 +1346,7 @@ textarea {
 
 .advantages__wrap {
   display: flex;
+  margin: 0 auto;
   gap: 51px;
   justify-content: center;
   margin-bottom: 98px;
@@ -1357,7 +1359,7 @@ textarea {
   gap: 36px;
   max-width: 360px;
   height: 451px;
-  border: 6px solid #E9EBF6;
+  border: 6px solid #e9ebf6;
 }
 
 .advantages__icon {
@@ -1552,22 +1554,19 @@ textarea {
 }
 
 .price__title {
-  position: relative;
   text-align: center;
   padding-top: 70px;
 }
 
 .price__line {
   max-width: 593px;
-  margin-top: 40px;
-  text-align: center;
-  margin-bottom: 108px;
+  margin: 40px auto 108px;
 }
 
 .price__container {
   display: flex;
   flex-direction: column;
-  border: 6px solid #E9EBF6;
+  border: 6px solid #e9ebf6;
   width: 402px;
   height: 780px;
 }
@@ -1578,11 +1577,12 @@ textarea {
   font-size: 20px;
   line-height: 33px;
   letter-spacing: 0.06em;
-  margin-top: 15px;
+  width: 266px;
+  height: 92px;
 }
 
 .price__text-money {
-  color: #5200FF;
+  color: #5200ff;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -1591,18 +1591,14 @@ textarea {
   align-self: center;
   margin-top: 37px;
   margin-bottom: 37px;
-  width: 266px;
 }
 
 .price__subtitle {
   text-align: center;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
   margin-top: 53px;
 }
 
-.price__point-violet, .price__point-pink {
+.price__point {
   width: 28px;
   height: 28px;
   margin-top: 15px;
@@ -1610,37 +1606,19 @@ textarea {
 
 .price__row-one {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .price__button {
-  margin-top: 235px;
-  width: 206px;
-  margin-left: 44px;
+  margin-top: 255px;
 }
 
 .price__button-second {
-  margin-top: 153px;
-  width: 206px;
-  margin-left: 44px;
+  margin-top: 163px;
 }
 
 .price__button-third {
   margin-top: 73px;
-  width: 206px;
-  margin-left: 44px;
-}
-
-.price-book {
-  margin-right: 60px;
-}
-
-.price-point {
-  margin-right: 7px;
-}
-
-.price-violet {
-  margin-right: 2px;
 }
 
 .contacts {
