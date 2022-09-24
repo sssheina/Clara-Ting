@@ -1,40 +1,38 @@
 .advantages {
+  width: 1440px;
+  height: 831px;
   display: flex;
   flex-direction: column;
   background: #fefbfb;
-  margin: 0 auto;
 }
 
 .advantages__title {
-  padding-top: 104px;
-  padding-bottom: 70px;
+  padding-top: 103px;
   margin: 0 auto;
   text-align: center;
-  width: 943px;
+  width: 950px;
+  height: 108px;
   line-height: 135.4%;
-  text-transform: uppercase;
 }
 
 .advantages__wrap {
   display: flex;
-  margin: 0 auto;
+  margin: 70px auto;
   gap: 51px;
   justify-content: center;
-  margin-bottom: 98px;
 }
 
 .advantages__card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 36px;
-  max-width: 360px;
+  width: 360px;
   height: 451px;
   border: 6px solid #e9ebf6;
 }
 
 .advantages__icon {
-  margin-top: 50px;
+  margin: 50px auto 34px;
   width: 154px;
   height: 154px;
 }
@@ -46,5 +44,47 @@
   text-align: center;
   letter-spacing: 0.06em;
   width: 261px;
-  padding: 0 49px;
 }
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .advantages {
+    width: 768px;
+    height: 443px;
+  }
+
+  .advantages__title {
+    width: 570px;
+    height: 64px;
+    padding-top: 30px;
+  }
+
+  .advantages__wrap {
+    gap: 26px;
+    margin: 46px auto;
+  }
+
+  .advantages__card {
+    width: 192px;
+    height: 239px;
+    border: 4px solid #e9ebf6;
+  }
+
+  .advantages__icon {
+    width: 80px;
+    height: 80px;
+    margin: 30px auto 16px;
+  }
+
+  .advantages__text {
+    font-size: 11px;
+    width: 152px;
+    height: 83px;
+    line-height: 180%;
+  }
+}
+
+// // АДАПТИВ MOBILE
+
+// @media screen and ( min-width: 360px ) and ( max-width: 767px )

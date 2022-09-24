@@ -33,3 +33,31 @@
   margin-left: 90px;
   margin-top: 70px;
 }
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-section {
+    width: 768px;
+    height: 520px;
+    background-image: url("/assets/images/Background_1-block_tablet.png");
+    padding-top: -50px;
+  }
+  .main-section__title-main {
+    width: 351px;
+    height: 150px;
+    margin-left: 67px;
+    margin-top: 141px;
+  }
+  .main-section__subtitle-main {
+    width: 351px;
+    height: 44px;
+    margin-left: 67px;
+    margin-top: 22px;
+  }
+  .main-section__button {
+    width: 329px;
+    margin-left: 67px;
+    margin-top: 46px;
+  }
+}

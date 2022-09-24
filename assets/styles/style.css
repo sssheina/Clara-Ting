@@ -689,18 +689,40 @@ textarea {
 .header__link {
   text-decoration: none;
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0.06em;
   transition: 0.3s ease;
-  color: #18004A;
+  color: #18004a;
   border-bottom: 2px solid transparent;
 }
 
 .header__link:hover {
-  border-bottom: 2px solid #18004A;
+  border-bottom: 2px solid #18004a;
   padding: 6px 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 768px;
+    height: 49px;
+  }
+  .header__logo {
+    margin-left: 70px;
+    max-width: 25px;
+    height: 25px;
+  }
+  .header__item {
+    margin-right: 33px;
+  }
+  .header__item:last-child {
+    margin-right: 68px;
+  }
+  .header__link {
+    font-size: 10px;
+  }
+  .header__link:hover {
+    padding: 3px 0;
+  }
+}
 @font-face {
   font-family: "Montserrat", sans-serif;
   src: url "./assets/fonts/Montserrat-Medium.ttf";
@@ -767,7 +789,7 @@ textarea {
   }
   .subtitle-main {
     font-weight: 500;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 180%;
     letter-spacing: 0.06em;
   }
@@ -921,6 +943,16 @@ textarea {
   border: none;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .long-line {
+    height: 2px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .long-line {
+    height: 1px;
+  }
+}
 .button {
   color: #ffffff;
   text-align: center;
@@ -936,14 +968,12 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .button {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .button {
     font-size: 11px;
-    line-height: 13px;
   }
 }
 .btn-main {
@@ -974,6 +1004,11 @@ textarea {
   background: #8e7eec;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .btn-purple {
+    padding: 1.4em 0.1em;
+  }
+}
 .title {
   font-weight: 900;
   font-size: 40px;
@@ -990,12 +1025,12 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .title {
     font-weight: 900;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0.06em;
   }
   .title-main {
     font-weight: 900;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 40px;
     letter-spacing: 0.125em;
   }
@@ -1139,10 +1174,33 @@ textarea {
   margin-top: 70px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-section {
+    width: 768px;
+    height: 520px;
+    background-image: url("/assets/images/Background_1-block_tablet.png");
+    padding-top: -50px;
+  }
+  .main-section__title-main {
+    width: 351px;
+    height: 150px;
+    margin-left: 67px;
+    margin-top: 141px;
+  }
+  .main-section__subtitle-main {
+    width: 351px;
+    height: 44px;
+    margin-left: 67px;
+    margin-top: 22px;
+  }
+  .main-section__button {
+    width: 329px;
+    margin-left: 67px;
+    margin-top: 46px;
+  }
+}
 .reviews-section {
-  background-image: url("/assets/images/Background_5-block.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(180deg, rgba(189, 178, 254, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
   height: 819px;
   display: flex;
@@ -1339,42 +1397,40 @@ textarea {
 }
 
 .advantages {
+  width: 1440px;
+  height: 831px;
   display: flex;
   flex-direction: column;
   background: #fefbfb;
-  margin: 0 auto;
 }
 
 .advantages__title {
-  padding-top: 104px;
-  padding-bottom: 70px;
+  padding-top: 103px;
   margin: 0 auto;
   text-align: center;
-  width: 943px;
+  width: 950px;
+  height: 108px;
   line-height: 135.4%;
-  text-transform: uppercase;
 }
 
 .advantages__wrap {
   display: flex;
-  margin: 0 auto;
+  margin: 70px auto;
   gap: 51px;
   justify-content: center;
-  margin-bottom: 98px;
 }
 
 .advantages__card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 36px;
-  max-width: 360px;
+  width: 360px;
   height: 451px;
   border: 6px solid #e9ebf6;
 }
 
 .advantages__icon {
-  margin-top: 50px;
+  margin: 50px auto 34px;
   width: 154px;
   height: 154px;
 }
@@ -1386,15 +1442,43 @@ textarea {
   text-align: center;
   letter-spacing: 0.06em;
   width: 261px;
-  padding: 0 49px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .advantages {
+    width: 768px;
+    height: 443px;
+  }
+  .advantages__title {
+    width: 570px;
+    height: 64px;
+    padding-top: 30px;
+  }
+  .advantages__wrap {
+    gap: 26px;
+    margin: 46px auto;
+  }
+  .advantages__card {
+    width: 192px;
+    height: 239px;
+    border: 4px solid #e9ebf6;
+  }
+  .advantages__icon {
+    width: 80px;
+    height: 80px;
+    margin: 30px auto 16px;
+  }
+  .advantages__text {
+    font-size: 11px;
+    width: 152px;
+    height: 83px;
+    line-height: 180%;
+  }
+}
 .method-section {
   display: flex;
   flex-direction: row;
-  background-image: url("/assets/images/Background_2-block.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(180deg, rgba(255, 217, 217, 0.62) 0%, rgba(255, 255, 255, 0) 16.26%);
   width: 1440px;
   height: 1115px;
 }
@@ -1412,19 +1496,15 @@ textarea {
 }
 
 .method-section__wrapper_right {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 785px;
   height: 1115px;
 }
 
-.method-right {
-  display: flex;
-  flex-direction: column;
-}
-
 .method-section__title {
   margin-top: 72px;
-  align-self: center;
+  text-align: center;
 }
 
 .method-section__text {
@@ -1437,7 +1517,6 @@ textarea {
 
 .method-section__line {
   width: 416.04px;
-  height: 4px;
   margin-top: 42px;
   margin-bottom: 43px;
 }
@@ -1448,6 +1527,41 @@ textarea {
   margin-top: 50px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .method-section {
+    width: 768px;
+    height: 620px;
+  }
+  .method-section__wrapper_left {
+    width: 288px;
+    height: 620px;
+  }
+  .method-section__img {
+    width: 174px;
+    height: 431px;
+  }
+  .method-section__wrapper_right {
+    width: 420px;
+    height: 620px;
+  }
+  .method-section__title {
+    margin-top: 30px;
+    width: 420px;
+  }
+  .method-section__text {
+    font-size: 11px;
+    line-height: 180%;
+    width: 420px;
+  }
+  .method-section__line {
+    width: 325px;
+    margin: 25px auto 26px;
+  }
+  .method-section__button {
+    width: 310px;
+    margin-top: 30px;
+  }
+}
 .book-section {
   background-image: url("/assets/images/Background_10-block.png");
   background-repeat: no-repeat;
@@ -1551,7 +1665,7 @@ textarea {
 }
 
 .price {
-  background: linear-gradient(180deg, rgba(155, 137, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
+  background: linear-gradient(180deg, rgba(199, 189, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
   height: 1167px;
 }
@@ -1779,19 +1893,18 @@ textarea {
 .fits-section__content {
   display: flex;
   flex-direction: column;
-  width: 904px;
+  width: 1053px;
   height: 607px;
-  margin: 0 auto;
+  margin: 0 auto 74px;
 }
 
 .fits-section__title {
-  position: relative;
   align-self: center;
   padding-top: 149px;
   padding-bottom: 98px;
 }
 
-.fits-section__item {
+.fits-section__row {
   display: flex;
   flex-direction: row;
   width: 904px;
@@ -1800,30 +1913,67 @@ textarea {
   padding-left: 22px;
 }
 
-.fits-section_violet {
+.fits-section__point_violet {
   width: 28px;
   height: 28px;
 }
 
 .fits-section__text {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
   margin-left: 22px;
 }
 
-.fits-section__button-main {
-  align-self: center;
-  margin-top: 74px;
-}
-
 .fits-section__button {
-  background: #9b89ff;
-  color: #ffffff;
+  width: 734px;
+  text-align: center;
   padding: 1.7em 2em;
+  margin: 0 auto;
+  background: #9b89ff;
 }
 
-.fits-section__button :hover {
+.fits-section__button:hover {
   background: #8e7eec;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fits-section {
+    background-image: url("/assets/images/Background_3-block_tablet.png");
+    width: 768px;
+    height: 562px;
+  }
+  .fits-section__content {
+    width: 504px;
+    height: 370px;
+    margin: 0 auto 78px;
+  }
+  .fits-section__title {
+    align-self: center;
+    padding-top: 51px;
+    padding-bottom: 50px;
+  }
+  .fits-section__row {
+    width: 504px;
+    height: 19px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+  }
+  .fits-section__point_violet {
+    width: 15px;
+    height: 15px;
+  }
+  .fits-section__text {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    margin-left: 22px;
+  }
+  .fits-section__button {
+    width: 450px;
+    padding: 1.2em 0.25em;
+  }
+}
 .inspiration-section {
   display: flex;
   width: 1440px;

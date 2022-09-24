@@ -1,52 +1,84 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    background: url('/assets/images/Background_header.png');
-    margin: 0;
-    position: fixed;
-    align-items: center;
-    width: 1440px;
-    height: 80px;
-    opacity: 0.9;
-    z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  background: url("/assets/images/Background_header.png");
+  margin: 0;
+  position: fixed;
+  align-items: center;
+  width: 1440px;
+  height: 80px;
+  opacity: 0.9;
+  z-index: 1;
 }
 
 .header__logo {
-    margin-left: 90px;
-    max-width: 50px;
-    height: 50px;
+  margin-left: 90px;
+  max-width: 50px;
+  height: 50px;
 }
 
 .header__nav {
-    display: flex;
+  display: flex;
 }
 
 .header__list {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .header__item {
-    font-weight: 500;
-    margin-right: 65px;
-    &:last-child {
-        margin-right: 100px;
-    }
+  font-weight: 500;
+  margin-right: 65px;
+  &:last-child {
+    margin-right: 100px;
+  }
 }
 
 .header__link {
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.06em;
-    transition: 0.3s ease;
-    color: #18004A;
-    // border-top: 3px solid transparent;
-    border-bottom: 2px solid transparent;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  transition: 0.3s ease;
+  color: #18004a;
+  // border-top: 3px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .header__link:hover {
-    // border-top: 3px solid #9B89FF;
-    border-bottom: 2px solid #18004A;
-    padding: 6px 0;
+  // border-top: 3px solid #9B89FF;
+  border-bottom: 2px solid #18004a;
+  padding: 6px 0;
 }
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 768px;
+    height: 49px;
+  }
+
+  .header__logo {
+    margin-left: 70px;
+    max-width: 25px;
+    height: 25px;
+  }
+
+  .header__item {
+    margin-right: 33px;
+    &:last-child {
+      margin-right: 68px;
+    }
+  }
+
+  .header__link {
+    font-size: 10px;
+  }
+
+  .header__link:hover {
+    padding: 3px 0;
+  }
+}
+// // АДАПТИВ MOBILE
+
+// @media screen and ( min-width: 360px ) and ( max-width: 767px )

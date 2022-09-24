@@ -9,20 +9,18 @@
 .fits-section__content {
   display: flex;
   flex-direction: column;
-  width: 904px;
+  width: 1053px;
   height: 607px;
-  margin: 0 auto;
+  margin: 0 auto 74px;
 }
-.fits-section {
-}
+
 .fits-section__title {
-  position: relative;
   align-self: center;
   padding-top: 149px;
   padding-bottom: 98px;
 }
 
-.fits-section__item {
+.fits-section__row {
   display: flex;
   flex-direction: row;
   width: 904px;
@@ -31,34 +29,72 @@
   padding-left: 22px;
 }
 
-.fits-section__point {
-}
-
-.fits-section_violet {
+.fits-section__point_violet {
   width: 28px;
   height: 28px;
 }
 
 .fits-section__text {
-  // font-family: 'Montserrat', sans-serif;
-  // src: url './assets/fonts/Montserrat-Black.ttf';
-  // font-size: 56;
-  // font-weight: 500;
-  // letter-spacing: 0.06em;
-  // color: #18004A;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
   margin-left: 22px;
 }
 
-.fits-section__button-main {
-  // position: relative;
-  align-self: center;
-  margin-top: 74px;
-}
 .fits-section__button {
-  background: #9b89ff;
-  color: #ffffff;
+  width: 734px;
+  text-align: center;
   padding: 1.7em 2em;
+  margin: 0 auto;
+  background: #9b89ff;
 }
-.fits-section__button :hover {
+
+.fits-section__button:hover {
   background: #8e7eec;
+}
+
+// АДАПТИВ ПЛАНШЕТ
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fits-section {
+    background-image: url("/assets/images/Background_3-block_tablet.png");
+    width: 768px;
+    height: 562px;
+  }
+
+  .fits-section__content {
+    width: 504px;
+    height: 370px;
+    margin: 0 auto 78px;
+  }
+
+  .fits-section__title {
+    align-self: center;
+    padding-top: 51px;
+    padding-bottom: 50px;
+  }
+
+  .fits-section__row {
+    width: 504px;
+    height: 19px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+  }
+
+  .fits-section__point_violet {
+    width: 15px;
+    height: 15px;
+  }
+
+  .fits-section__text {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    margin-left: 22px;
+  }
+
+  .fits-section__button {
+    width: 450px;
+    padding: 1.2em 0.25em;
+  }
 }
