@@ -1,25 +1,31 @@
 .aboutme-section {
-    display: flex;
-    flex-direction: row;
-    background-image:url("/assets/images/Background_6-block.png");
-    background-repeat:no-repeat;
-    background-size: cover;
-    width: 1440px;
-    height: 842px;
+  display: flex;
+  flex-direction: row;
+  background-image: url("/assets/images/Background_6-block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  width: 1440px;
+  height: 842px;
 }
 
 .aboutme-section__wrapper_left {
-  position: relative;
-  width: 563px;
+  width: 587px;
   height: 842px;
-  margin-top: 72px;
-  margin-left: 155px;
 }
-
+.aboutme-section__photo {
+  width: 465px;
+  height: 698px;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  margin-left: 122px;
+}
 .aboutme-section__wrapper_right {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 669px;
   height: 842px;
+  padding-right: 122px;
 }
 
 .aboutme-right {
@@ -28,32 +34,76 @@
 }
 
 .aboutme-section__title {
-  margin-top: 100px;
+  margin-top: 70px;
   align-self: center;
-  padding: 43.29px;
+  padding-bottom: 63px;
 }
 
+.aboutme-section__content {
+  display: flex;
+  flex-direction: column;
+  width: 636px;
+  gap: 20px;
+}
 .aboutme-section__text {
   font-size: 20px;
+  font-weight: 500;
   line-height: 36px;
   letter-spacing: 0.06em;
-  text-indent: 1em;
+  text-indent: 2em;
   width: 669px;
 }
 
-.aboutme-section__logo {
-  display: flex;
+.aboutme-section__logo_blue {
   width: 53px;
   height: 50px;
-  justify-content: flex-end;
   align-self: flex-end;
-  margin-right: 80px;
-  margin-top: 20px;
 }
 
-.logo_blue {
-  width: 53px;
-  height: 50px;
-  align-self: flex-end;
-  justify-content: flex-end;
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutme-section {
+    background-image: url("/assets/images/Background_6-block_tablet.png");
+    width: 768px;
+    height: 523px;
+  }
+  .aboutme-section__wrapper_left {
+    width: 295px;
+    height: 523px;
+  }
+  .aboutme-section__photo {
+    width: 224px;
+    height: 337px;
+    margin-top: 93px;
+    margin-bottom: 93px;
+    margin-left: 70px;
+  }
+  .aboutme-section__wrapper_right {
+    width: 347px;
+    height: 842px;
+    padding-right: 70px;
+  }
+
+  .aboutme-section__title {
+    margin-top: 55px;
+    padding-bottom: 35px;
+  }
+
+  .aboutme-section__content {
+    width: 347px;
+    height: 320px;
+    gap: 10px;
+  }
+  .aboutme-section__text {
+    font-size: 11px;
+    line-height: 180%;
+    text-indent: 2em;
+    width: 347px;
+  }
+
+  .aboutme-section__logo_blue {
+    width: 32.9px;
+    height: 32.28px;
+  }
 }

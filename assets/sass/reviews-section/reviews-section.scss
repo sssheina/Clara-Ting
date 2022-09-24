@@ -8,22 +8,19 @@
   height: 819px;
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  height: 819px;
 }
 
 .reviews-section__line {
   width: 591px;
 }
 .reviews-section__title-block {
-  position: relative;
   display: flex;
   flex-direction: column;
   width: 591px;
   height: 98px;
   align-self: center;
-  margin-top: 54px;
-  margin-bottom: 121px;
+  margin-top: 84px;
+  margin-bottom: 91px;
 }
 .reviews-section__title {
   margin-bottom: 40px;
@@ -39,39 +36,30 @@
   margin: 0 auto;
 }
 
-.reviews-section__wrapper_left {
-  display: flex;
-  flex-direction: row;
-  width: 627px;
-  height: 371px;
-}
-.reviews-section__video_first {
-  grid-area: video-first;
-  position: relative;
-}
-.reviews-section__video_second {
-  grid-area: video-second;
-  position: relative;
-}
-.reviews-section__review-text {
-  font-size: 16px;
-  line-height: 33px;
-  width: 290px;
-  height: 371px;
-  letter-spacing: 1px;
-}
-.review-first {
-  margin-left: 44px;
-}
-.review-second {
-  margin-left: 44px;
-}
+.reviews-section__wrapper_left,
 .reviews-section__wrapper_right {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+
   width: 627px;
   height: 371px;
 }
+.reviews-section__video {
+  width: 244px;
+  height: 350px;
+}
+
+.reviews-section__review-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  width: 290px;
+  height: 371px;
+  letter-spacing: 0.06em;
+  margin-left: 44px;
+}
+
 .reviews-section__captions-block {
   display: flex;
   flex-direction: row;
@@ -80,11 +68,64 @@
   margin: 0 auto;
   margin-top: 50px;
 }
-.reviews-section__caption_left {
-  width: 627px;
-  height: 24px;
-}
+.reviews-section__caption_left,
 .reviews-section__caption_right {
   width: 627px;
   height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .reviews-section {
+    width: 768px;
+    height: 428px;
+  }
+
+  .reviews-section__line {
+    width: 330px;
+  }
+  .reviews-section__title-block {
+    width: 330px;
+    height: 54px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  .reviews-section__title {
+    margin-bottom: 31px;
+  }
+  .reviews-section__wrappers-block {
+    width: 628px;
+    height: 175px;
+  }
+
+  .reviews-section__wrapper_left,
+  .reviews-section__wrapper_right {
+    width: 314px;
+    height: 175px;
+  }
+  .reviews-section__video {
+    width: 127px;
+    height: 175px;
+  }
+
+  .reviews-section__review-text {
+    font-size: 10px;
+    width: 145px;
+    height: 175px;
+    margin-left: 23px;
+  }
+
+  .reviews-section__captions-block {
+    width: 628px;
+    height: 15px;
+    margin-top: 24px;
+  }
+  .reviews-section__caption_left,
+  .reviews-section__caption_right {
+    width: 314px;
+    height: 15px;
+    font-size: 11px;
+  }
 }

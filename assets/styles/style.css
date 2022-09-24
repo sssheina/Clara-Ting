@@ -1205,8 +1205,6 @@ textarea {
   height: 819px;
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  height: 819px;
 }
 
 .reviews-section__line {
@@ -1214,14 +1212,13 @@ textarea {
 }
 
 .reviews-section__title-block {
-  position: relative;
   display: flex;
   flex-direction: column;
   width: 591px;
   height: 98px;
   align-self: center;
-  margin-top: 54px;
-  margin-bottom: 121px;
+  margin-top: 84px;
+  margin-bottom: 91px;
 }
 
 .reviews-section__title {
@@ -1240,44 +1237,28 @@ textarea {
   margin: 0 auto;
 }
 
-.reviews-section__wrapper_left {
+.reviews-section__wrapper_left,
+.reviews-section__wrapper_right {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 627px;
   height: 371px;
 }
 
-.reviews-section__video_first {
-  grid-area: video-first;
-  position: relative;
-}
-
-.reviews-section__video_second {
-  grid-area: video-second;
-  position: relative;
+.reviews-section__video {
+  width: 244px;
+  height: 350px;
 }
 
 .reviews-section__review-text {
   font-size: 16px;
-  line-height: 33px;
+  font-weight: 500;
+  line-height: 180%;
   width: 290px;
   height: 371px;
-  letter-spacing: 1px;
-}
-
-.review-first {
+  letter-spacing: 0.06em;
   margin-left: 44px;
-}
-
-.review-second {
-  margin-left: 44px;
-}
-
-.reviews-section__wrapper_right {
-  display: flex;
-  flex-direction: row;
-  width: 627px;
-  height: 371px;
 }
 
 .reviews-section__captions-block {
@@ -1289,16 +1270,62 @@ textarea {
   margin-top: 50px;
 }
 
-.reviews-section__caption_left {
-  width: 627px;
-  height: 24px;
-}
-
+.reviews-section__caption_left,
 .reviews-section__caption_right {
   width: 627px;
   height: 24px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .reviews-section {
+    width: 768px;
+    height: 428px;
+  }
+  .reviews-section__line {
+    width: 330px;
+  }
+  .reviews-section__title-block {
+    width: 330px;
+    height: 54px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  .reviews-section__title {
+    margin-bottom: 31px;
+  }
+  .reviews-section__wrappers-block {
+    width: 628px;
+    height: 175px;
+  }
+  .reviews-section__wrapper_left,
+.reviews-section__wrapper_right {
+    width: 314px;
+    height: 175px;
+  }
+  .reviews-section__video {
+    width: 127px;
+    height: 175px;
+  }
+  .reviews-section__review-text {
+    font-size: 10px;
+    width: 145px;
+    height: 175px;
+    margin-left: 23px;
+  }
+  .reviews-section__captions-block {
+    width: 628px;
+    height: 15px;
+    margin-top: 24px;
+  }
+  .reviews-section__caption_left,
+.reviews-section__caption_right {
+    width: 314px;
+    height: 15px;
+    font-size: 11px;
+  }
+}
 .lookbook-section {
   background-image: url("/assets/images/Background_9-block.png");
   background-repeat: no-repeat;
@@ -1828,22 +1855,30 @@ textarea {
   background-image: url("/assets/images/Background_6-block.png");
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: space-between;
   width: 1440px;
   height: 842px;
 }
 
 .aboutme-section__wrapper_left {
-  position: relative;
-  width: 563px;
+  width: 587px;
   height: 842px;
+}
+
+.aboutme-section__photo {
+  width: 465px;
+  height: 698px;
   margin-top: 72px;
-  margin-left: 155px;
+  margin-bottom: 72px;
+  margin-left: 122px;
 }
 
 .aboutme-section__wrapper_right {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 669px;
   height: 842px;
+  padding-right: 122px;
 }
 
 .aboutme-right {
@@ -1852,36 +1887,75 @@ textarea {
 }
 
 .aboutme-section__title {
-  margin-top: 100px;
+  margin-top: 70px;
   align-self: center;
-  padding: 43.29px;
+  padding-bottom: 63px;
+}
+
+.aboutme-section__content {
+  display: flex;
+  flex-direction: column;
+  width: 636px;
+  gap: 20px;
 }
 
 .aboutme-section__text {
   font-size: 20px;
+  font-weight: 500;
   line-height: 36px;
   letter-spacing: 0.06em;
-  text-indent: 1em;
+  text-indent: 2em;
   width: 669px;
 }
 
-.aboutme-section__logo {
-  display: flex;
-  width: 53px;
-  height: 50px;
-  justify-content: flex-end;
-  align-self: flex-end;
-  margin-right: 80px;
-  margin-top: 20px;
-}
-
-.logo_blue {
+.aboutme-section__logo_blue {
   width: 53px;
   height: 50px;
   align-self: flex-end;
-  justify-content: flex-end;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutme-section {
+    background-image: url("/assets/images/Background_6-block_tablet.png");
+    width: 768px;
+    height: 523px;
+  }
+  .aboutme-section__wrapper_left {
+    width: 295px;
+    height: 523px;
+  }
+  .aboutme-section__photo {
+    width: 224px;
+    height: 337px;
+    margin-top: 93px;
+    margin-bottom: 93px;
+    margin-left: 70px;
+  }
+  .aboutme-section__wrapper_right {
+    width: 347px;
+    height: 842px;
+    padding-right: 70px;
+  }
+  .aboutme-section__title {
+    margin-top: 55px;
+    padding-bottom: 35px;
+  }
+  .aboutme-section__content {
+    width: 347px;
+    height: 320px;
+    gap: 10px;
+  }
+  .aboutme-section__text {
+    font-size: 11px;
+    line-height: 180%;
+    text-indent: 2em;
+    width: 347px;
+  }
+  .aboutme-section__logo_blue {
+    width: 32.9px;
+    height: 32.28px;
+  }
+}
 .fits-section {
   background-image: url("/assets/images/Background_3-block.png");
   background-repeat: no-repeat;
@@ -1978,7 +2052,7 @@ textarea {
   display: flex;
   width: 1440px;
   height: 310px;
-  background-color: #FEFBFB;
+  background-color: #fefbfb;
   justify-content: center;
 }
 
@@ -1995,11 +2069,23 @@ textarea {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .inspiration-section {
+    width: 768px;
+    height: 200px;
+  }
+  .inspiration-section__text {
+    font-size: 11px;
+    width: 394px;
+    height: 66px;
+    padding-top: 67px;
+  }
+}
 .present-section {
   display: flex;
   width: 1440px;
   height: 310px;
-  background-color: #FEFBFB;
+  background-color: #fefbfb;
 }
 
 .present-section__text {
@@ -2012,10 +2098,21 @@ textarea {
   letter-spacing: 0.06em;
   width: 1028px;
   height: 172px;
-  margin-top: 69px;
-  margin: 0 auto;
+  margin: 69px auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .present-section {
+    width: 768px;
+    height: 200px;
+  }
+  .present-section__text {
+    font-size: 11px;
+    width: 436px;
+    height: 73px;
+    margin: 40px auto;
+  }
+}
 .back-to-top {
   position: fixed;
   right: 30px;
