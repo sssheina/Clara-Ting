@@ -1,5 +1,8 @@
 .advantages {
+    display: flex;
+    flex-direction: column;
     background: #FEFBFB;
+    margin: 0 auto;
 }
 
 .advantages__title {
@@ -16,7 +19,7 @@
     display: flex;
     gap: 51px;
     justify-content: center;
-    padding-bottom: 98px;
+    margin-bottom: 98px;
 }
 
 .advantages__card {
