@@ -95,6 +95,43 @@
   }
 }
 
-// // АДАПТИВ MOBILE
+// АДАПТИВ MOBILE
 
-// @media screen and ( min-width: 360px ) and ( max-width: 767px )
+@media screen and ( min-width: 360px ) and ( max-width: 767px ) {
+  .method-section {
+    width: 360px;
+    height: 789px;
+  }
+  
+  .method-section__wrapper_left {
+    display: none;
+  }
+  .method-section__img {
+    display: none;
+    }
+
+  .method-section__wrapper_right {
+    width: 360px;
+    height: 789px;
+  }
+  
+  .method-section__title {
+    margin-top: 53px;
+  }
+  
+  .method-section__text {
+    font-size: 11px;
+    width: 270px;
+  }
+  
+  .method-section__line {
+    width: 177px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .method-section__button {
+    width: 240px;
+    margin-top: 40px;
+  }
+}
