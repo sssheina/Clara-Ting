@@ -75,6 +75,9 @@
   font-size: 20px;
   font-weight: 500;
 }
+.reviews-section__caption_right-mobile, .reviews-section__caption_left-mobile {
+  display: none;
+}
 // АДАПТИВ TABLET (ПЛАНШЕТ)
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -118,14 +121,10 @@
   }
 
   .reviews-section__captions-block {
-    width: 628px;
-    height: 15px;
-    margin-top: 24px;
+    // display: none;
   }
   .reviews-section__caption_left,
   .reviews-section__caption_right {
-    width: 314px;
-    height: 15px;
-    font-size: 11px;
+    // display: none;
   }
 }

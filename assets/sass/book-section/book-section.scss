@@ -3,22 +3,22 @@
     background-repeat:no-repeat;
     background-size: cover;
     width: 1440px;
-    height: 1038px;
+    height: 1068px;
 }
 
 .book-section__wrappers {
     display: flex;
     flex-direction: row;
     width: 1254px;
-    height: 708px;
+    height: 1038px;
     margin: 0 auto;
 }
 
 .book-section__wrapper_left {
     display: flex;
     flex-direction: column;
-    width: 690px;
-    height: 800px;
+    width: 675px;
+    height: 1038px;
 }
 
 .book-section__wrapper_right {
@@ -26,54 +26,57 @@
     flex-direction: row-reverse;
     justify-content: flex-start;
     width: 585px;
-    height: 800px;
+    height: 1038px;
 }
 
 
 .book-section__title {
-    position: relative;
-    width: 900px;
-    height: 35px;
-    // align-self:center;
-    padding-top: 90px;
+    line-height: 150%;
+    width: 490px;
+    height: 100px;
+    padding-top: 97px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .book-section__book-text {
-    position: relative;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 150%;
     letter-spacing: 0.06em;
-    width: 689px;
-    height: 387px;
-    margin-top: 120px;
+    width: 675px;
+    height: 400px;
+    margin-top: 60px;
+    text-align: justify;
     
     
 }
+
 .book-section__paragraph {
     text-indent: 1em;
     margin-bottom: 1em;
 }
+.book-section__paragraph:last-child {
+    margin-bottom: 0em;
+}
+
 .book-section__present-block {
-    position: relative;
-    border: 4px solid #FAACA8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 6px solid #FAACA8;
+    gap: 23px;
     width: 675px;
     height: 231px;
     margin-top: 50px;
-    
 }
 .book-section__row-1, .book-section__row-2, .book-section__row-3 {
     display: flex;
     flex-direction: row;
 }
-.book-section__row-2 {
-    margin-bottom: 26px;
-}
+
 
 .book-section__subtitle {
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 29px;
+    margin: 30px auto 0;
 }
 
 .book-section__point_violet {
@@ -83,19 +86,87 @@
     margin-right: 15px;
 }
 .book-section__box-text {
-    position: relative;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.06em;
 }
 .book-section__button {
-    position: relative;
     align-self: end;
     width: 380px;
+    margin-bottom: 91px;
 }
 
 
-.present-block {
-    display: flex;
-    flex-direction: column;
-}
+
+
+    // АДАПТИВ TABLET (ПЛАНШЕТ)
+
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .book-section {
+            background-image:url("/assets/images/Background_10-block_tablet.png");
+                        width: 768px;
+            height: 571px;
+        }
+        
+        .book-section__wrappers {
+            width: 653px;
+            height: 571px;
+            
+        }
+        
+        .book-section__wrapper_left {
+            width: 370px;
+            height: 571px;
+        }
+        
+        .book-section__wrapper_right {
+            width: 283px;
+            height: 571px;
+        }
+        
+        
+        .book-section__title {
+            font-size: 24px;
+            width: 247px;
+            height: 56px;
+            line-height: 130%;
+            padding-top: 51px;
+        }
+        
+        .book-section__book-text {
+            font-size: 11px;
+            width: 370px;
+            height: 200px;
+            margin-top: 36px;
+        }
+        
+        .book-section__present-block {
+            border: 4px solid #FAACA8;
+            gap: 13px;
+            width: 370px;
+            height: 130px;
+            margin-top: 34px;
+        }
+        
+        
+        .book-section__subtitle {
+            margin: 18px auto 0;
+        }
+        
+        .book-section__point_violet {
+            width: 15px;
+            height: 15px;
+            margin-left: 28px;
+            margin-right: 31px;
+        }
+        .book-section__box-text {
+            font-size: 11px;
+            line-height: 150%;
+            width: 265px;
+        }
+        .book-section__button {
+            width: 166px;
+            margin-bottom: 56px;
+        }
+    }
+

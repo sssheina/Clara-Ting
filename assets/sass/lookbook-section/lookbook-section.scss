@@ -22,6 +22,7 @@
 .lookbook-section__wrapper_right {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 675px;
     height: 912px;
 }
@@ -34,6 +35,7 @@
     align-self:center;
     margin-top: 90px;
     margin-bottom: 53px;
+    text-align: center;
 }
 
 .lookbook-section__lookbook-text {
@@ -41,16 +43,20 @@
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.06em;
-    width: 658px;
-    height: 255px;
+    width: 677px;
+    height: 261px;
+    text-align: justify;
 }
 .lookbook-section__paragraph {
-    text-indent: 1em;
+    text-indent: 1.5em;
     margin-bottom: 1em;
 }
 .lookbook-section__present-block {
-    position: relative;
-    border: 4px solid #FAACA8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 6px solid #FAACA8;
+    gap: 23px;
     width: 675px;
     height: 231px;
 }
@@ -58,14 +64,12 @@
     display: flex;
     flex-direction: row;
 }
-.lookbook-section__row-2 {
-    margin-bottom: 26px;
-}
+// .lookbook-section__row-2 {
+//     margin-bottom: 26px;
+// }
 
 .lookbook-section__subtitle {
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 29px;
+    margin: 30px auto 0;
 }
 
 .lookbook-section__point_violet {
@@ -75,10 +79,10 @@
     margin-right: 15px;
 }
 .lookbook-section__box-text {
-    position: relative;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.06em;
+    
 }
 .lookbook-section__button {
     margin-top: 46px;
@@ -91,5 +95,97 @@
     flex-direction: column;
 }
 
+    // АДАПТИВ TABLET (ПЛАНШЕТ)
 
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .lookbook-section {
+            background-image:url("/assets/images/Background_9-block_tablet.png");
+            width: 768px;
+            height: 559px;
+        }
+        
+        .lookbook-section__wrappers {
+            width: 672px;
+            height: 559px;
+            margin: 0 auto;
+        }
+        
+        .lookbook-section__wrapper_left {
+            width: 267px;
+            height: 559px;
+        }
+        
+        .lookbook-section__wrapper_right {
+            width: 405px;
+            height: 559px;
+        }
+        
+        
+        .lookbook-section__title {
+            width: 210px;
+            height: 55px;
+            line-height: 130%;
+            margin: 49px 0 36px;
+        }
+        
+        .lookbook-section__lookbook-text {
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 150%;
+            width: 377px;
+            height: 115px;
+        }
+        .lookbook-section__paragraph {
+            text-indent: 1.5em;
+            margin-bottom: 1em;
+        }
+        .lookbook-section__present-block {
+            border: 4px solid #FAACA8;
+            gap: 7px;
+            width: 370px;
+            height: 130px;
+            margin-top: 20px;
+        }
+        
+        
+        // .lookbook-section__row-2 {
+        //     margin-bottom: 10px;
+        // }
+        
+        .lookbook-section__subtitle {
+            margin: 0 auto;
+            margin-top: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .lookbook-section__point_violet {
+            width: 15px;
+            height: 15px;
+            margin-left: 31px;
+            margin-right: 20px;
+        }
+        .lookbook-section__box-text {
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 150%;
+            width: 265px;
+            
+        }
+        .lookbook-section__button {
+            margin-top: 32px;
+            width: 405px;
+        }
+        
+        
+        .present-block {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    // АДАПТИВ MOBILE
+
+@media screen and ( min-width: 360px ) and ( max-width: 767px ){
+
+}
 
