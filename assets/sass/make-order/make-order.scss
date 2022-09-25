@@ -11,14 +11,16 @@
 .make-order__container-main {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  margin: 0 auto;
+  align-items: center;
+  margin: 80px auto 0;
+  height: 925px;
   width: 997px;
+  gap: 50px;
 }
 
 .make-order__title {
   text-align: center;
-  padding-top: 136px;
+  padding-top: 100px;
 }
 .make-order__subtitle {
   margin-bottom: 20px;
@@ -31,18 +33,17 @@
 .make-order__container {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   width: 997px;
-  height: 163px;
-  margin-top: 62px;
-  line-height: 33px;
+  height: 175px;
 }
 
 .make-order__part {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 749px;
-  height: 115px;
+  height: 175px;
 }
 .make-order__text {
   font-style: normal;
@@ -56,3 +57,54 @@
   width: 154px;
   height: 154px;
 }
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .make-order {
+    max-width: 768px;
+    height: 717px;
+  }
+  .make-order__container-main {
+    width: 510px;
+    height: 450px;
+    margin: 40px auto 0;
+    gap: 20px;
+  }
+
+  .make-order__title {
+    padding-top: 50px;
+  }
+  .make-order__subtitle {
+    margin-bottom: 10px;
+  }
+  .make-order__line {
+    width: 450px;
+    margin-top: 25px;
+  }
+
+  .make-order__container {
+    width: 490px;
+    height: 163px;
+  }
+
+  .make-order__part {
+    width: 350px;
+    height: 71px;
+  }
+
+  .make-order__text {
+    font-size: 11px;
+  }
+
+  .make-order__icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+// // АДАПТИВ MOBILE
+
+// @media screen and (min-width: 360px) and (max-width: 767px) {
+
+// }
