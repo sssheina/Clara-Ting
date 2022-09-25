@@ -1293,27 +1293,6 @@ textarea {
   margin-left: 44px;
 }
 
-.reviews-section__captions-block {
-  display: flex;
-  flex-direction: row;
-  width: 1254px;
-  height: 24px;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-.reviews-section__caption_left,
-.reviews-section__caption_right {
-  width: 627px;
-  height: 24px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.reviews-section__caption_right-mobile, .reviews-section__caption_left-mobile {
-  display: none;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .reviews-section {
     width: 768px;
