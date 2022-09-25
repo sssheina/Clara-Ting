@@ -975,16 +975,6 @@ textarea {
   .button {
     font-size: 11px;
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .button {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 767px) {
-  .button {
-    font-size: 11px;
-  }
   .btn-consult {
     padding: 1.5em 0.03em;
   }
