@@ -102,5 +102,71 @@
     // АДАПТИВ TABLET (ПЛАНШЕТ)
 
     @media screen and (min-width: 768px) and (max-width: 1024px){
-
+        .book-section {
+            background-image:url("/assets/images/Background_10-block_tablet.png");
+                        width: 768px;
+            height: 571px;
+        }
+        
+        .book-section__wrappers {
+            width: 653px;
+            height: 571px;
+            
+        }
+        
+        .book-section__wrapper_left {
+            width: 370px;
+            height: 571px;
+        }
+        
+        .book-section__wrapper_right {
+            width: 283px;
+            height: 571px;
+        }
+        
+        
+        .book-section__title {
+            font-size: 24px;
+            width: 247px;
+            height: 56px;
+            line-height: 130%;
+            padding-top: 51px;
+        }
+        
+        .book-section__book-text {
+            font-size: 11px;
+            width: 370px;
+            height: 200px;
+            margin-top: 36px;
+        }
+        
+        .book-section__present-block {
+            border: 4px solid #FAACA8;
+            gap: 13px;
+            width: 370px;
+            height: 130px;
+            margin-top: 34px;
+        }
+        
+        
+        .book-section__subtitle {
+            margin: 18px auto 0;
+        }
+        
+        .book-section__point_violet {
+            width: 15px;
+            height: 15px;
+            margin-left: 28px;
+            margin-right: 31px;
+        }
+        .book-section__box-text {
+            font-size: 11px;
+            line-height: 150%;
+            width: 265px;
+        }
+        .book-section__button {
+            width: 166px;
+            margin-bottom: 56px;
+        }
     }
+
