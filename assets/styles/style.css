@@ -1138,8 +1138,8 @@ textarea {
   background-size: cover;
   margin: 0 auto;
   height: 1025px;
-  padding-top: 90px;
-  padding-left: 60px;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1148,7 +1148,7 @@ textarea {
     background-size: cover;
     height: 547px;
     padding-top: 75px;
-    padding-left: 82px;
+    padding-left: 62px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
