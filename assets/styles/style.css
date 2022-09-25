@@ -803,8 +803,8 @@ textarea {
   }
   .subtitle-main {
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 16px;
     letter-spacing: 0.06em;
   }
 }
@@ -966,16 +966,6 @@ textarea {
   text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 50px rgba(255, 255, 255, 0.8), 0 0 75px rgba(255, 255, 255, 0.6), 0 0 76px rgba(255, 255, 255, 0.4), 0 0 77px rgba(255, 255, 255, 0.5), 0 0 78px rgba(255, 255, 255, 0.4), 0 0 79px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 85px rgba(255, 255, 255, 0.1);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .button {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 767px) {
-  .button {
-    font-size: 11px;
-  }
-}
 .btn-main {
   background: #5200FF;
 }
@@ -1007,6 +997,19 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .btn-purple {
     padding: 1.4em 0.1em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .button {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .button {
+    font-size: 11px;
+  }
+  .btn-consult {
+    padding: 1.5em 0.03em;
   }
 }
 .title {
@@ -1043,8 +1046,8 @@ textarea {
   }
   .title-main {
     font-weight: 900;
-    font-size: 18px;
-    line-height: 46px;
+    font-size: 20px;
+    line-height: 150%;
     letter-spacing: 0.125em;
   }
 }
@@ -1199,6 +1202,30 @@ textarea {
     margin-top: 46px;
   }
 }
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .main-section {
+    width: 360px;
+    height: 800px;
+    background-image: url("/assets/images/Background_1-block_mobile.png");
+  }
+  .main-section__title-main {
+    width: 240px;
+    height: 150px;
+    margin-left: 45px;
+    margin-top: 195px;
+  }
+  .main-section__subtitle-main {
+    width: 165px;
+    height: 103px;
+    margin-left: 45px;
+    margin-top: 41px;
+  }
+  .main-section__button {
+    width: 290px;
+    margin-left: 35px;
+    margin-top: 213px;
+  }
+}
 .reviews-section {
   background: linear-gradient(180deg, rgba(189, 178, 254, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
@@ -1278,6 +1305,10 @@ textarea {
   font-weight: 500;
 }
 
+.reviews-section__caption_right-mobile, .reviews-section__caption_left-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .reviews-section {
     width: 768px;
@@ -1314,74 +1345,73 @@ textarea {
     height: 175px;
     margin-left: 23px;
   }
-  .reviews-section__captions-block {
-    width: 628px;
-    height: 15px;
-    margin-top: 24px;
-  }
-  .reviews-section__caption_left,
-.reviews-section__caption_right {
-    width: 314px;
-    height: 15px;
-    font-size: 11px;
-  }
 }
 .lookbook-section {
   background-image: url("/assets/images/Background_9-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
-  height: 912px;
+  height: 1060px;
 }
 
 .lookbook-section__wrappers {
   display: flex;
   flex-direction: row;
   width: 1254px;
-  height: 912px;
+  height: 1060px;
   margin: 0 auto;
 }
 
 .lookbook-section__wrapper_left {
   width: 583px;
-  height: 912px;
+  height: 1060px;
 }
 
 .lookbook-section__wrapper_right {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 675px;
-  height: 912px;
+  height: 1060px;
 }
 
 .lookbook-section__title {
-  position: relative;
-  width: 620px;
-  height: 34px;
+  width: 340px;
+  height: 102px;
+  line-height: 150%;
   align-self: center;
-  margin-top: 90px;
-  margin-bottom: 53px;
+  margin: 97px 0 83px;
+  text-align: center;
 }
 
 .lookbook-section__lookbook-text {
   position: relative;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 150%;
   letter-spacing: 0.06em;
-  width: 658px;
-  height: 255px;
+  width: 677px;
+  height: 261px;
+  text-align: justify;
 }
 
 .lookbook-section__paragraph {
-  text-indent: 1em;
+  text-indent: 1.5em;
   margin-bottom: 1em;
 }
 
+.lookbook-section__paragraph:last-child {
+  margin-bottom: 0em;
+}
+
 .lookbook-section__present-block {
-  position: relative;
-  border: 4px solid #FAACA8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 6px solid #FAACA8;
+  gap: 23px;
   width: 675px;
   height: 231px;
+  margin-top: 50px;
 }
 
 .lookbook-section__row-1, .lookbook-section__row-2, .lookbook-section__row-3 {
@@ -1389,14 +1419,8 @@ textarea {
   flex-direction: row;
 }
 
-.lookbook-section__row-2 {
-  margin-bottom: 26px;
-}
-
 .lookbook-section__subtitle {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 29px;
+  margin: 30px auto 0;
 }
 
 .lookbook-section__point_violet {
@@ -1407,7 +1431,6 @@ textarea {
 }
 
 .lookbook-section__box-text {
-  position: relative;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.06em;
@@ -1418,11 +1441,75 @@ textarea {
   width: 660px;
 }
 
-.present-block {
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lookbook-section {
+    background-image: url("/assets/images/Background_9-block_tablet.png");
+    width: 768px;
+    height: 559px;
+  }
+  .lookbook-section__wrappers {
+    width: 672px;
+    height: 559px;
+    margin: 0 auto;
+  }
+  .lookbook-section__wrapper_left {
+    width: 267px;
+    height: 559px;
+  }
+  .lookbook-section__wrapper_right {
+    width: 405px;
+    height: 559px;
+  }
+  .lookbook-section__title {
+    width: 210px;
+    height: 55px;
+    line-height: 130%;
+    margin: 49px 0 36px;
+  }
+  .lookbook-section__lookbook-text {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 377px;
+    height: 115px;
+  }
+  .lookbook-section__paragraph {
+    text-indent: 1.5em;
+    margin-bottom: 1em;
+  }
+  .lookbook-section__present-block {
+    border: 4px solid #FAACA8;
+    gap: 7px;
+    width: 370px;
+    height: 130px;
+    margin-top: 20px;
+  }
+  .lookbook-section__subtitle {
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  .lookbook-section__point_violet {
+    width: 15px;
+    height: 15px;
+    margin-left: 31px;
+    margin-right: 20px;
+  }
+  .lookbook-section__box-text {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 265px;
+  }
+  .lookbook-section__button {
+    margin-top: 32px;
+    width: 405px;
+  }
+  .present-block {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
 .advantages {
   width: 1440px;
   height: 831px;
@@ -1540,6 +1627,7 @@ textarea {
   letter-spacing: 0.06em;
   text-indent: 1em;
   width: 785px;
+  text-align: justify;
 }
 
 .method-section__line {
@@ -1579,6 +1667,7 @@ textarea {
     font-size: 11px;
     line-height: 180%;
     width: 420px;
+    text-align: justify;
   }
   .method-section__line {
     width: 325px;
@@ -1589,27 +1678,62 @@ textarea {
     margin-top: 30px;
   }
 }
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .method-section {
+    width: 360px;
+    height: 789px;
+  }
+  .method-section__wrapper_left {
+    display: none;
+  }
+  .method-section__img {
+    display: none;
+  }
+  .method-section__wrapper_right {
+    width: 360px;
+    height: 789px;
+  }
+  .method-section__title {
+    margin-top: 53px;
+  }
+  .method-section__text {
+    font-size: 11px;
+    line-height: 160%;
+    width: 250px;
+    align-self: center;
+    text-align: justify;
+  }
+  .method-section__line {
+    width: 177px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .method-section__button {
+    width: 240px;
+    margin-top: 40px;
+  }
+}
 .book-section {
   background-image: url("/assets/images/Background_10-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
-  height: 1038px;
+  height: 1068px;
 }
 
 .book-section__wrappers {
   display: flex;
   flex-direction: row;
   width: 1254px;
-  height: 708px;
+  height: 1038px;
   margin: 0 auto;
 }
 
 .book-section__wrapper_left {
   display: flex;
   flex-direction: column;
-  width: 690px;
-  height: 800px;
+  width: 675px;
+  height: 1038px;
 }
 
 .book-section__wrapper_right {
@@ -1617,25 +1741,26 @@ textarea {
   flex-direction: row-reverse;
   justify-content: flex-start;
   width: 585px;
-  height: 800px;
+  height: 1038px;
 }
 
 .book-section__title {
-  position: relative;
-  width: 900px;
-  height: 35px;
-  padding-top: 90px;
+  line-height: 150%;
+  width: 490px;
+  height: 100px;
+  padding-top: 97px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .book-section__book-text {
-  position: relative;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 150%;
   letter-spacing: 0.06em;
-  width: 689px;
-  height: 387px;
-  margin-top: 120px;
+  width: 675px;
+  height: 400px;
+  margin-top: 60px;
+  text-align: justify;
 }
 
 .book-section__paragraph {
@@ -1643,9 +1768,16 @@ textarea {
   margin-bottom: 1em;
 }
 
+.book-section__paragraph:last-child {
+  margin-bottom: 0em;
+}
+
 .book-section__present-block {
-  position: relative;
-  border: 4px solid #FAACA8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 6px solid #FAACA8;
+  gap: 23px;
   width: 675px;
   height: 231px;
   margin-top: 50px;
@@ -1656,14 +1788,8 @@ textarea {
   flex-direction: row;
 }
 
-.book-section__row-2 {
-  margin-bottom: 26px;
-}
-
 .book-section__subtitle {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 29px;
+  margin: 30px auto 0;
 }
 
 .book-section__point_violet {
@@ -1674,21 +1800,15 @@ textarea {
 }
 
 .book-section__box-text {
-  position: relative;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.06em;
 }
 
 .book-section__button {
-  position: relative;
   align-self: end;
   width: 380px;
-}
-
-.present-block {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 101px;
 }
 
 .price {
@@ -1906,12 +2026,14 @@ textarea {
   letter-spacing: 0.06em;
   text-indent: 2em;
   width: 669px;
+  text-align: justify;
 }
 
 .aboutme-section__logo_blue {
   width: 53px;
   height: 50px;
   align-self: flex-end;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
