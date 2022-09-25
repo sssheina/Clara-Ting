@@ -1209,7 +1209,6 @@ textarea {
     background-image: url("/assets/images/Background_1-block_mobile.png");
   }
   .main-section__title-main {
-<<<<<<< HEAD
     width: 240px;
     height: 150px;
     margin-left: 45px;
@@ -1220,18 +1219,6 @@ textarea {
     height: 103px;
     margin-left: 45px;
     margin-top: 41px;
-=======
-    width: 232px;
-    height: 204px;
-    margin-left: 45px;
-    margin-top: 146px;
-  }
-  .main-section__subtitle-main {
-    width: 155px;
-    height: 103px;
-    margin-left: 45px;
-    margin-top: 23px;
->>>>>>> 336f6ddd33c6c2e14d87bf029e4380c635a708a3
   }
   .main-section__button {
     width: 290px;
@@ -1711,14 +1698,10 @@ textarea {
   }
   .method-section__text {
     font-size: 11px;
-<<<<<<< HEAD
     line-height: 160%;
     width: 250px;
     align-self: center;
     text-align: justify;
-=======
-    width: 270px;
->>>>>>> 336f6ddd33c6c2e14d87bf029e4380c635a708a3
   }
   .method-section__line {
     width: 177px;
@@ -1825,7 +1808,7 @@ textarea {
 .book-section__button {
   align-self: end;
   width: 380px;
-  margin-bottom: 101px;
+  margin-bottom: 91px;
 }
 
 .price {
