@@ -966,39 +966,6 @@ textarea {
   text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 50px rgba(255, 255, 255, 0.8), 0 0 75px rgba(255, 255, 255, 0.6), 0 0 76px rgba(255, 255, 255, 0.4), 0 0 77px rgba(255, 255, 255, 0.5), 0 0 78px rgba(255, 255, 255, 0.4), 0 0 79px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 85px rgba(255, 255, 255, 0.1);
 }
 
-.btn-main {
-  background: #5200FF;
-}
-.btn-main:hover {
-  background: #5e05ee;
-}
-
-.btn-want {
-  padding: 1.9em 2.6em;
-}
-
-.btn-consult {
-  padding: 2.5em 0.03em;
-}
-
-.btn-buy {
-  padding: 1.2em 2.6em;
-  margin: 0 auto;
-}
-
-.btn-purple {
-  background: #9B89FF;
-  padding: 1.7em 0.5em;
-}
-.btn-purple:hover {
-  background: #8e7eec;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .btn-purple {
-    padding: 1.4em 0.1em;
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .button {
     font-size: 12px;
@@ -1061,14 +1028,16 @@ textarea {
 .make-order__container-main {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  margin: 0 auto;
+  align-items: center;
+  margin: 80px auto 0;
+  height: 925px;
   width: 997px;
+  gap: 50px;
 }
 
 .make-order__title {
   text-align: center;
-  padding-top: 136px;
+  padding-top: 100px;
 }
 
 .make-order__subtitle {
@@ -1083,18 +1052,17 @@ textarea {
 .make-order__container {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   width: 997px;
-  height: 163px;
-  margin-top: 62px;
-  line-height: 33px;
+  height: 175px;
 }
 
 .make-order__part {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 749px;
-  height: 115px;
+  height: 175px;
 }
 
 .make-order__text {
@@ -1110,6 +1078,43 @@ textarea {
   height: 154px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .make-order {
+    max-width: 768px;
+    height: 717px;
+  }
+  .make-order__container-main {
+    width: 510px;
+    height: 450px;
+    margin: 40px auto 0;
+    gap: 20px;
+  }
+  .make-order__title {
+    padding-top: 50px;
+  }
+  .make-order__subtitle {
+    margin-bottom: 10px;
+  }
+  .make-order__line {
+    width: 450px;
+    margin-top: 25px;
+  }
+  .make-order__container {
+    width: 490px;
+    height: 163px;
+  }
+  .make-order__part {
+    width: 350px;
+    height: 71px;
+  }
+  .make-order__text {
+    font-size: 11px;
+  }
+  .make-order__icon {
+    width: 80px;
+    height: 80px;
+  }
+}
 .look {
   background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
@@ -1851,24 +1856,25 @@ textarea {
 .price {
   background: linear-gradient(180deg, rgba(199, 189, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
-  height: 1167px;
+  height: 1180px;
 }
 
-.price__row {
+.price__main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1256px;
+  height: 780px;
   gap: 25px;
   margin: 0 auto;
 }
 
 .price__title {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .price__line {
-  max-width: 593px;
+  width: 593px;
   margin: 40px auto 108px;
 }
 
@@ -1881,7 +1887,6 @@ textarea {
 }
 
 .price__text {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 33px;
@@ -1892,12 +1897,10 @@ textarea {
 
 .price__text-money {
   color: #5200ff;
-  font-style: normal;
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 0.06em;
   text-align: center;
-  align-self: center;
   margin-top: 37px;
   margin-bottom: 37px;
 }
@@ -1910,26 +1913,68 @@ textarea {
 .price__point {
   width: 28px;
   height: 28px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
-.price__row-one {
+.price__row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.price__button {
-  margin-top: 255px;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .price {
+    width: 768px;
+    height: 620px;
+  }
+  .price__main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 672px;
+    height: 420px;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .price__title {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .price__line {
+    width: 593px;
+    margin: 25px auto 40px;
+  }
+  .price__container {
+    border: 4px solid #e9ebf6;
+    width: 203px;
+    height: 420px;
+  }
+  .price__text {
+    font-size: 11px;
+    line-height: 19px;
+    width: 150px;
+    height: 54px;
+  }
+  .price__text-money {
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .price__subtitle {
+    margin-top: 29px;
+  }
+  .price__point {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+  }
+  .price__row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
 }
-
-.price__button-second {
-  margin-top: 163px;
-}
-
-.price__button-third {
-  margin-top: 73px;
-}
-
 .contacts {
   background: #ffffff;
 }
@@ -2302,6 +2347,79 @@ textarea {
   border-left: 3px solid #18004A;
   top: 19px;
   transform: rotate(45deg);
+}
+
+.btn-buy {
+  padding: 1.2em 2.6em;
+  margin: 0 auto;
+}
+
+.price__button {
+  margin-top: 255px;
+}
+
+.price__button-second {
+  margin-top: 163px;
+}
+
+.price__button-third {
+  margin-top: 73px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .btn-buy {
+    padding: 0.6em 2.1em;
+  }
+  .price__button {
+    margin-top: 140px;
+  }
+  .price__button-second {
+    margin-top: 87px;
+  }
+  .price__button-third {
+    margin-top: 33px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .btn-buy {
+    padding: 0.6em 2.1em;
+  }
+  .price__button {
+    margin-top: 42px;
+  }
+  .price__button-second {
+    margin-top: 42px;
+  }
+  .price__button-third {
+    margin-top: 42px;
+  }
+}
+.btn-consult {
+  padding: 2.5em 0.03em;
+}
+
+.btn-main {
+  background: #5200FF;
+}
+.btn-main:hover {
+  background: #5e05ee;
+}
+
+.btn-purple {
+  background: #9B89FF;
+  padding: 1.7em 0.5em;
+}
+.btn-purple:hover {
+  background: #8e7eec;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .btn-purple {
+    padding: 1.4em 0.1em;
+  }
+}
+.btn-want {
+  padding: 1.9em 2.6em;
 }
 
 /*# sourceMappingURL=style.css.map */
