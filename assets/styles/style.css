@@ -1199,6 +1199,30 @@ textarea {
     margin-top: 46px;
   }
 }
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .main-section {
+    width: 360px;
+    height: 800px;
+    background-image: url("/assets/images/Background_1-block_mobile.png");
+  }
+  .main-section__title-main {
+    width: 232px;
+    height: 204px;
+    margin-left: 45px;
+    margin-top: 146px;
+  }
+  .main-section__subtitle-main {
+    width: 155px;
+    height: 103px;
+    margin-left: 45px;
+    margin-top: 23px;
+  }
+  .main-section__button {
+    width: 290px;
+    margin-left: 35px;
+    margin-top: 213px;
+  }
+}
 .reviews-section {
   background: linear-gradient(180deg, rgba(189, 178, 254, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
@@ -1587,6 +1611,38 @@ textarea {
   .method-section__button {
     width: 310px;
     margin-top: 30px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .method-section {
+    width: 360px;
+    height: 789px;
+  }
+  .method-section__wrapper_left {
+    display: none;
+  }
+  .method-section__img {
+    display: none;
+  }
+  .method-section__wrapper_right {
+    width: 360px;
+    height: 789px;
+  }
+  .method-section__title {
+    margin-top: 53px;
+  }
+  .method-section__text {
+    font-size: 11px;
+    width: 270px;
+  }
+  .method-section__line {
+    width: 177px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .method-section__button {
+    width: 240px;
+    margin-top: 40px;
   }
 }
 .book-section {
