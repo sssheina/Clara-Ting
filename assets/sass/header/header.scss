@@ -1,84 +1,224 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  background: url("/assets/images/Background_header.png");
-  margin: 0;
-  position: fixed;
-  align-items: center;
-  width: 1440px;
-  height: 80px;
-  opacity: 0.9;
-  z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background: url("/assets/images/Background_header.png");
+    margin: 0;
+    position: fixed;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    opacity: 0.9;
+    z-index: 1;
 }
 
 .header__logo {
-  margin-left: 90px;
-  max-width: 50px;
-  height: 50px;
+    margin-left: 90px;
+    max-width: 50px;
+    height: 50px;
 }
 
 .header__nav {
-  display: flex;
+    display: flex;
 }
 
 .header__list {
-  display: flex;
-  list-style: none;
+    display: flex;
+    list-style: none;
 }
 
 .header__item {
-  font-weight: 500;
-  margin-right: 65px;
-  &:last-child {
-    margin-right: 100px;
-  }
+    font-weight: 500;
+    margin-right: 65px;
+
+    &:last-child {
+        margin-right: 100px;
+    }
 }
 
 .header__link {
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 0.06em;
-  transition: 0.3s ease;
-  color: #18004a;
-  // border-top: 3px solid transparent;
-  border-bottom: 2px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    transition: 0.3s ease;
+    color: #18004a;
+    // border-top: 3px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .header__link:hover {
-  // border-top: 3px solid #9B89FF;
-  border-bottom: 2px solid #18004a;
-  padding: 6px 0;
+    // border-top: 3px solid #9B89FF;
+    border-bottom: 2px solid #18004a;
+    padding: 6px 0;
+}
+
+.header__checkbox {
+    display: none;
+}
+
+.header__btn {
+    display: none;
+}
+
+.header__icon {
+    display: none;
 }
 
 // АДАПТИВ TABLET (ПЛАНШЕТ)
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .header {
-    width: 768px;
-    height: 49px;
-  }
-
-  .header__logo {
-    margin-left: 70px;
-    max-width: 25px;
-    height: 25px;
-  }
-
-  .header__item {
-    margin-right: 33px;
-    &:last-child {
-      margin-right: 68px;
+    .header {
+        width: 768px;
+        height: 49px;
     }
-  }
 
-  .header__link {
-    font-size: 10px;
-  }
+    .header__logo {
+        margin-left: 70px;
+        max-width: 25px;
+        height: 25px;
+    }
 
-  .header__link:hover {
-    padding: 3px 0;
-  }
+    .header__item {
+        margin-right: 33px;
+
+        &:last-child {
+            margin-right: 68px;
+        }
+    }
+
+    .header__link {
+        font-size: 10px;
+    }
+
+    .header__link:hover {
+        padding: 3px 0;
+    }
 }
+
 // // АДАПТИВ MOBILE
 
-// @media screen and ( min-width: 360px ) and ( max-width: 767px )
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background: url("/assets/images/Background_header.png");
+        margin: 0;
+        position: fixed;
+        align-items: center;
+        width: 360px;
+        height: 80px;
+        opacity: 0.9;
+        z-index: 1;
+
+        &__btn {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 32px;
+            width: 35px;
+            height: 30px;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        &__icon {
+            display: block;
+            position: relative;
+            background: #18004A;
+            width: 90%;
+            height: 2px;
+            transition: .4s;
+
+            &::after,
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                background: #18004A;
+                width: 100%;
+                height: 2px;
+                transition: .4s;
+            }
+
+            &::after {
+                top: 8px;
+            }
+
+            &::before {
+                top: -8px;
+            }
+        }
+
+        &__checkbox {
+            display: none;
+            position: fixed;
+
+            &:checked~ {
+                .header {
+
+                    &__nav {
+                        transition-delay: 0s;
+                    }
+
+                    &__list {
+                        height: 100%;
+                        max-width: 360px;
+                        transition-delay: 0s;
+                    }
+
+                    &__btn {
+                        .header__icon {
+                            background: transparent;
+
+                            &::before,
+                            &::after {
+                                top: 0;
+                            }
+
+                            &::after {
+                                transform: rotate(-45deg);
+                                -webkit-transform: rotate(-45deg);
+                            }
+
+                            &::before {
+                                transform: rotate(45deg);
+                                -webkit-transform: rotate(45deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header__logo {
+        margin-left: 30px;
+        max-width: 35px;
+        height: 34px;
+    }
+
+    
+
+    .header__list {
+        display: block;
+        width: 360px;
+        position: fixed;
+        text-align: center;
+        top: 80px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        height: 0;
+        transition: .5s;
+        transition-delay: .2s;
+        overflow: auto;
+        background-color: #FDF4F5;
+    }
+
+    .header__item {
+        margin: 60px 0;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
