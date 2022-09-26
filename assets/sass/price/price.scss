@@ -81,7 +81,6 @@
     width: 672px;
     height: 420px;
     gap: 10px;
-    margin: 0 auto;
   }
   .price__title {
     text-align: center;
@@ -105,13 +104,13 @@
   }
 
   .price__text-money {
-    font-weight: 900;
     font-size: 12px;
-    letter-spacing: 0.06em;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
   .price__subtitle {
+    width: 144px;
+    height: 30px;
     margin-top: 29px;
   }
   .price__point {
@@ -119,16 +118,12 @@
     height: 15px;
     margin-top: 5px;
   }
-  .price__row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
 }
 
 // АДАПТИВ MOBILE
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
+
     .price {
         width: 360px;
         height: 1390px;
@@ -204,5 +199,4 @@
         margin: 0px;
       }
       
-
 }
