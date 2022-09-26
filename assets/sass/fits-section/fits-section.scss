@@ -1,7 +1,11 @@
 .fits-section {
+  display: flex;
+  flex-direction: column;
   background-image: url("/assets/images/Background_3-block.png");
   background-repeat: no-repeat;
   background-size: cover;
+  // margin: 0 auto;
+
   width: 1440px;
   height: 908px;
 }
@@ -9,7 +13,7 @@
 .fits-section__content {
   display: flex;
   flex-direction: column;
-  width: 1053px;
+  width: 935px;
   height: 607px;
   margin: 0 auto 74px;
 }
@@ -52,7 +56,9 @@
 .fits-section__button:hover {
   background: #8e7eec;
 }
-
+// .fits-section__button-btn_mobile {
+//   display: none;
+// }
 // АДАПТИВ ПЛАНШЕТ
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -65,7 +71,7 @@
   .fits-section__content {
     width: 504px;
     height: 370px;
-    margin: 0 auto 78px;
+    margin: 0 auto 30px;
   }
 
   .fits-section__title {
@@ -97,4 +103,57 @@
     width: 450px;
     padding: 1.2em 0.25em;
   }
+  // .fits-section__button-btn_mobile {
+  //   display: none;
+  // }
+}
+
+@media screen and ( min-width: 360px ) and ( max-width: 767px ) {
+  .fits-section {
+    background-image: url("/assets/images/Background_3-block_mobile.png");
+    width: 360px;
+    height: 677px;
+  }
+  
+  .fits-section__content {
+    width: 296px;
+    height: 500px;
+    margin: 0 auto 0px;
+  }
+  
+  .fits-section__title {
+    padding-top: 66px;
+    padding-bottom: 46px;
+  }
+  
+  .fits-section__row {
+    width: 246px;
+    height: 37px;
+    margin-bottom: 20px;
+    // padding-left: 22px;
+  }
+  
+  .fits-section__point_violet {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .fits-section__text {
+    font-size: 11px;
+    }
+  .fits-section__button-btn{
+    padding: 0.1em 0.1em;
+  }
+  .fits-section__button{
+        width: 200px;
+    // padding: -6em 4em;
+    
+  }
+  // .fits-section__button-btn_mobile {
+  //   padding: 1em 1em;
+  // }
+  // .fits-section__button-btn_mobile:hover {
+  //   background: #8e7eec;
+  // }
+  
 }
