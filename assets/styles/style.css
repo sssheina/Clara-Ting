@@ -2709,48 +2709,4 @@ textarea {
   padding: 1.9em 2.6em;
 }
 
-.inspiration-section {
-  margin: 0 auto;
-  background-color: #fefbfb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1440px;
-  height: 310px;
-}
-
-.inspiration-section__text {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 180%;
-  text-align: center;
-  letter-spacing: 0.06em;
-  width: 1028px;
-  height: 172px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .inspiration-section {
-    width: 768px;
-    height: 200px;
-  }
-  .inspiration-section__text {
-    font-size: 11px;
-    width: 394px;
-    height: 66px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 767px) {
-  .inspiration-section {
-    width: 360px;
-    height: 120px;
-  }
-  .inspiration-section__text {
-    font-size: 8px;
-    width: 260px;
-    height: 40px;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
