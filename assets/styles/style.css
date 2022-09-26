@@ -2344,7 +2344,6 @@ textarea {
     width: 672px;
     height: 420px;
     gap: 10px;
-    margin: 0 auto;
   }
   .price__title {
     text-align: center;
@@ -2366,13 +2365,13 @@ textarea {
     height: 54px;
   }
   .price__text-money {
-    font-weight: 900;
     font-size: 12px;
-    letter-spacing: 0.06em;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
   .price__subtitle {
+    width: 144px;
+    height: 30px;
     margin-top: 29px;
   }
   .price__point {
@@ -2380,71 +2379,56 @@ textarea {
     height: 15px;
     margin-top: 5px;
   }
-  .price__row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .price {
     width: 360px;
-    height: 1400px;
+    height: 1303px;
   }
   .price__main-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 230px;
-    height: 1178px;
-    gap: 0px;
-    margin-top: 62px;
+    grid-template-columns: repeat(1, 270px);
+    grid-template-rows: repeat(3, 1fr);
+    width: 270px;
+    height: 1238px;
+    gap: 5px;
   }
   .price__title {
     text-align: center;
     padding-top: 53px;
   }
   .price__line {
-    width: 241px;
-    margin: 40px auto 108px;
+    width: 252px;
+    margin: 30px auto 30px;
   }
   .price__container {
     display: flex;
     flex-direction: column;
-    border: none;
-    width: 230px;
-    height: 264px;
+    border: 2px solid #e9ebf6;
+    width: 252px;
+    height: 380px;
+    margin: 0 auto;
   }
   .price__text {
-    font-weight: 500;
     font-size: 11px;
     line-height: 180%;
-    letter-spacing: 0.06em;
-    width: 215px;
-    height: 52px;
+    width: 212px;
+    height: 35px;
   }
   .price__text-money {
-    color: #5200ff;
-    font-weight: 900;
     font-size: 13px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 32px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
   .price__subtitle {
-    text-align: center;
-    margin-top: 19px;
+    width: 252px;
+    height: 14px;
+    margin-top: 25px;
   }
   .price__point {
     width: 21px;
     height: 21px;
-    margin-top: 1px;
-    margin-right: 5px;
-  }
-  .price__row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    margin-top: 0px;
   }
 }
 .contacts {
@@ -2959,13 +2943,13 @@ textarea {
     padding: 0.6em 2.1em;
   }
   .price__button {
-    margin-top: 42px;
+    margin-top: 135px;
   }
   .price__button-second {
-    margin-top: 42px;
+    margin-top: 103px;
   }
   .price__button-third {
-    margin-top: 42px;
+    margin-top: 70px;
   }
 }
 .btn-consult {
