@@ -909,7 +909,7 @@ textarea {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .subtitle {
     font-weight: 900;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.06em;
   }
@@ -1057,7 +1057,7 @@ textarea {
     text-align: center;
   }
   .u-get__subtitle {
-    width: 195px;
+    width: 205px;
     text-align: center;
     margin: 0 auto;
   }
@@ -2605,20 +2605,20 @@ textarea {
     height: 200px;
   }
   .inspiration-section__text {
-    font-size: 11px;
-    width: 394px;
-    height: 66px;
+    font-size: 14px;
+    width: 440px;
+    height: 70px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .inspiration-section {
     width: 360px;
-    height: 120px;
+    height: 237px;
   }
   .inspiration-section__text {
-    font-size: 8px;
+    font-size: 11px;
     width: 260px;
-    height: 40px;
+    height: 80px;
   }
 }
 .present-section {
@@ -2648,20 +2648,20 @@ textarea {
     height: 200px;
   }
   .present-section__text {
-    font-size: 11px;
-    width: 445px;
-    height: 73px;
+    font-size: 14px;
+    width: 570px;
+    height: 100px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .present-section {
     width: 360px;
-    height: 120px;
+    height: 291px;
   }
   .present-section__text {
-    font-size: 8px;
-    width: 324px;
-    height: 57px;
+    font-size: 11px;
+    width: 299px;
+    height: 138px;
   }
 }
 .back-to-top {
