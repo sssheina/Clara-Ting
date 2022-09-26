@@ -1351,6 +1351,56 @@ textarea {
     margin-left: 23px;
   }
 }
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .reviews-section {
+    width: 360px;
+    height: 1310px;
+  }
+  .reviews-section__line {
+    width: 232px;
+    height: 2px;
+  }
+  .reviews-section__title-block {
+    width: 232px;
+    align-self: center;
+    padding-top: 43px;
+    margin: 0 auto;
+  }
+  .reviews-section__title {
+    margin-bottom: 23px;
+  }
+  .reviews-section__wrappers-block {
+    flex-direction: column;
+    width: 278px;
+    height: 1247px;
+  }
+  .wrappers-block {
+    justify-content: start;
+  }
+  .reviews-section__wrapper_left,
+.reviews-section__wrapper_right {
+    flex-direction: column;
+    width: 278px;
+    height: 593px;
+    margin: 0 auto;
+    justify-content: start;
+  }
+  .reviews-section__video {
+    width: 244px;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .reviews-section__review-text {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 180%;
+    width: 270px;
+    height: 154px;
+    letter-spacing: 0.06em;
+    padding-top: 31px;
+    margin: 0 auto;
+  }
+}
 .lookbook-section {
   background-image: url("/assets/images/Background_9-block.png");
   background-repeat: no-repeat;
@@ -2303,9 +2353,7 @@ textarea {
   }
   .fits-section__text {
     font-size: 11px;
-  }
-  .fits-section__button-btn {
-    padding: 0.1em 0.1em;
+    line-height: 135%;
   }
   .fits-section__button {
     width: 200px;
