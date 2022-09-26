@@ -826,15 +826,18 @@ textarea {
 }
 .u-get__advantages {
   display: grid;
-  grid-template-columns: repeat(2, 570px);
+  grid-template-columns: repeat(2, 590px);
   grid-template-rows: repeat(2, 1fr);
-  justify-content: space-between;
-  row-gap: 20px;
-  width: 1199px;
+  justify-content: center;
+  column-gap: 30px;
+  raw-gap: 20px;
+  width: 1240px;
+  height: 580px;
   margin: 110px auto 0px;
 }
 .u-get__section {
-  height: 270px;
+  width: 580px;
+  height: 260px;
   display: flex;
   justify-content: space-between;
 }
@@ -842,13 +845,16 @@ textarea {
   display: flex;
   justify-content: center;
   color: rgba(155, 137, 255, 0.17);
-  width: 180px;
+  width: 190px;
   font-weight: 900;
   font-size: 250px;
   line-height: 230px;
   letter-spacing: 0.035em;
 }
 .u-get__part {
+  width: 350px;
+}
+.u-get__subtitle {
   width: 380px;
 }
 .u-get__text {
@@ -863,30 +869,37 @@ textarea {
   .u-get {
     width: 768px;
     height: 495px;
-    padding-top: 60px;
+    padding-top: 50px;
   }
   .u-get__long-line {
     width: 400px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .u-get__advantages {
     display: grid;
     grid-template-columns: repeat(2, 310px);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
+    column-gap: 15px;
     row-gap: 10px;
-    width: 628px;
+    width: 640px;
+    height: 330px;
     margin: 50px auto 0px;
   }
   .u-get__section {
+    width: 300px;
     height: 150px;
   }
   .u-get__number {
+    width: 115px;
     font-size: 150px;
     line-height: 120px;
   }
   .u-get__part {
-    width: 250px;
+    width: 175px;
+  }
+  .u-get__subtitle {
+    width: 192px;
   }
   .u-get__text {
     margin-top: 15px;
@@ -909,27 +922,32 @@ textarea {
     grid-template-columns: 270px;
     grid-template-rows: repeat(4, 300px);
     justify-items: center;
+    column-gap: 0px;
     row-gap: 0px;
     width: 270px;
+    height: 1200px;
     margin: 30px auto 0px;
   }
   .u-get__section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    width: 260px;
+    height: 290px;
   }
   .u-get__number {
     font-size: 140px;
     line-height: 110px;
   }
   .u-get__part {
-    width: 270px;
-    height: 250px;
+    width: 260px;
+    height: 150px;
     text-align: center;
   }
   .u-get__subtitle {
-    margin-top: 30px;
+    width: 195px;
+    text-align: center;
+    margin: 0 auto;
   }
   .u-get__text {
     margin-top: 20px;
@@ -1081,7 +1099,7 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .make-order {
     max-width: 768px;
-    height: 717px;
+    height: 660px;
   }
   .make-order__container-main {
     width: 510px;
@@ -1119,24 +1137,27 @@ textarea {
   background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
   margin: 0 auto;
+  widows: 1440px;
   height: 1025px;
-  padding-top: 90px;
-  padding-left: 60px;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .look {
     background-image: url(/assets/images/Background_7-block-tablet.png);
     background-size: cover;
+    width: 768px;
     height: 547px;
-    padding-top: 75px;
-    padding-left: 82px;
+    padding-top: 60px;
+    padding-left: 62px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .look {
     background-image: url(/assets/images/Background_7-block-mobile1.png);
     background-size: cover;
+    width: 360px;
     height: 600px;
     padding-top: 50px;
     padding-left: 0px;
@@ -1501,6 +1522,7 @@ textarea {
   display: flex;
   flex-direction: column;
   background: #fefbfb;
+  margin: 0 auto;
 }
 
 .advantages__title {
@@ -1546,12 +1568,12 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .advantages {
     width: 768px;
-    height: 443px;
+    height: 455px;
   }
   .advantages__title {
     width: 570px;
     height: 64px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .advantages__wrap {
     gap: 26px;
@@ -1857,6 +1879,7 @@ textarea {
   background: linear-gradient(180deg, rgba(199, 189, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
   height: 1180px;
+  margin: 0 auto;
 }
 
 .price__main-container {
@@ -1940,7 +1963,7 @@ textarea {
     padding-top: 50px;
   }
   .price__line {
-    width: 593px;
+    width: 330px;
     margin: 25px auto 40px;
   }
   .price__container {
@@ -2448,12 +2471,10 @@ textarea {
 .btn-purple:hover {
   background: #8e7eec;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .btn-purple {
-    padding: 1.4em 0.1em;
-  }
+.btn-purple .btn-purple {
+  padding: 1.4em 0.1em;
 }
+
 .btn-want {
   padding: 1.9em 2.6em;
 }
