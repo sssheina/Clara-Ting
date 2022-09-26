@@ -1683,7 +1683,7 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .lookbook-section {
-    background-image: none;
+    background-image: url("/assets/images/Background_9-2-block-mobile.png");
     width: 360px;
     height: 1187px;
   }
@@ -1693,20 +1693,18 @@ textarea {
     height: 1187px;
   }
   .lookbook-section__wrapper_left {
-    background-image: url("/assets/images/Background_9-1-block_mobile.png");
     width: 360px;
     height: 492.23px;
   }
   .lookbook-section__wrapper_right {
-    background-image: url("/assets/images/Background_9-2-block_mobile.png");
     width: 360px;
     height: 695px;
   }
   .lookbook-section__title {
     width: 250px;
     height: 16px;
-    margin-top: 53px;
-    margin-bottom: 38px;
+    margin-top: 21px;
+    margin-bottom: 46px;
   }
   .lookbook-section__lookbook-text {
     font-size: 11px;
@@ -1715,6 +1713,7 @@ textarea {
     height: 204px;
   }
   .lookbook-section__present-block {
+    border: 4px solid #FAACA8;
     gap: 25px;
     width: 270px;
     height: 195px;
@@ -2140,6 +2139,69 @@ textarea {
   .book-section__button {
     width: 166px;
     margin-bottom: 56px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .book-section {
+    background-image: url("/assets/images/Background_10-block_mobile.png");
+    width: 360px;
+    height: 1185px;
+  }
+  .book-section__wrappers {
+    flex-direction: column;
+    width: 360px;
+    height: 1185px;
+  }
+  .book-section__wrapper_left {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 1020px;
+  }
+  .book-section__wrapper_right {
+    width: 360px;
+    height: 119px;
+  }
+  .book-section__title {
+    line-height: 96%;
+    width: 305px;
+    height: 16px;
+    padding-top: 443px;
+  }
+  .book-section__book-text {
+    font-size: 11px;
+    line-height: 180%;
+    width: 270px;
+    height: 295px;
+    padding-top: 54px;
+    margin: 0 auto;
+  }
+  .book-section__present-block {
+    border: 4px solid #FAACA8;
+    gap: 25px;
+    width: 270px;
+    height: 195px;
+    margin-top: 39px;
+    margin: 0 auto;
+  }
+  .book-section__subtitle {
+    margin: 25px auto 0;
+  }
+  .book-section__point_violet {
+    width: 10px;
+    height: 10px;
+    margin-left: 22px;
+    margin-right: 12px;
+    align-self: center;
+  }
+  .book-section__box-text {
+    font-size: 11px;
+    line-height: 180%;
+  }
+  .book-section__button {
+    align-self: center;
+    width: 214px;
+    margin: 0 auto;
   }
 }
 .price {
