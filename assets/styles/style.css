@@ -2161,6 +2161,8 @@ textarea {
   }
 }
 .fits-section {
+  display: flex;
+  flex-direction: column;
   background-image: url("/assets/images/Background_3-block.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -2171,7 +2173,7 @@ textarea {
 .fits-section__content {
   display: flex;
   flex-direction: column;
-  width: 1053px;
+  width: 935px;
   height: 607px;
   margin: 0 auto 74px;
 }
@@ -2224,7 +2226,7 @@ textarea {
   .fits-section__content {
     width: 504px;
     height: 370px;
-    margin: 0 auto 78px;
+    margin: 0 auto 30px;
   }
   .fits-section__title {
     align-self: center;
@@ -2250,6 +2252,40 @@ textarea {
   .fits-section__button {
     width: 450px;
     padding: 1.2em 0.25em;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .fits-section {
+    background-image: url("/assets/images/Background_3-block_mobile.png");
+    width: 360px;
+    height: 677px;
+  }
+  .fits-section__content {
+    width: 296px;
+    height: 500px;
+    margin: 0 auto 0px;
+  }
+  .fits-section__title {
+    padding-top: 66px;
+    padding-bottom: 46px;
+  }
+  .fits-section__row {
+    width: 246px;
+    height: 37px;
+    margin-bottom: 20px;
+  }
+  .fits-section__point_violet {
+    width: 28px;
+    height: 28px;
+  }
+  .fits-section__text {
+    font-size: 11px;
+  }
+  .fits-section__button-btn {
+    padding: 0.1em 0.1em;
+  }
+  .fits-section__button {
+    width: 200px;
   }
 }
 .inspiration-section {
