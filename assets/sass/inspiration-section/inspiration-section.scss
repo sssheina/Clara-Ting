@@ -27,9 +27,9 @@
     height: 200px;
   }
   .inspiration-section__text {
-    font-size: 11px;
-    width: 394px;
-    height: 66px;
+    font-size: 14px;
+    width: 440px;
+    height: 70px;
   }
 }
 
@@ -38,11 +38,11 @@
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .inspiration-section {
     width: 360px;
-    height: 120px;
+    height: 237px;
   }
   .inspiration-section__text {
-    font-size: 8px;
+    font-size: 11px;
     width: 260px;
-    height: 40px;
+    height: 80px;
   }
 }
