@@ -1,21 +1,22 @@
 .present-section {
+  margin: 0 auto;
+  background-color: #fefbfb;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
   height: 310px;
-  background-color: #fefbfb;
 }
 .present-section__text {
   font-weight: 700;
-  font-style: normal;
   // font-weight: 800;
   font-size: 24px;
   line-height: 180%;
   text-align: center;
-  align-self: center;
   letter-spacing: 0.06em;
   width: 1028px;
   height: 172px;
-  margin: 69px auto;
+  margin: 0 auto;
 }
 
 // АДАПТИВ TABLET (ПЛАНШЕТ)
@@ -27,8 +28,21 @@
   }
   .present-section__text {
     font-size: 11px;
-    width: 436px;
+    width: 445px;
     height: 73px;
-    margin: 40px auto;
+  }
+}
+
+// АДАПТИВ MOBILE
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .present-section {
+    width: 360px;
+    height: 120px;
+  }
+  .present-section__text {
+    font-size: 8px;
+    width: 324px;
+    height: 57px;
   }
 }
