@@ -1099,7 +1099,7 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .make-order {
     max-width: 768px;
-    height: 717px;
+    height: 660px;
   }
   .make-order__container-main {
     width: 510px;
@@ -1137,6 +1137,7 @@ textarea {
   background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
   margin: 0 auto;
+  widows: 1440px;
   height: 1025px;
   padding-top: 100px;
   padding-left: 100px;
@@ -1146,8 +1147,9 @@ textarea {
   .look {
     background-image: url(/assets/images/Background_7-block-tablet.png);
     background-size: cover;
+    width: 768px;
     height: 547px;
-    padding-top: 75px;
+    padding-top: 60px;
     padding-left: 62px;
   }
 }
@@ -1155,6 +1157,7 @@ textarea {
   .look {
     background-image: url(/assets/images/Background_7-block-mobile1.png);
     background-size: cover;
+    width: 360px;
     height: 600px;
     padding-top: 50px;
     padding-left: 0px;
@@ -1519,6 +1522,7 @@ textarea {
   display: flex;
   flex-direction: column;
   background: #fefbfb;
+  margin: 0 auto;
 }
 
 .advantages__title {
@@ -1564,12 +1568,12 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .advantages {
     width: 768px;
-    height: 443px;
+    height: 455px;
   }
   .advantages__title {
     width: 570px;
     height: 64px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .advantages__wrap {
     gap: 26px;
@@ -1875,6 +1879,7 @@ textarea {
   background: linear-gradient(180deg, rgba(199, 189, 255, 0.15) 0%, rgba(155, 137, 255, 0) 10.03%);
   width: 1440px;
   height: 1180px;
+  margin: 0 auto;
 }
 
 .price__main-container {
@@ -1958,7 +1963,7 @@ textarea {
     padding-top: 50px;
   }
   .price__line {
-    width: 593px;
+    width: 330px;
     margin: 25px auto 40px;
   }
   .price__container {
