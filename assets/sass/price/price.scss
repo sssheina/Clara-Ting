@@ -24,7 +24,9 @@
   width: 593px;
   margin: 40px auto 108px;
 }
-.price__container {
+.price__container_tarif-1,
+      .price__container_tarif-2,
+      .price__container_tarif-3 {
   display: flex;
   flex-direction: column;
   border: 6px solid #e9ebf6;
@@ -121,54 +123,80 @@
 // АДАПТИВ MOBILE
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
-  .price {
-    width: 360px;
-    height: 1303px;
-  }
-  .price__main-container {
-    display: grid;
-    grid-template-columns: repeat(1, 270px);
-    grid-template-rows: repeat(3, 1fr);
-    width: 270px;
-    height: 1238px;
-    gap: 5px;
-  }
-  .price__title {
-    text-align: center;
-    padding-top: 53px;
-  }
-  .price__line {
-    width: 252px;
-    margin: 30px auto 30px;
-  }
-  .price__container {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #e9ebf6;
-    width: 252px;
-    height: 380px;
-    margin: 0 auto;
-  }
-  .price__text {
-    font-size: 11px;
-    line-height: 180%;
-    width: 212px;
-    height: 35px;
-  }
-  .price__text-money {
-    font-size: 13px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  .price__subtitle {
-    width: 252px;
-    height: 14px;
-    margin-top: 25px;
-  }
-  .price__point {
-    width: 21px;
-    height: 21px;
-    margin-top: 0px;
-    // margin-right: 5px;
-  }
+
+    .price {
+        width: 360px;
+        height: 1390px;
+        margin: 0 auto;
+      } 
+      .price__main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 250px;
+        height: 1178px;
+        gap: 13px;
+        margin-top: 62px;
+        margin: 0 auto;
+    }
+    .price__title {
+        text-align: center;
+        padding-top: 53px;
+      }
+    .price__line {
+        width: 241px;
+        margin: 20px auto 62px;
+      }
+      .price__container_tarif-1 {
+        border: none;
+        width: 250px;
+        height: 337px;
+      }
+      .price__container_tarif-2 {
+        border: none;
+        width: 250px;
+        height: 388px;
+      }
+      .price__container_tarif-3 {
+        border: none;
+        width: 250px;
+        height: 440px;
+      }
+      .price__text {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 180%;
+        letter-spacing: 0.06em;
+        width: 212pxpx;
+        height: 52px;
+      }
+      .price__text-money {
+        color: #5200ff;
+        font-weight: 900;
+        font-size: 13px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .price__subtitle {
+        text-align: center;
+        align-self: center;
+        margin-top: 19px;
+        line-height: 180%;
+      }
+      .price__point {
+        width: 21px;
+        height: 21px;
+        margin-top: 1px;
+        margin-right: 10px;
+      }
+      .price__row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+      }
+      .price__button, .price__button-second, .price__button-third{
+        margin: 0px;
+      }
+      
 }
