@@ -1287,6 +1287,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: -80px;
+  margin: 0 auto;
 }
 
 .main-section__title-main {
@@ -1370,6 +1371,7 @@ textarea {
   height: 819px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .reviews-section__line {
@@ -1426,7 +1428,7 @@ textarea {
   margin-left: 44px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1339px) {
   .reviews-section {
     width: 768px;
     height: 428px;
@@ -1519,6 +1521,7 @@ textarea {
   background-size: cover;
   width: 1440px;
   height: 912px;
+  margin: 0 auto;
 }
 
 .lookbook-section__wrappers {
@@ -1609,7 +1612,7 @@ textarea {
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1339px) {
   .lookbook-section {
     background-image: url("/assets/images/Background_9-block_tablet.png");
     width: 768px;
@@ -1676,6 +1679,63 @@ textarea {
   .present-block {
     display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .lookbook-section {
+    background-image: none;
+    width: 360px;
+    height: 1187px;
+  }
+  .lookbook-section__wrappers {
+    flex-direction: column;
+    width: 360px;
+    height: 1187px;
+  }
+  .lookbook-section__wrapper_left {
+    background-image: url("/assets/images/Background_9-1-block_mobile.png");
+    width: 360px;
+    height: 492.23px;
+  }
+  .lookbook-section__wrapper_right {
+    background-image: url("/assets/images/Background_9-2-block_mobile.png");
+    width: 360px;
+    height: 695px;
+  }
+  .lookbook-section__title {
+    width: 250px;
+    height: 16px;
+    margin-top: 53px;
+    margin-bottom: 38px;
+  }
+  .lookbook-section__lookbook-text {
+    font-size: 11px;
+    line-height: 180%;
+    width: 270px;
+    height: 204px;
+  }
+  .lookbook-section__present-block {
+    gap: 25px;
+    width: 270px;
+    height: 195px;
+  }
+  .lookbook-section__subtitle {
+    margin: 25px auto 0;
+  }
+  .lookbook-section__point_violet {
+    width: 10px;
+    height: 10px;
+    margin-left: 22px;
+    margin-right: 12px;
+    align-self: center;
+  }
+  .lookbook-section__box-text {
+    font-size: 11px;
+    line-height: 180%;
+  }
+  .lookbook-section__button {
+    margin-top: 38px;
+    width: 270px;
   }
 }
 .advantages {
@@ -1807,6 +1867,7 @@ textarea {
   background: linear-gradient(180deg, rgba(255, 217, 217, 0.62) 0%, rgba(255, 255, 255, 0) 16.26%);
   width: 1440px;
   height: 1115px;
+  margin: 0 auto;
 }
 
 .method-section__wrapper_left {
@@ -1931,6 +1992,7 @@ textarea {
   background-size: cover;
   width: 1440px;
   height: 1068px;
+  margin: 0 auto;
 }
 
 .book-section__wrappers {
@@ -2288,6 +2350,7 @@ textarea {
   justify-content: space-between;
   width: 1440px;
   height: 842px;
+  margin: 0 auto;
 }
 
 .aboutme-section__wrapper_left {
@@ -2394,6 +2457,7 @@ textarea {
   background-image: url("/assets/images/Background_3-block.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
   width: 1440px;
   height: 908px;
 }
