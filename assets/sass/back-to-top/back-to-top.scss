@@ -29,3 +29,10 @@
     top: 19px;
     transform: rotate(45deg);
 }
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .back-to-top {
+        display: none;
+        left: 0;
+    }
+}
