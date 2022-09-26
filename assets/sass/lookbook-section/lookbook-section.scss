@@ -188,7 +188,7 @@
 
 @media screen and ( min-width: 360px ) and ( max-width: 767px ){
     .lookbook-section {
-        background-image:none;
+        background-image:url("/assets/images/Background_9-2-block-mobile.png");
         width: 360px;
         height: 1187px;
     }
@@ -200,13 +200,13 @@
     }
     
     .lookbook-section__wrapper_left {
-        background-image:url("/assets/images/Background_9-1-block_mobile.png");
+        
         width: 360px;
         height: 492.23px;
     }
     
     .lookbook-section__wrapper_right {
-        background-image:url("/assets/images/Background_9-2-block_mobile.png");
+        
                 width: 360px;
         height: 695px;
     }
@@ -215,8 +215,8 @@
     .lookbook-section__title {
         width: 250px;
         height: 16px;
-        margin-top: 53px;
-        margin-bottom: 38px;
+        margin-top: 21px;
+        margin-bottom: 46px;
     }
     
     .lookbook-section__lookbook-text {
@@ -230,6 +230,7 @@
     //     margin-bottom: 1em;
     // }
     .lookbook-section__present-block {
+        border: 4px solid #FAACA8;
         gap: 25px;
         width: 270px;
         height: 195px;
