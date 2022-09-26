@@ -105,6 +105,63 @@
 
 // // АДАПТИВ MOBILE
 
-// @media screen and (min-width: 360px) and (max-width: 767px) {
-
-// }
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .make-order {
+    max-width: 360px;
+    height: 1350px;
+    margin: 0 auto;
+  }
+  .make-order__container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto 0;
+    height: 1138px;
+    width: 270px;
+    gap: 20px;
+  }
+  
+  .make-order__title {
+    text-align: center;
+    padding-top: 53px;
+  }
+  .make-order__subtitle {
+    margin-bottom: 30px;
+  }
+  .make-order__line {
+    max-width: 250px;
+    margin-top: 20px;
+    height: 2px;
+  }
+  
+  .make-order__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 254px;
+    height: 262px;
+  }
+  
+  .make-order__part {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 278px;
+    height: 116px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .make-order__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 180%;
+    letter-spacing: 0.06em;
+  }
+  
+  .make-order__icon {
+    width: 116px;
+    height: 116px;
+  }
+}
