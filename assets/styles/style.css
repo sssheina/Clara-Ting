@@ -2540,11 +2540,6 @@ textarea {
   padding-right: 122px;
 }
 
-.aboutme-right {
-  display: flex;
-  flex-direction: column;
-}
-
 .aboutme-section__title {
   margin-top: 117px;
   align-self: center;
@@ -2615,6 +2610,48 @@ textarea {
   .aboutme-section__logo_blue {
     width: 32.9px;
     height: 32.28px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .aboutme-section {
+    flex-direction: column;
+    background-image: none;
+    width: 360px;
+    height: 1020px;
+  }
+  .aboutme-section__wrapper_left {
+    display: none;
+  }
+  .aboutme-section__photo {
+    display: none;
+  }
+  .aboutme-section__wrapper_right {
+    background-image: url("/assets/images/Background_6-block_mobile.png");
+    width: 360px;
+    height: 1020px;
+    padding-right: 0px;
+  }
+  .aboutme-section__title {
+    margin-top: 53px;
+    align-self: center;
+    padding-bottom: 479px;
+  }
+  .aboutme-section__content {
+    margin: 0 auto;
+    width: 276px;
+    height: 330px;
+    gap: 13px;
+  }
+  .aboutme-section__text {
+    font-size: 11px;
+    line-height: 180%;
+    width: 276px;
+  }
+  .aboutme-section__logo_blue {
+    width: 35px;
+    height: 34px;
+    margin-top: 0px;
+    padding: 50px;
   }
 }
 .fits-section {
