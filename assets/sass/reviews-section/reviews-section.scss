@@ -8,6 +8,7 @@
   height: 819px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .reviews-section__line {
@@ -63,7 +64,7 @@
 
 // АДАПТИВ TABLET (ПЛАНШЕТ)
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1339px) {
   .reviews-section {
     width: 768px;
     height: 428px;
