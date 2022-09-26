@@ -1714,17 +1714,17 @@ textarea {
   }
   .lookbook-section__present-block {
     border: 4px solid #FAACA8;
-    gap: 25px;
+    gap: 13px;
     width: 270px;
     height: 195px;
   }
   .lookbook-section__subtitle {
-    margin: 25px auto 0;
+    margin: 23px auto 0;
   }
   .lookbook-section__point_violet {
-    width: 10px;
-    height: 10px;
-    margin-left: 22px;
+    width: 21px;
+    height: 21px;
+    margin-left: 15px;
     margin-right: 12px;
     align-self: center;
   }
@@ -1733,7 +1733,7 @@ textarea {
     line-height: 180%;
   }
   .lookbook-section__button {
-    margin-top: 38px;
+    margin-top: 42px;
     width: 270px;
   }
 }
@@ -2163,10 +2163,10 @@ textarea {
     height: 119px;
   }
   .book-section__title {
-    line-height: 96%;
-    width: 305px;
     height: 16px;
     padding-top: 443px;
+    width: 258px;
+    line-height: 180%;
   }
   .book-section__book-text {
     font-size: 11px;
@@ -2178,19 +2178,19 @@ textarea {
   }
   .book-section__present-block {
     border: 4px solid #FAACA8;
-    gap: 25px;
+    gap: 13px;
     width: 270px;
     height: 195px;
     margin-top: 39px;
     margin: 0 auto;
   }
   .book-section__subtitle {
-    margin: 25px auto 0;
+    margin: 23px auto 0;
   }
   .book-section__point_violet {
-    width: 10px;
-    height: 10px;
-    margin-left: 22px;
+    width: 21px;
+    height: 21px;
+    margin-left: 15px;
     margin-right: 12px;
     align-self: center;
   }
@@ -2624,13 +2624,14 @@ textarea {
     padding-bottom: 46px;
   }
   .fits-section__row {
-    width: 246px;
+    width: 261px;
     height: 37px;
     margin-bottom: 20px;
+    padding-left: 17px;
   }
   .fits-section__point_violet {
-    width: 28px;
-    height: 28px;
+    width: 21px;
+    height: 21px;
   }
   .fits-section__text {
     font-size: 11px;
@@ -2638,6 +2639,7 @@ textarea {
   }
   .fits-section__button {
     width: 200px;
+    margin-top: 14px;
   }
 }
 .inspiration-section {

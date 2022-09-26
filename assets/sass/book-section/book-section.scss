@@ -204,10 +204,10 @@
     
     
     .book-section__title {
-        line-height: 96%;
-        width: 305px;
         height: 16px;
         padding-top: 443px;
+        width: 258px;
+        line-height: 180%;
     }
     
     .book-section__book-text {
@@ -229,7 +229,7 @@
     
     .book-section__present-block {
         border: 4px solid #FAACA8;
-        gap: 25px;
+        gap: 13px;
         width: 270px;
         height: 195px;
         margin-top: 39px;
@@ -239,13 +239,13 @@
     
     
     .book-section__subtitle {
-        margin: 25px auto 0;
+        margin: 23px auto 0;
     }
     
     .book-section__point_violet {
-        width: 10px;
-        height: 10px;
-        margin-left: 22px;
+        width: 21px;
+    height: 21px;
+    margin-left: 15px;
         margin-right: 12px;
         align-self: center;
     }

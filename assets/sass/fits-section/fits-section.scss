@@ -127,15 +127,16 @@
   }
   
   .fits-section__row {
-    width: 246px;
+    width: 261px;
     height: 37px;
     margin-bottom: 20px;
-    // padding-left: 22px;
+    padding-left: 17px
+
   }
   
   .fits-section__point_violet {
-    width: 28px;
-    height: 28px;
+    width: 21px;
+    height: 21px;
   }
   
   .fits-section__text {
@@ -147,6 +148,7 @@
   // }
   .fits-section__button{
         width: 200px;
+        margin-top: 14px;
     // padding: -6em 4em;
     
   }
