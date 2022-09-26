@@ -11,8 +11,8 @@
 .price__main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 1256px;
-  height: 780px;
+  width: 1298px;
+  height: 763px;
   gap: 25px;
   margin: 0 auto;
 }
@@ -51,6 +51,9 @@
 .price__subtitle {
   text-align: center;
   margin-top: 53px;
+  width: 244px;
+  height: 52px;
+  align-self: center;
 }
 .price__point {
   width: 28px;
@@ -124,4 +127,64 @@
 // АДАПТИВ MOBILE
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
+    .price {
+        width: 360px;
+        height: 1400px;
+      } 
+      .price__main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 230px;
+        height: 1178px;
+        gap: 0px;
+        margin-top: 62px;
+    }
+    .price__title {
+        text-align: center;
+        padding-top: 53px;
+      }
+    .price__line {
+        width: 241px;
+        margin: 40px auto 108px;
+      }
+      .price__container {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        width: 230px;
+        height: 264px;
+      }
+      .price__text {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 180%;
+        letter-spacing: 0.06em;
+        width: 215px;
+        height: 52px;
+      }
+      .price__text-money {
+        color: #5200ff;
+        font-weight: 900;
+        font-size: 13px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 32px;
+      }
+      .price__subtitle {
+        text-align: center;
+        margin-top: 19px;
+      }
+      .price__point {
+        width: 21px;
+        height: 21px;
+        margin-top: 1px;
+        margin-right: 5px;
+      }
+      .price__row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+      }
+
 }
