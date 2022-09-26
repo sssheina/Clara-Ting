@@ -1305,9 +1305,9 @@ textarea {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   width: 550px;
-  height: 72px;
+  height: 100px;
   margin-left: 90px;
-  margin-top: 57px;
+  margin-top: 20px;
 }
 
 .main-section__button {
@@ -1520,7 +1520,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
-  height: 912px;
+  height: 940px;
   margin: 0 auto;
 }
 
@@ -1550,7 +1550,7 @@ textarea {
   width: 620px;
   height: 34px;
   align-self: center;
-  margin-top: 90px;
+  margin-top: 97px;
   margin-bottom: 53px;
   text-align: center;
 }
@@ -2411,7 +2411,7 @@ textarea {
   background-size: cover;
   justify-content: space-between;
   width: 1440px;
-  height: 842px;
+  height: 922px;
   margin: 0 auto;
 }
 
@@ -2423,7 +2423,7 @@ textarea {
 .aboutme-section__photo {
   width: 465px;
   height: 698px;
-  margin-top: 72px;
+  margin-top: 107px;
   margin-bottom: 72px;
   margin-left: 122px;
 }
@@ -2442,7 +2442,7 @@ textarea {
 }
 
 .aboutme-section__title {
-  margin-top: 70px;
+  margin-top: 117px;
   align-self: center;
   padding-bottom: 63px;
 }
@@ -2527,7 +2527,7 @@ textarea {
 .fits-section__content {
   display: flex;
   flex-direction: column;
-  width: 935px;
+  width: 915px;
   height: 607px;
   margin: 0 auto 74px;
 }
@@ -2560,7 +2560,7 @@ textarea {
 }
 
 .fits-section__button {
-  width: 734px;
+  width: 557px;
   text-align: center;
   padding: 1.7em 2em;
   margin: 0 auto;
