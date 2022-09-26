@@ -4,6 +4,7 @@
     background-size: cover;
     width: 1440px;
     height: 912px;
+    margin: 0 auto;
 }
 
 .lookbook-section__wrappers {
@@ -97,7 +98,7 @@
 
     // АДАПТИВ TABLET (ПЛАНШЕТ)
 
-    @media screen and (min-width: 768px) and (max-width: 1024px){
+    @media screen and (min-width: 768px) and (max-width: 1339px){
         .lookbook-section {
             background-image:url("/assets/images/Background_9-block_tablet.png");
             width: 768px;
@@ -186,6 +187,99 @@
     // АДАПТИВ MOBILE
 
 @media screen and ( min-width: 360px ) and ( max-width: 767px ){
-
+    .lookbook-section {
+        background-image:none;
+        width: 360px;
+        height: 1187px;
+    }
+    
+    .lookbook-section__wrappers {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        height: 1187px;
+        margin: 0 auto;
+    }
+    
+    .lookbook-section__wrapper_left {
+        width: 583px;
+        height: 912px;
+    }
+    
+    .lookbook-section__wrapper_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 675px;
+        height: 912px;
+    }
+    
+    
+    .lookbook-section__title {
+        position: relative;
+        width: 620px;
+        height: 34px;
+        align-self:center;
+        margin-top: 90px;
+        margin-bottom: 53px;
+        text-align: center;
+    }
+    
+    .lookbook-section__lookbook-text {
+        position: relative;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.06em;
+        width: 677px;
+        height: 261px;
+        text-align: justify;
+    }
+    .lookbook-section__paragraph {
+        text-indent: 1.5em;
+        margin-bottom: 1em;
+    }
+    .lookbook-section__present-block {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        border: 6px solid #FAACA8;
+        gap: 23px;
+        width: 675px;
+        height: 231px;
+    }
+    .lookbook-section__row-1, .lookbook-section__row-2, .lookbook-section__row-3 {
+        display: flex;
+        flex-direction: row;
+    }
+    // .lookbook-section__row-2 {
+    //     margin-bottom: 26px;
+    // }
+    
+    .lookbook-section__subtitle {
+        margin: 30px auto 0;
+    }
+    
+    .lookbook-section__point_violet {
+        width: 28px;
+        height: 28px;
+        margin-left: 22px;
+        margin-right: 15px;
+    }
+    .lookbook-section__box-text {
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.06em;
+        
+    }
+    .lookbook-section__button {
+        margin-top: 46px;
+        width: 660px;
+    }
+    
+    
+    .present-block {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
