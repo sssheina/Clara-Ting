@@ -1065,12 +1065,12 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .long-line {
-    height: 2px;
+    height: 3px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .long-line {
-    height: 1px;
+    height: 2px;
   }
 }
 .button {
@@ -1260,7 +1260,6 @@ textarea {
   .make-order__line {
     max-width: 250px;
     margin-top: 20px;
-    height: 2px;
   }
   .make-order__container {
     display: flex;
@@ -1518,7 +1517,6 @@ textarea {
   }
   .reviews-section__line {
     width: 232px;
-    height: 2px;
   }
   .reviews-section__title-block {
     width: 232px;
