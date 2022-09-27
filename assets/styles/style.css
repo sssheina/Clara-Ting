@@ -2572,7 +2572,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 34px;
+  gap: 4px;
   height: 50px;
   background: #18004A;
 }
@@ -2592,7 +2592,6 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .footer {
-    gap: 16px;
     height: 45px;
   }
   .footer__logo {
@@ -2605,7 +2604,6 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .footer {
-    gap: 10px;
     height: 35px;
   }
   .footer__logo {
