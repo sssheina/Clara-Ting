@@ -1296,6 +1296,8 @@ textarea {
   margin: 0 auto;
   widows: 1440px;
   height: 1025px;
+}
+.look__title {
   padding-top: 100px;
   padding-left: 100px;
 }
@@ -1306,6 +1308,8 @@ textarea {
     background-size: cover;
     width: 768px;
     height: 547px;
+  }
+  .look__title {
     padding-top: 60px;
     padding-left: 62px;
   }
@@ -1316,11 +1320,11 @@ textarea {
     background-size: cover;
     width: 360px;
     height: 600px;
-    padding-top: 50px;
-    padding-left: 0px;
   }
   .look__title {
     text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
   }
 }
 .main-section {
