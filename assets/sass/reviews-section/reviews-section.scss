@@ -110,7 +110,8 @@
 @media screen and ( min-width: 360px ) and ( max-width: 767px ){
   .reviews-section {
     width: 360px;
-    height: 1310px;
+    // height: 1366px;
+    height: 1359px;
     }
   
   .reviews-section__line {
@@ -141,7 +142,7 @@
   .reviews-section__wrapper_right {
     flex-direction: column;
     width: 278px;
-    height: 593px;
+    height: 563px;
     margin: 0 auto;
     justify-content: start;
   }

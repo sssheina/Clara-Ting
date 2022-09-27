@@ -1408,7 +1408,7 @@ textarea {
   .main-section__button {
     width: 290px;
     margin-left: 35px;
-    margin-top: 213px;
+    margin-top: 188px;
   }
 }
 .reviews-section {
@@ -1514,7 +1514,7 @@ textarea {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .reviews-section {
     width: 360px;
-    height: 1310px;
+    height: 1359px;
   }
   .reviews-section__line {
     width: 232px;
@@ -1541,7 +1541,7 @@ textarea {
 .reviews-section__wrapper_right {
     flex-direction: column;
     width: 278px;
-    height: 593px;
+    height: 563px;
     margin: 0 auto;
     justify-content: start;
   }
@@ -2276,7 +2276,9 @@ textarea {
   margin: 40px auto 108px;
 }
 
-.price__container {
+.price__container_tarif-1,
+.price__container_tarif-2,
+.price__container_tarif-3 {
   display: flex;
   flex-direction: column;
   border: 6px solid #e9ebf6;
@@ -2334,7 +2336,6 @@ textarea {
     width: 672px;
     height: 420px;
     gap: 10px;
-    margin: 0 auto;
   }
   .price__title {
     text-align: center;
@@ -2356,13 +2357,13 @@ textarea {
     height: 54px;
   }
   .price__text-money {
-    font-weight: 900;
     font-size: 12px;
-    letter-spacing: 0.06em;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
   .price__subtitle {
+    width: 144px;
+    height: 30px;
     margin-top: 29px;
   }
   .price__point {
@@ -2370,24 +2371,21 @@ textarea {
     height: 15px;
     margin-top: 5px;
   }
-  .price__row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .price {
     width: 360px;
-    height: 1400px;
+    height: 1390px;
+    margin: 0 auto;
   }
   .price__main-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 230px;
+    width: 250px;
     height: 1178px;
-    gap: 0px;
+    gap: 13px;
     margin-top: 62px;
+    margin: 0 auto;
   }
   .price__title {
     text-align: center;
@@ -2395,21 +2393,29 @@ textarea {
   }
   .price__line {
     width: 241px;
-    margin: 40px auto 108px;
+    margin: 20px auto 62px;
   }
-  .price__container {
-    display: flex;
-    flex-direction: column;
+  .price__container_tarif-1 {
     border: none;
-    width: 230px;
-    height: 264px;
+    width: 250px;
+    height: 337px;
+  }
+  .price__container_tarif-2 {
+    border: none;
+    width: 250px;
+    height: 388px;
+  }
+  .price__container_tarif-3 {
+    border: none;
+    width: 250px;
+    height: 440px;
   }
   .price__text {
     font-weight: 500;
     font-size: 11px;
     line-height: 180%;
     letter-spacing: 0.06em;
-    width: 215px;
+    width: 212pxpx;
     height: 52px;
   }
   .price__text-money {
@@ -2418,23 +2424,28 @@ textarea {
     font-size: 13px;
     letter-spacing: 0.06em;
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .price__subtitle {
     text-align: center;
+    align-self: center;
     margin-top: 19px;
+    line-height: 180%;
   }
   .price__point {
     width: 21px;
     height: 21px;
     margin-top: 1px;
-    margin-right: 5px;
+    margin-right: 10px;
   }
   .price__row {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+  }
+  .price__button, .price__button-second, .price__button-third {
+    margin-top: 25px;
   }
 }
 .contacts {
@@ -2915,47 +2926,16 @@ textarea {
 }
 .btn-buy {
   padding: 1.2em 2.6em;
-  margin: 0 auto;
-}
-
-.price__button {
-  margin-top: 255px;
-}
-
-.price__button-second {
-  margin-top: 163px;
-}
-
-.price__button-third {
-  margin-top: 73px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .btn-buy {
     padding: 0.6em 2.1em;
   }
-  .price__button {
-    margin-top: 140px;
-  }
-  .price__button-second {
-    margin-top: 87px;
-  }
-  .price__button-third {
-    margin-top: 33px;
-  }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .btn-buy {
     padding: 0.6em 2.1em;
-  }
-  .price__button {
-    margin-top: 42px;
-  }
-  .price__button-second {
-    margin-top: 42px;
-  }
-  .price__button-third {
-    margin-top: 42px;
   }
 }
 .btn-consult {
