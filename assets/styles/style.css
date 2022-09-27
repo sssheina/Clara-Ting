@@ -2572,14 +2572,14 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 34px;
   height: 50px;
   background: #18004A;
 }
 
 .footer__logo {
-  width: 20px;
-  height: 19.43px;
+  width: 17px;
+  height: 16px;
 }
 
 .footer__text {
@@ -2590,6 +2590,32 @@ textarea {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    gap: 16px;
+    height: 45px;
+  }
+  .footer__logo {
+    width: 17px;
+    height: 16px;
+  }
+  .footer__text {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .footer {
+    gap: 10px;
+    height: 35px;
+  }
+  .footer__logo {
+    width: 12px;
+    height: 12px;
+  }
+  .footer__text {
+    font-size: 8px;
+  }
+}
 .aboutme-section {
   display: flex;
   flex-direction: row;
