@@ -2481,6 +2481,7 @@ textarea {
 }
 .contacts {
   background: #ffffff;
+  height: 650px;
 }
 
 .contacts__title {
@@ -2491,7 +2492,7 @@ textarea {
 
 .contacts__line {
   width: 477px;
-  left: 483px;
+  text-align: center;
   margin-bottom: 70.5px;
 }
 
@@ -2502,7 +2503,7 @@ textarea {
   gap: 34px;
   font-weight: 500;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 180%;
   letter-spacing: 0.06em;
   color: #18004a;
 }
@@ -2517,6 +2518,40 @@ textarea {
   text-decoration: none;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contacts {
+    height: 472px;
+  }
+  .contacts__title {
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+  .contacts__line {
+    width: 300px;
+    margin-bottom: 36px;
+  }
+  .contacts__address {
+    gap: 13px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .contacts {
+    height: 389px;
+  }
+  .contacts__title {
+    padding-top: 52px;
+    padding-bottom: 20px;
+  }
+  .contacts__line {
+    width: 188px;
+    margin-bottom: 27px;
+  }
+  .contacts__address {
+    gap: 9px;
+    font-size: 11px;
+  }
+}
 .icon-social {
   display: flex;
   justify-content: center;
