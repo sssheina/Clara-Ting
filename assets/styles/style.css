@@ -1474,7 +1474,7 @@ textarea {
   margin-left: 44px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1339px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .reviews-section {
     width: 768px;
     height: 428px;
@@ -2150,7 +2150,7 @@ textarea {
   }
   .book-section__title {
     font-size: 24px;
-    width: 247px;
+    width: 293px;
     height: 56px;
     line-height: 130%;
     padding-top: 51px;
