@@ -2325,6 +2325,23 @@ textarea {
   align-items: flex-start;
 }
 
+.price__button, .price__button-second, .price__button-third {
+  width: 206px;
+  align-self: center;
+}
+
+.price__button {
+  margin-top: 234px;
+}
+
+.price__button-second {
+  margin-top: 142px;
+}
+
+.price__button-third {
+  margin-top: 50px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .price {
     width: 768px;
@@ -2345,7 +2362,9 @@ textarea {
     width: 330px;
     margin: 25px auto 40px;
   }
-  .price__container {
+  .price__container_tarif-1,
+.price__container_tarif-2,
+.price__container_tarif-3 {
     border: 4px solid #e9ebf6;
     width: 203px;
     height: 420px;
@@ -2370,6 +2389,18 @@ textarea {
     width: 15px;
     height: 15px;
     margin-top: 5px;
+  }
+  .price__button, .price__button-second, .price__button-third {
+    width: 107px;
+  }
+  .price__button {
+    margin-top: 131px;
+  }
+  .price__button-second {
+    margin-top: 77px;
+  }
+  .price__button-third {
+    margin-top: 23px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
@@ -2925,17 +2956,17 @@ textarea {
   }
 }
 .btn-buy {
-  padding: 1.2em 2.6em;
+  padding: 1.8em 2.6em;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .btn-buy {
-    padding: 0.6em 2.1em;
+    padding: 1em 2.1em;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .btn-buy {
-    padding: 0.6em 2.1em;
+    padding: 1.5em 1.8em;
   }
 }
 .btn-consult {
