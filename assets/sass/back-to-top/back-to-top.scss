@@ -30,6 +30,12 @@
     transform: rotate(45deg);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .back-to-top {
+        right: 15px;
+}
+}
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .back-to-top {
         display: none;

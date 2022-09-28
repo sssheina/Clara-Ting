@@ -5,6 +5,8 @@
     gap: 4px;
     height: 50px;
     background: #18004A;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .footer__logo {
@@ -24,6 +26,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .footer {
+        width: 768px;
         height: 45px;
     }
     
@@ -39,6 +42,7 @@
 // АДАПТИВ MOBILE
 @media screen and ( min-width: 360px ) and ( max-width: 767px ) {
     .footer {
+        width: 360px;
         height: 35px;
     }
     
