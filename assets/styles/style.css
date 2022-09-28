@@ -662,8 +662,7 @@ textarea {
   content: "";
   position: absolute;
   top: 0;
-  max-width: 1440px;
-  width: 100%;
+  width: 1440px;
   height: 100%;
   background-image: url("/assets/images/Background_header.png");
   z-index: 2;
@@ -723,7 +722,15 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .header__body {
+    width: 768px;
     height: 49px;
+    margin: 0 auto;
+  }
+  .header::before {
+    width: 768px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
   }
   .header__logo {
     flex: 0 0 25px;
@@ -748,6 +755,14 @@ textarea {
   }
   .header__body {
     height: 60px;
+    width: 360px;
+    margin: 0 auto;
+  }
+  .header::before {
+    width: 360px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
   }
   .header__logo {
     flex: 0 0 40px;
@@ -801,8 +816,10 @@ textarea {
     position: fixed;
     top: -1000%;
     left: 0;
-    width: 100%;
+    right: 0;
+    width: 360px;
     height: 100%;
+    margin: 0 auto;
     overflow: auto;
     transition: all 0.3s ease 0s;
     background-color: #9b89ff;
@@ -3058,7 +3075,7 @@ textarea {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .back-to-top {
     display: none;
-    left: 0;
+    right: 0;
   }
 }
 .btn-buy {
