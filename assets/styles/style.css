@@ -1310,8 +1310,9 @@ textarea {
 .look {
   background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
+  background-repeat: no-repeat;
   margin: 0 auto;
-  widows: 1440px;
+  width: 1440px;
   height: 1025px;
 }
 .look__title {
