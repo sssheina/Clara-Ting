@@ -1,6 +1,7 @@
 .contacts {
+  width: 1440px;
   background: #ffffff;
-  height: 650px;
+  margin: 0 auto;
 }
 
 .contacts__title {
@@ -19,7 +20,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 34px;
   font-weight: 500;
   font-size: 24px;
   line-height: 180%;
@@ -27,9 +27,14 @@
   color: #18004a;
 }
 
+.contacts__text {
+  margin: 0 0 34px 0;
+}
+
 .contacts__phone {
   color: #18004a;
   text-decoration: none;
+  margin: 0 0 34px 0;
 }
 
 .contacts__mail {
@@ -37,47 +42,105 @@
   text-decoration: none;
 }
 
-    // АДАПТИВ TABLET (ПЛАНШЕТ)
+.contacts__social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 90px;
+  margin: 0 auto;
+  width: 486px;
+}
 
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      .contacts {
-        height: 472px;
-      }
-      .contacts__title {
-        padding-top: 30px;
-        padding-bottom: 25px;
-      }
-      
-      .contacts__line {
-        width: 300px;
-        margin-bottom: 36px;
-      }
-      
-      .contacts__address {
-        gap: 13px;
-        font-size: 12px;
-      }
-      
-    }
+.contacts__link {
+  margin: 75px 0;
+}
+
+.contacts__icon {
+  max-width: 100px;
+}
+
+// АДАПТИВ TABLET (ПЛАНШЕТ)
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contacts {
+    width: 768px;
+  }
+
+  .contacts__title {
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+  .contacts__line {
+    width: 300px;
+    margin-bottom: 36px;
+  }
+
+  .contacts__address {
+    font-size: 12px;
+  }
+
+  .contacts__text {
+    margin: 0 0 41px 0;
+  }
+
+  .contacts__phone {
+    margin: 0 0 41px 0;
+  }
+
+  .contacts__social {
+    gap: 57px;
+    width: 324px;
+  }
+
+  .contacts__icon {
+    max-width: 70px;
+  }
+
+  .contacts__link {
+    margin: 55px 0;
+  }
+}
 
 
 // АДАПТИВ MOBILE
-    @media screen and ( min-width: 360px ) and ( max-width: 767px ){
-      .contacts {
-        height: 389px;
-      }
-      .contacts__title {
-        padding-top: 52px;
-        padding-bottom: 20px;
-      }
-      
-      .contacts__line {
-        width: 188px;
-        margin-bottom: 27px;
-      }
-      
-      .contacts__address {
-        gap: 9px;
-        font-size: 11px;
-      }
-    }
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .contacts {
+    max-width: 360px;
+    height: 389px;
+  }
+
+  .contacts__title {
+    padding-top: 52px;
+    padding-bottom: 20px;
+  }
+
+  .contacts__line {
+    width: 188px;
+    margin-bottom: 27px;
+  }
+
+  .contacts__address {
+    font-size: 12px;
+  }
+
+  .contacts__text {
+    margin: 0 0 20px 0;
+  }
+
+  .contacts__phone {
+    margin: 0 0 20px 0;
+  }
+
+  .contacts__social {
+    gap: 32px;
+    width: 257px;
+  }
+
+  .contacts__icon {
+    max-width: 64px;
+  }
+
+  .contacts__link {
+    margin: 41px 0 87px 0;
+  }
+}
