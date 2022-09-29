@@ -31,3 +31,11 @@ $(document).ready(function() {
         $('body').removeClass('lock')
     });
 });
+
+var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+    return false;
+});
