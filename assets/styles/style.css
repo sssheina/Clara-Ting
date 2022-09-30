@@ -822,7 +822,7 @@ textarea {
     margin: 0 auto;
     overflow: auto;
     transition: all 0.3s ease 0s;
-    background-color: #ffd9d9;
+    background-color: #E9EBF6;
     padding: 120px 0px 0px 0px;
   }
   .header__menu.active {
@@ -1782,7 +1782,7 @@ textarea {
     border: 4px solid #FAACA8;
     gap: 13px;
     width: 270px;
-    height: 195px;
+    height: 180px;
   }
   .lookbook-section__subtitle {
     margin: 23px auto 0;
@@ -2246,7 +2246,7 @@ textarea {
     border: 4px solid #FAACA8;
     gap: 13px;
     width: 270px;
-    height: 195px;
+    height: 180px;
     margin-top: 39px;
     margin: 0 auto;
   }
@@ -2472,10 +2472,10 @@ textarea {
   .price__text-money {
     color: #5200ff;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 0.06em;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 4px;
     margin-bottom: 20px;
   }
   .price__subtitle {
@@ -2483,6 +2483,7 @@ textarea {
     align-self: center;
     margin-top: 19px;
     line-height: 180%;
+    width: 248px;
   }
   .price__point {
     width: 21px;
