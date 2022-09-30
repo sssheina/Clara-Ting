@@ -1983,15 +1983,16 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .method-section {
     width: 768px;
-    height: 620px;
+    height: 644px;
   }
   .method-section__wrapper_left {
     width: 288px;
     height: 620px;
   }
   .method-section__img {
-    width: 174px;
-    height: 431px;
+    width: 184px;
+    height: 456px;
+    margin-top: 65px;
   }
   .method-section__wrapper_right {
     width: 420px;
@@ -2889,7 +2890,7 @@ textarea {
   .fits-section__content {
     width: 504px;
     height: 370px;
-    margin: 0 auto 30px;
+    margin: 30px auto 30px;
   }
   .fits-section__title {
     align-self: center;
@@ -2929,7 +2930,7 @@ textarea {
     margin: 0 auto 0px;
   }
   .fits-section__title {
-    padding-top: 66px;
+    padding-top: 85px;
     padding-bottom: 46px;
   }
   .fits-section__row {
