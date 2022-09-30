@@ -822,7 +822,7 @@ textarea {
     margin: 0 auto;
     overflow: auto;
     transition: all 0.3s ease 0s;
-    background-color: #9b89ff;
+    background-color: #ffd9d9;
     padding: 120px 0px 0px 0px;
   }
   .header__menu.active {
@@ -839,7 +839,7 @@ textarea {
     margin-right: 0;
   }
   .header__link {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @font-face {
@@ -1308,7 +1308,7 @@ textarea {
   }
 }
 .look {
-  background-image: url("/assets/images/Background_7-block_.png");
+  background-image: url(/assets/images/Background_7-block_.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -1322,7 +1322,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .look {
-    background-image: url("/assets/images/Background_7-block-tablet.png");
+    background-image: url(/assets/images/Background_7-block-tablet.png);
     background-size: cover;
     width: 768px;
     height: 547px;
@@ -1334,7 +1334,7 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .look {
-    background-image: url("/assets/images/Background_7-block-mobile1.png");
+    background-image: url(/assets/images/Background_7-block-mobile1.png);
     background-size: cover;
     width: 360px;
     height: 600px;
