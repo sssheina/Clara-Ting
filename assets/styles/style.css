@@ -1411,25 +1411,25 @@ textarea {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .main-section {
     width: 360px;
-    height: 800px;
-    background-image: url("/assets/images/Background_1-block_mobile.png");
+    height: 687px;
+    background-image: url("/assets/images/Background_1-block_mobile_2.png");
   }
   .main-section__title-main {
     width: 240px;
     height: 150px;
     margin-left: 45px;
-    margin-top: 195px;
+    margin-top: 106px;
   }
   .main-section__subtitle-main {
     width: 165px;
     height: 103px;
     margin-left: 45px;
-    margin-top: 41px;
+    margin-top: 31px;
   }
   .main-section__button {
     width: 290px;
     margin-left: 35px;
-    margin-top: 188px;
+    margin-top: 201px;
   }
 }
 .reviews-section {
@@ -3097,6 +3097,10 @@ textarea {
 }
 .btn-consult {
   padding: 2.5em 0.03em;
+}
+
+.btn-consult {
+  padding: 1.6em 0.3em;
 }
 
 .btn-main {
