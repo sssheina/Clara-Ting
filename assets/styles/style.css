@@ -1897,7 +1897,7 @@ textarea {
   .advantages__title {
     width: 268px;
     height: 88px;
-    padding: 53px 52px 0 52px;
+    padding: 53px 20px 0 20px;
   }
   .advantages__wrap {
     display: flex;
