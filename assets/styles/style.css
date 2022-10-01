@@ -843,20 +843,20 @@ textarea {
   }
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Medium.ttf";
+  font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-Medium.ttf);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-ExtraBold.ttf";
+  font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-ExtraBold.ttf);
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-Black.ttf);
   font-weight: 900;
   font-style: normal;
 }
@@ -1353,15 +1353,14 @@ textarea {
   background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: -80px;
+  /* padding-top: -80px; */
   margin: 0 auto;
 }
 
 .main-section__title-main {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-weight: 900;
   font-style: normal;
-  align-self: left;
+  align-self: flex-start;
   width: 768px;
   height: 320px;
   margin-left: 90px;
@@ -1369,7 +1368,7 @@ textarea {
 }
 
 .main-section__subtitle-main {
-  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
   width: 550px;
   height: 100px;
@@ -1388,7 +1387,7 @@ textarea {
     width: 768px;
     height: 520px;
     background-image: url("/assets/images/Background_1-block_tablet.png");
-    padding-top: -50px;
+    /* padding-top: -50px; */
   }
   .main-section__title-main {
     width: 351px;

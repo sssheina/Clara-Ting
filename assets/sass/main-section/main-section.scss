@@ -10,10 +10,9 @@
   margin: 0 auto;
 }
 .main-section__title-main {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-weight: 900;
   font-style: normal;
-  align-self: left;
+  align-self: flex-start;
   width: 768px;
   height: 320px;
   margin-left: 90px;
@@ -21,7 +20,7 @@
   // margin-top: 116px;
 }
 .main-section__subtitle-main {
-  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
   width: 550px;
   height: 100px;
