@@ -948,8 +948,8 @@ textarea {
   grid-template-columns: repeat(2, 590px);
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
-  column-gap: 30px;
-  raw-gap: 20px;
+  column-gap: 78px;
+  row-gap: 20px;
   width: 1240px;
   height: 580px;
   margin: 110px auto 0px;
