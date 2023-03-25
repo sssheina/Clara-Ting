@@ -1308,7 +1308,7 @@ textarea {
   }
 }
 .look {
-  background-image: url(/assets/images/Background_7-block_.png);
+  background-image: url(./assets/images/Background_7-block_.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -1322,7 +1322,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .look {
-    background-image: url(/assets/images/Background_7-block-tablet.png);
+    background-image: url(./assets/images/Background_7-block-tablet.png);
     background-size: cover;
     width: 768px;
     height: 547px;
@@ -1334,7 +1334,7 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .look {
-    background-image: url(/assets/images/Background_7-block-mobile1.png);
+    background-image: url(./assets/images/Background_7-block-mobile1.png);
     background-size: cover;
     width: 360px;
     height: 600px;
@@ -1350,7 +1350,7 @@ textarea {
   flex-direction: column;
   width: 1440px;
   height: 975px;
-  background-image: url("/assets/images/Background_1-block.png");
+  background-image: url("./assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* padding-top: -80px; */
@@ -1386,7 +1386,7 @@ textarea {
   .main-section {
     width: 768px;
     height: 520px;
-    background-image: url("/assets/images/Background_1-block_tablet.png");
+    background-image: url("./assets/images/Background_1-block_tablet.png");
     /* padding-top: -50px; */
   }
   .main-section__title-main {
@@ -1411,7 +1411,7 @@ textarea {
   .main-section {
     width: 360px;
     height: 687px;
-    background-image: url("/assets/images/Background_1-block_mobile_2.png");
+    background-image: url("./assets/images/Background_1-block_mobile_2.png");
   }
   .main-section__title-main {
     width: 240px;
@@ -1581,7 +1581,7 @@ textarea {
   }
 }
 .lookbook-section {
-  background-image: url("/assets/images/Background_9-block.png");
+  background-image: url("./assets/images/Background_9-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
@@ -1679,7 +1679,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1339px) {
   .lookbook-section {
-    background-image: url("/assets/images/Background_9-block_tablet.png");
+    background-image: url("./assets/images/Background_9-block_tablet.png");
     width: 768px;
     height: 559px;
   }
@@ -1748,7 +1748,7 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .lookbook-section {
-    background-image: url("/assets/images/Background_9-2-block-mobile.png");
+    background-image: url("./assets/images/Background_9-2-block-mobile.png");
     width: 360px;
     height: 1187px;
   }
@@ -2052,7 +2052,7 @@ textarea {
   }
 }
 .book-section {
-  background-image: url("/assets/images/Background_10-block.png");
+  background-image: url("./assets/images/Background_10-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
@@ -2152,7 +2152,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .book-section {
-    background-image: url("/assets/images/Background_10-block_tablet.png");
+    background-image: url("./assets/images/Background_10-block_tablet.png");
     width: 768px;
     height: 571px;
   }
@@ -2209,7 +2209,7 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .book-section {
-    background-image: url("/assets/images/Background_10-block_mobile.png");
+    background-image: url("./assets/images/Background_10-block_mobile.png");
     width: 360px;
     height: 1185px;
   }
@@ -2678,7 +2678,7 @@ textarea {
 .aboutme-section {
   display: flex;
   flex-direction: row;
-  background-image: url("/assets/images/Background_6-block.png");
+  background-image: url("./assets/images/Background_6-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-between;
@@ -2740,7 +2740,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .aboutme-section {
-    background-image: url("/assets/images/Background_6-block_tablet.png");
+    background-image: url("./assets/images/Background_6-block_tablet.png");
     width: 768px;
     height: 523px;
   }
@@ -2794,7 +2794,7 @@ textarea {
     display: none;
   }
   .aboutme-section__wrapper_right {
-    background-image: url("/assets/images/Background_6-block_mobile.png");
+    background-image: url("./assets/images/Background_6-block_mobile.png");
     width: 360px;
     height: 1020px;
     padding-right: 0px;
@@ -2825,7 +2825,7 @@ textarea {
 .fits-section {
   display: flex;
   flex-direction: column;
-  background-image: url("/assets/images/Background_3-block.png");
+  background-image: url("./assets/images/Background_3-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -2882,7 +2882,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .fits-section {
-    background-image: url("/assets/images/Background_3-block_tablet.png");
+    background-image: url("./assets/images/Background_3-block_tablet.png");
     width: 768px;
     height: 562px;
   }
@@ -2919,7 +2919,7 @@ textarea {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .fits-section {
-    background-image: url("/assets/images/Background_3-block_mobile.png");
+    background-image: url("./assets/images/Background_3-block_mobile.png");
     width: 360px;
     height: 677px;
   }
