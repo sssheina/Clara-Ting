@@ -664,7 +664,7 @@ textarea {
   top: 0;
   width: 1440px;
   height: 100%;
-  background-image: url("/assets/images/Background_header.png");
+  background-image: url("./assets/images/Background_header.png");
   z-index: 2;
 }
 
@@ -844,19 +844,19 @@ textarea {
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-Medium.ttf);
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-ExtraBold.ttf);
+  src: url(./assets/fonts/Montserrat-ExtraBold.ttf);
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-Black.ttf);
+  src: url(./assets/fonts/Montserrat-Black.ttf);
   font-weight: 900;
   font-style: normal;
 }
