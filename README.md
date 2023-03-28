@@ -22,19 +22,14 @@
 
 ## About The Project
 
-A GTD planner that allows you to break down large projects into small steps and progress towards full implementation without procrastination. 
+The customised adaptive landing page for stylist Clara Ting.  
 
-The app was created by a team of developers and designers from DESIGN AND DEVELOPMENT CREATORS as part of a training project.
-<br>
-<br>
-## Inspiration for the Project
-
-After learning about the GTD (Getting Things Done)  planning system and trying to implement it into my daily routine, I was faced with the need to often rewrite unfinished tasks into new lists, which became a big obstacle for me. I tried for several years to find a suitable application for this system that covered my needs, but couldn't find one. So, having previously developed a project hierarchy and quick to-do system based on the GTD system, I offered to make this simple and effective application to the team.
+Project was created by a team of developers and designers from DESIGN AND DEVELOPMENT CREATORS as part of a training project.
 <br>
 <br>
 
 ## Brief overview video:
->For a brief explanation about PetMe, you can watch the following video.
+>For a brief explanation about the landing page for stylist Clara Ting, you can watch the following video.
 
 https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed-a1fc-40e393097aee.mov
 
@@ -50,30 +45,25 @@ https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed
 
 ## How we built it
 
-We wanted to best model the work environment, so we started with an in-depth understanding of the problem with a proper focus group survey, which led to the creation of functions and prioritisation of those functions. After prioritising, we divided the workload into small parts.
+We started by communicating with the customer and understanding the purpose in depth. I then designed the prototype and layout of the page in Figma. After prioritising, we divided the scope of work into small parts, which we distributed to the developers.
 
-First I built a hierarchy of task lists and made a prototype in Figma, based on which I implemented the layout design. 
-We made array lists with pop-up modal windows, as our task was to practice JS and CSS skills.
+We made an adaptive page, used the SASS preprocessor, employed JS and worked with BEM.
+
 <br>
 <br>
 
 ## Challenges we ran into
 
-We wanted to implement this project as best we could. There were so many things we wanted to add, and we needed to do so many things so that every feature was also very useful. Communication and clear results were key, especially with our big time difference.
+We wanted to implement this project as best we could. 
+This was the customer's first experience of working with developers. In a short space of time, I had to do the work of a marketer, a copywriter  and a designer in order to start developing the page directly.
 
-But we were faced with the issue of storing personal data, which in this project is still stored in Local Storage.
+Communication and clear results were key, especially with our big time difference
 <br>
 <br>
 
 ## Accomplishments that we're proud of
 
-Exploring new areas of development and new languages and frameworks that we now feel we can confidently continue to build for our own projects. We have done so much during our time working on the project, and we are so proud of what we have created and how this application can help us and others improve the quality of life.
-<br>
-<br>
-
-## What's next for GTD planner
-
-We would like to keep working, create a useful application and collaborate with more community members to develop the backend part of the project. And do user authorisation for better usability.
+We had an incredible experience working with the customer and the team. We pulled it off and are very proud to have created a beautiful, modern and functional adaptive website.
 <br>
 <br>
 
@@ -87,7 +77,8 @@ We would like to keep working, create a useful application and collaborate with 
 
 
 ## Thanks to all Contributors 💪
-Thanks a lot for spending your time helping GTD planner grow. Thanks a lot! Keep rocking!
+
+Thanks a lot for spending your time to develop Personal stylist website Сlara Ting. Thanks a lot! Keep rocking!
 
 [![Contributors](https://contrib.rocks/image?repo=OlgaBuLL/Stylist_Clara_Ting)](https://github.com/OlgaBuLL/Stylist_Clara_Ting/graphs/contributors)
 
