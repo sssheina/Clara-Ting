@@ -36,7 +36,7 @@ After learning about the GTD (Getting Things Done)  planning system and trying t
 ## Brief overview video:
 >For a brief explanation about PetMe, you can watch the following video.
 
-https://user-images.githubusercontent.com/108290460/228015369-c30a9780-611e-4c52-a752-8be0bb71c322.mov
+https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed-a1fc-40e393097aee.mov
 
 <br>
 <br>
@@ -44,8 +44,9 @@ https://user-images.githubusercontent.com/108290460/228015369-c30a9780-611e-4c52
 ## View our Website:
 >Click the image below to view our website!
 
+![2023-03-28_03-55-00](https://user-images.githubusercontent.com/108290460/228102465-f7ce4d1d-72f7-456d-b573-7d5f313b19ce.png)
 
-[<img width="700" src="https://user-images.githubusercontent.com/108290460/228018052-faf8762e-eab7-4848-aaa4-cf3165717e54.png"/>](https://sssheina.github.io/ITGirl-Project-JS/)
+[<img width="700" src="https://user-images.githubusercontent.com/108290460/228102465-f7ce4d1d-72f7-456d-b573-7d5f313b19ce.png"/>](https://clarating.000webhostapp.com/index.html)
 <br>
 <br>
 
