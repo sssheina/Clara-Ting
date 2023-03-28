@@ -44,8 +44,6 @@ https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed
 ## View our Website:
 >Click the image below to view our website!
 
-![2023-03-28_03-55-00](https://user-images.githubusercontent.com/108290460/228102465-f7ce4d1d-72f7-456d-b573-7d5f313b19ce.png)
-
 [<img width="700" src="https://user-images.githubusercontent.com/108290460/228102465-f7ce4d1d-72f7-456d-b573-7d5f313b19ce.png"/>](https://clarating.000webhostapp.com/index.html)
 <br>
 <br>
