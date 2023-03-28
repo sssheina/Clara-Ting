@@ -30,6 +30,7 @@ Project was created by a team of developers and designers from DESIGN AND DEVELO
 
 ## Brief overview video:
 >For a brief explanation about the landing page for stylist Clara Ting, you can watch the following video.
+<br>
 
 https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed-a1fc-40e393097aee.mov
 
@@ -48,7 +49,6 @@ https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed
 We started by communicating with the customer and understanding the purpose in depth. I then designed the prototype and layout of the page in Figma. After prioritising, we divided the scope of work into small parts, which we distributed to the developers.
 
 We made an adaptive page, used the SASS preprocessor, employed JS and worked with BEM.
-
 <br>
 <br>
 
