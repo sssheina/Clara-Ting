@@ -1,4 +1,4 @@
-# Personal stylist website Сlara Ting
+# Clara Ting's stylist website
 
 <br>
 
