@@ -29,7 +29,7 @@ Project was created by a team of developers and designers from DESIGN AND DEVELO
 <br>
 
 ## Brief overview video:
->For a brief explanation about the landing page for stylist Clara Ting, you can watch the following video.
+>You can watch a video of the landing page for stylist Clara Ting summary.
 <br>
 
 https://user-images.githubusercontent.com/108290460/228102230-76375ca3-fa07-40ed-a1fc-40e393097aee.mov
